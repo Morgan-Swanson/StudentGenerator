@@ -3,4 +3,4 @@
 * Generate a statistically accurate computer science student
 * Produce a natural language biography of the student
 * Simulates their educational development and skills
-* Generate a complete resume of the student.
+* Generate a complete resume of the student
