@@ -77,15 +77,29 @@ def populate_table():
                 pop.append(random.randint(10,100))
     return index, pop
 
-def get_students(n=100):
+def read_students(data):
+    l = json.loads(data)
+    return [read_student(d) for d in l]
+        
+
+def read_student(d):
+    s = Student(d['county'], d['race'], d['gender'])
+    s.name = d['name']
+    s.archetype = d['archetype']
+    return s
+
+def build_students(n=100):
     index, pop = populate_table()
     total = sum(pop)
     pop = [p / total for p in pop]
     students = stats.rv_discrete(values=(np.arange(len(pop)), pop)).rvs(size=n)
     return [Student(*index[s]) for s in students]
 
-if __name__ == '__main__':
-    S = get_students(int(sys.argv[1]))
+def get_students(n=100):
+    S = build_students(n)
     D = [s.to_dict() for s in S]
-    print(json.dumps(D))
+    return json.dumps(D)
+
+if __name__ == '__main__':
+    print(json.dumps(get_students(sys.argv[1])))
     sys.stdout.flush()
