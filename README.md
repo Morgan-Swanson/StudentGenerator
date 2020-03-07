@@ -10,8 +10,7 @@ Javascript code to run student generator
 ```
 const spawn = require("child_process").spawn;
 const pythonProcess = spawn('python',["student.py", number_of_students]);
-```
-How to read json file in javascript
-```
-import students from "./students.json";
+pythonProcess.stdout.on('data', (data) => {
+    // Do something with the data returned from python script
+});
 ```
