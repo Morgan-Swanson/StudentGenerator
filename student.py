@@ -87,5 +87,5 @@ def get_students(n=100):
 if __name__ == '__main__':
     S = get_students(int(sys.argv[1]))
     D = [s.to_dict() for s in S]
-    with open('students.json', 'w+') as outfile:
-        json.dump(D, outfile)
+    print(json.dumps(D))
+    sys.stdout.flush()
