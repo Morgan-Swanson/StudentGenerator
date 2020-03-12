@@ -13,14 +13,14 @@ races = ['black', 'white', 'asian', 'hispanic', 'mixed', 'native american', 'oth
 counties = ['alameda', 'alpine', 'amador', 'butte', 'calaveras', 'colusa', 
             'contra costa', 'del norte', 'el dorado', 'fresno', 'glenn',
             'humboldt', 'imperial', 'inyo', 'kern', 'kings', 'lake',
-            'lassen', 'los angeles', 'madera', 'marin', 'mariposa',
+            'lassen',  'los angeles', 'madera', 'marin', 'mariposa',
             'mendocino', 'merced', 'modoc', 'mono', 'monterey', 'napa',
             'nevada', 'orange', 'placer', 'plumas', 'riverside',
-            'sacramento', 'san benito', 'san bernadino', 'san diego',
+            'sacramento', 'san benito', 'san bernardino', 'san diego',
             'san francisco', 'san joaquin', 'san luis obispo', 'san mateo',
             'santa barbara', 'santa clara', 'santa cruz', 'shasta', 'sierra',
-            'siskiyou', 'solano', 'sonoma', 'stanisluas', 'sutter', 'tehama',
-            'trinity', 'tulaue', 'tholumne', 'ventura', 'yolo', 'yuba']
+            'siskiyou', 'solano', 'sonoma', 'stanislaus', 'sutter', 'tehama',
+            'trinity', 'tulare', 'tuolumne', 'ventura', 'yolo', 'yuba']
 archetypes = ["normie", "stoner", "brogrammer", "tryhard", "geek", "alternative"]
 
 
@@ -31,7 +31,10 @@ class Student:
         self.county = county
         self.name = self.get_name()
         self.archetype = self.get_archetype()
-
+        self.highschool, self.hometown = self.get_highschool_and_hometown()
+        self.phone = self.get_phone()
+        print(self.phone)
+        
     def get_archetype(self):
         return archetypes[random.randint(0, len(archetypes) - 1)]
 
@@ -51,13 +54,44 @@ class Student:
         counts = [c / s for c in counts] 
         return names[stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(1)]
 
+    def get_highschool_and_hometown(self):
+        data = pd.read_csv('schools.csv')
+        try:
+            sample = data[data['County'] == self.county].sample()
+            return tuple(sample[['School', 'City']].to_numpy()[0])
+        except:
+            print(self.county)
+
+    def get_bio(self):
+        if self.archetype is 'normie':
+            return self.normie_bio()
+
+    def get_phone(self):
+        digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+        data = pd.read_csv('areacodes.csv')
+        data_small = data[data['city'] == self.hometown]
+        if data_small.empty:
+            phone = "(" + str(data.sample()['code'].to_numpy()[0])
+        else:
+            phone = "(" + str(data_small.sample()['code'].to_numpy()[0])
+        index = random.randint(1, 8)
+        phone = phone + ')-' + digits[index]
+        index2 = random.randint(0, 8)
+        index3 = random.randint(0, 8)
+        while (index == index2):
+            index2 = random.randint(0, 8)
+        phone = phone + digits[index2] + digits[index3] + '-'
+        for i in range(3):
+            phone = phone + digits[random.randint(0, 8)]
+        return phone 
+        
     def __str__(self):
         return((self.name + " is a " + 
                 string.capwords(self.race) + " " + 
                 self.gender + " from " + 
-                string.capwords(self.county) + " County. " + 
+                string.capwords(self.hometown) + ". " + 
                 ("He is a " if self.gender is "male" else "She is a ") +
-                self.archetype + "."))
+                self.archetype + " that went to " + self.highschool + "."))
 
     def to_dict(self):
         return {'name': self.name,
@@ -101,5 +135,6 @@ def get_students(n=100):
     return json.dumps(D)
 
 if __name__ == '__main__':
-    print(json.dumps(get_students(sys.argv[1])))
+    for s in build_students(int(sys.argv[1])):
+        print(s)
     sys.stdout.flush()
