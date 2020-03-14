@@ -21,7 +21,7 @@ counties = ['alameda', 'alpine', 'amador', 'butte', 'calaveras', 'colusa',
             'santa barbara', 'santa clara', 'santa cruz', 'shasta', 'sierra',
             'siskiyou', 'solano', 'sonoma', 'stanislaus', 'sutter', 'tehama',
             'trinity', 'tulare', 'tuolumne', 'ventura', 'yolo', 'yuba']
-archetypes = ["normie", "stoner", "brogrammer", "tryhard", "geek", "alternative"]
+personalities = ["normie", "stoner", "brogrammer", "tryhard", "nerd", "alternative"]
 
 
 class Student:
@@ -30,13 +30,14 @@ class Student:
         self.race = race
         self.county = county
         self.name = self.get_name()
-        self.archetype = self.get_archetype()
+        self.personality = self.get_personality()
         self.highschool, self.hometown = self.get_highschool_and_hometown()
         self.phone = self.get_phone()
         self.email = self.get_email()
+        self.activities = self.get_activities()
         
-    def get_archetype(self):
-        return archetypes[random.randint(0, len(archetypes) - 1)]
+    def get_personality(self):
+        return personalities[random.randint(0, len(personalities) - 1)]
 
     def get_name(self):
         return self.get_first_name() + ' ' + self.get_last_name()
@@ -82,6 +83,34 @@ class Student:
         first, last = self.name.split()
         return (first[0] + last[:random.randint(4, 8)] + "@calpoly.edu").lower()
 
+    def get_activities(self):
+        data = pd.read_csv('activities.csv')
+        col = data.columns
+        active = ['normie','brogrammer','alternative']
+        if self.personality in active:
+            num_activities = random.randint(2,5)
+        else:
+            num_activities = random.randint(2,3)
+        preference = 'masculine' if self.gender is 'male' else 'feminine'
+        data = data[data[col[1]].str.match(self.personality)]
+        activities = data[col[0]].tolist()
+        print(activities)
+        preferences = data[col[2]].tolist()
+        print(preferences)
+        counts = []
+        for p in preferences:
+            if preference == p:
+                counts.append(3)
+            elif preference == 'neutral':
+                counts.append(2)
+            else:
+                counts.append(1)
+        s = sum(counts)
+        counts = [c / s for c in counts] 
+        samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
+        return list(set([activities[s] for s in samples]))
+    
+
     def get_phone(self):
         digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
         data = pd.read_csv('areacodes.csv')
@@ -106,20 +135,35 @@ class Student:
                 'gender': self.gender,
                 'county': self.county,
                 'race': self.race,
-                'archetype': self.archetype}
+                'personality': self.personality,
+                'highschool': self.highschool,
+                'hometown': self.hometown,
+                'phone': self.phone,
+                'email': self.email,
+                'activites': self.activities}
    
     def __str__(self):
-        return((self.name + 
-                " is a " + 
-                string.capwords(self.race) + " " + 
-                self.gender + 
-                " from " + string.capwords(self.hometown) + ". " + 
-                ("He is a " if self.gender is "male" else "She is a ") +
-                self.archetype + " that went to " + 
-                self.highschool + ". Contact them at " + 
-                self.phone + " or " + 
-                self.email))
-
+        s1 = (self.name + 
+              " is a " + 
+              string.capwords(self.race) + " " + 
+              self.gender + 
+              " from " + string.capwords(self.hometown) + ". ") 
+        s2 = (("He is a " if self.gender is "male" else "She is a ") +
+              "went to " + self.highschool + ". ")
+        s3 = ("He likes " if self.gender is "male" else "She likes ")
+        for i, a in enumerate(self.activities):
+            if i == len(self.activities) - 1:
+                if len(self.activities) == 1:
+                    s3 = a + '. '
+                else:
+                    s3 = s3 + 'and ' + a + '. '
+            else:
+                s3 = s3 + a + ', '
+        s4 = ("Contact them at " + 
+              self.phone + " or " + 
+              self.email)
+        return s1 + s2 + s3 + s4
+        
 def populate_table():
     index = []
     pop = []
