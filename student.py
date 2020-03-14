@@ -33,12 +33,24 @@ class Student:
         self.archetype = self.get_archetype()
         self.highschool, self.hometown = self.get_highschool_and_hometown()
         self.phone = self.get_phone()
-        print(self.phone)
+        self.email = self.get_email()
         
     def get_archetype(self):
         return archetypes[random.randint(0, len(archetypes) - 1)]
 
     def get_name(self):
+        return self.get_first_name() + ' ' + self.get_last_name()
+
+    def get_last_name(self):
+        last_names = pd.read_csv('lastnames.csv')
+        col = last_names.columns
+        names = [n.lower().capitalize() for n in last_names[col[0]].tolist()]
+        counts = [int(s.replace(",", "")) for s in last_names[col[1]].tolist()]
+        s = sum(counts)
+        counts = [c / s for c in counts]
+        return names[stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(1)]
+        
+    def get_first_name(self):
         boy_names, girl_names = np.split(pd.read_csv('names.csv', index_col=False), np.arange(3, 6, 3), axis=1)
         if self.gender is 'male':
             col = boy_names.columns
@@ -53,7 +65,7 @@ class Student:
         s = sum(counts)
         counts = [c / s for c in counts] 
         return names[stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(1)]
-
+        
     def get_highschool_and_hometown(self):
         data = pd.read_csv('schools.csv')
         try:
@@ -65,6 +77,10 @@ class Student:
     def get_bio(self):
         if self.archetype is 'normie':
             return self.normie_bio()
+
+    def get_email(self):
+        first, last = self.name.split()
+        return (first[0] + last[:random.randint(4, 8)] + "@calpoly.edu").lower()
 
     def get_phone(self):
         digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
@@ -85,20 +101,24 @@ class Student:
             phone = phone + digits[random.randint(0, 8)]
         return phone 
         
-    def __str__(self):
-        return((self.name + " is a " + 
-                string.capwords(self.race) + " " + 
-                self.gender + " from " + 
-                string.capwords(self.hometown) + ". " + 
-                ("He is a " if self.gender is "male" else "She is a ") +
-                self.archetype + " that went to " + self.highschool + "."))
-
     def to_dict(self):
         return {'name': self.name,
                 'gender': self.gender,
                 'county': self.county,
                 'race': self.race,
                 'archetype': self.archetype}
+   
+    def __str__(self):
+        return((self.name + 
+                " is a " + 
+                string.capwords(self.race) + " " + 
+                self.gender + 
+                " from " + string.capwords(self.hometown) + ". " + 
+                ("He is a " if self.gender is "male" else "She is a ") +
+                self.archetype + " that went to " + 
+                self.highschool + ". Contact them at " + 
+                self.phone + " or " + 
+                self.email))
 
 def populate_table():
     index = []
