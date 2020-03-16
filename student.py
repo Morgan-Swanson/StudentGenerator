@@ -7,8 +7,13 @@ import sys
 import json
 from scipy import stats
 
+name_intro_normie = ["The Cal Poly student, ", "This student, ", "This student's name is ", "The student ",
+                     "A scholar named "]
+name_intro_normie_2 = ["ethnic orgin is ","is a","ethnicity is"]
 
 genders = ['male', 'female']
+religions = ['chirstian','noe','jewish','catholic','athiest', 'muslim','none']
+
 races = ['black', 'white', 'asian', 'hispanic', 'mixed', 'native american', 'other']
 counties = ['alameda', 'alpine', 'amador', 'butte', 'calaveras', 'colusa', 
             'contra costa', 'del norte', 'el dorado', 'fresno', 'glenn',
@@ -35,6 +40,10 @@ class Student:
         self.phone = self.get_phone()
         self.email = self.get_email()
         self.activities = self.get_activities()
+        self.clubs = self.get_clubs()
+        self.religon = self.get_religion()
+
+       
         
     def get_personality(self):
         return personalities[random.randint(0, len(personalities) - 1)]
@@ -106,6 +115,8 @@ class Student:
             else:
                 counts.append(1)
         s = sum(counts)
+
+
         counts = [c / s for c in counts] 
         samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
         return list(set([activities[s] for s in samples]))
@@ -140,30 +151,119 @@ class Student:
                 'hometown': self.hometown,
                 'phone': self.phone,
                 'email': self.email,
-                'activites': self.activities}
-   
+                'activites': self.activities,
+                'clubs': self.clubs}
+
+
     def __str__(self):
-        s1 = (self.name + 
-              " is a " + 
-              string.capwords(self.race) + " " + 
-              self.gender + 
-              " from " + string.capwords(self.hometown) + ". ") 
-        s2 = (("He is a " if self.gender is "male" else "She is a ") +
-              "went to " + self.highschool + ". ")
-        s3 = ("He likes " if self.gender is "male" else "She likes ")
-        for i, a in enumerate(self.activities):
-            if i == len(self.activities) - 1:
-                if len(self.activities) == 1:
-                    s3 = a + '. '
+        if self.personality == 'normie':
+            s1 = random.choice(name_intro_normie) + self.name + random.choice(name_intro_normie_2) + string.capwords(self.race) + ". "
+            s2 = (("He " if self.gender is "male" else "She ") +
+                  "went to " + self.highschool + ". ")
+            finalsentecne = s1 + s2
+            return finalsentecne
+
+        else:
+
+            s1 = (self.name +
+                  " is a " +
+                  string.capwords(self.race) + " " +
+                  self.gender +
+                  " from " + string.capwords(self.hometown) + ". ")
+            s2 = (("He " if self.gender is "male" else "She ") +
+                  "went to " + self.highschool + ". ")
+            s3 = ("He likes " if self.gender is "male" else "She likes ")
+            for i, a in enumerate(self.activities):
+                if i == len(self.activities) - 1:
+                    if len(self.activities) == 1:
+                        s3 = a + '. '
+                    else:
+                        s3 = s3 + 'and ' + a + '. '
                 else:
-                    s3 = s3 + 'and ' + a + '. '
+                    s3 = s3 + a + ', '
+            if len(self.clubs) == 0:
+                s5 = ""
             else:
-                s3 = s3 + a + ', '
-        s4 = ("Contact them at " + 
-              self.phone + " or " + 
-              self.email)
-        return s1 + s2 + s3 + s4
-        
+                s5 = ("He is a part of " if self.gender is "male" else "She is a part of ")
+                for i, a in enumerate(self.clubs):
+                    if i == len(self.clubs) - 1:
+                        if len(self.clubs) == 1:
+                            s5 = 'member of ' + a + ". "
+                        else:
+                            s5 = s5 + 'and ' + a + '. '
+                    else:
+                        s5 = s5 + a + ', '
+
+            s4 = (" Contact them at " +
+                  self.phone + " or " +
+                  self.email)
+
+            finalsentecne = s1 + s2 + s3 + s5 + s4
+
+            return finalsentecne
+
+    """data = pd.read_csv('activities.csv')
+    col = data.columns
+    active = ['normie', 'brogrammer', 'alternative']
+    if self.personality in active:
+        num_activities = random.randint(2, 5)
+    else:
+        num_activities = random.randint(2, 3)
+    preference = 'masculine' if self.gender is 'male' else 'feminine'
+    data = data[data[col[1]].str.match(self.personality)]
+    activities = data[col[0]].tolist()
+    print(activities)
+    preferences = data[col[2]].tolist()
+    print(preferences)
+    counts = []
+    for p in preferences:
+        if preference == p:
+            counts.append(3)
+        elif preference == 'neutral':
+            counts.append(2)
+        else:
+            counts.append(1)
+    s = sum(counts)
+    counts = [c / s for c in counts]
+    samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
+    return list(set([activities[s] for s in samples]))"""
+
+
+    def get_clubs(self):
+        data = pd.read_csv('clubs.csv')
+        col = data.columns
+        active = ['nerd', 'tryhard']
+        if self.personality in active:
+            num_activities = random.randint(1, 4)
+        else:
+            num_activities = random.randint(0, 3)
+        preference = 'masculine' if self.gender is 'male' else 'feminine'
+        data = data[data[col[1]].str.match(self.personality)]
+        activities = data[col[0]].tolist()
+        gender_preferences = data[col[4]].tolist()
+        counts = []
+
+        for p in gender_preferences:
+            if preference == p:
+                counts.append(5)
+            elif preference == 'none':
+                counts.append(3)
+            else:
+                counts.append(1)
+
+        s = sum(counts)
+        print(s)
+        counts = [c / s for c in counts]
+        samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
+        clubs1 =(list(set([activities[s] for s in samples])))
+        return clubs1
+
+
+    def get_religion(self):
+        relig = random.choice(religions)
+        return relig
+
+
 def populate_table():
     index = []
     pop = []
