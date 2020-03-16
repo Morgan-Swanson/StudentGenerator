@@ -1,0 +1,1946 @@
+Alameda County
+<dark>Alameda Unified School District, Alameda
+<light>Alameda Community Learning Center
+<light>Alameda High School
+<light>Alameda Science and Technology Institute
+<light>Encinal High School
+<light>Island High School (continuation school)
+<dark>Albany Unified School District, Albany
+<light>Albany High School
+<light>MacGregor High School (continuation)
+<dark>Berkeley Unified School District, Berkeley
+<light>Berkeley High School
+<dark>Castro Valley Unified School District, Castro Valley
+<light>Castro Valley High School
+<light>Redwood Alternative High School
+<dark>Dublin Unified School District, Dublin
+<light>Dublin High School
+<dark>Emery Unified School District, Emeryville
+<light>Emery Secondary School (grades 7–12)
+<dark>Fremont Unified School District, Fremont
+<light>American High School
+<light>Irvington High School
+<light>John F. Kennedy High School
+<light>Mission San Jose High School
+<light>Washington High School
+<dark>Hayward Unified School District, Hayward
+<light>Hayward High School
+<light>Mount Eden High School
+<light>Sunset High School (closed)
+<light>Tennyson High School
+<dark>Livermore Valley Joint Unified School District, Livermore
+<light>Granada High School
+<light>Livermore High School
+<dark>New Haven Unified School District (Union City and south Hayward)
+<light>Conley-Caraballo High School, Hayward
+<light>James Logan High School, Union City
+<dark>Newark Unified School District, Newark
+<light>Newark Memorial High School
+<dark>Oakland Unified School District, Oakland
+<light>Bay Area Technology School (charter school)
+<light>Castlemont Community of Small Schools (previously Castlemont Senior High School)
+<light>Fremont Federation of High Schools (previously Fremont Senior High School)
+<light>McClymonds Educational Complex (previously McClymonds High School)
+<light>Oakland High School
+<light>Oakland International High School
+<light>Oakland Military Institute (charter school)
+<light>Oakland School for the Arts
+<light>Oakland Technical High School
+<light>Skyline High School
+<light>University Preparatory Charter Academy
+<dark>Piedmont Unified School District, Piedmont
+<light>Millennium High School
+<light>Piedmont High School
+<dark>Pleasanton Unified School District, Pleasanton
+<light>Amador Valley High School
+<light>Foothill High School
+<light>Horizon High School
+<light>Village High School
+<dark>San Leandro Unified School District, San Leandro
+<light>Lincoln High School (continuation)
+<light>San Leandro High School
+<dark>San Lorenzo Unified School District, San Lorenzo
+<light>Arroyo High School
+<light>San Lorenzo High School
+Catholic
+<light>Bishop O'Dowd High School, Oakland
+<light>Holy Names High School, Oakland
+<light>Moreau Catholic High School, Hayward
+<light>St. Elizabeth High School, Oakland
+<light>St. Joseph Notre Dame High School, Alameda
+<light>St. Mary's College High School, Albany
+<dark>Alameda Community Learning Center, Alameda
+<dark>Averroes High School, Fremont
+<dark>Chinese Christian Schools, San Leandro
+<dark>The College Preparatory School, Oakland
+<dark>Emery High School, Emeryville
+<dark>Head-Royce School, Oakland
+<dark>Maybeck High School, Berkeley
+<dark>The Quarry Lane School, Dublin
+<dark>Valley Christian School, Dublin
+Alpine County
+<dark>Bear Valley High School, Bear Valley
+<dark>Woodfords High School, Markleeville
+Amador County
+Amador County Unified School District
+<dark>Amador High School, Sutter Creek
+<dark>Argonaut High School, Jackson
+Butte County
+<dark>Biggs High School, Biggs
+<dark>Chico High School, Chico
+<dark>Couture High School, Oroville
+<dark>Durham High School, Durham
+<dark>Gridley High School, Gridley
+<dark>Las Plumas High School, Oroville
+<dark>Oroville High School, Oroville
+<dark>Paradise High School, Paradise
+<dark>Pleasant Valley High School, Chico
+Calaveras County
+<dark>Arnold High School, Arnold
+<dark>Bret Harte Union High School, Angels Camp
+<dark>Calaveras High School, San Andreas
+<dark>Copper Cove High School, Copperopolis
+Colusa County
+<dark>Colusa High School, Colusa
+<dark>Maxwell High School, Maxwell
+<dark>Pierce High School, Sudhir
+<dark>Williams High School, Williams
+Contra Costa County
+<dark>Acalanes Union High School District
+<light>Acalanes High School, Lafayette
+<light>Campolindo High School, Moraga
+<light>Las Lomas High School, Walnut Creek
+<light>Miramonte High School, Orinda
+<dark>Antioch Unified School District
+<light>Antioch High School, Antioch
+<light>Deer Valley High School, Antioch
+<light>Dozier-Libbey Medical High School, Antioch
+<dark>John Swett Unified School District
+<light>John Swett High School, Crockett
+<light>Willow High School, Crockett
+<dark>Mount Diablo Unified School District
+<light>Clayton Valley High School, Concord
+<light>College Park High School, Pleasant Hill
+<light>Concord High School, Concord
+<light>Mount Diablo High School, Concord
+<light>Northgate High School, Walnut Creek
+<light>Ygnacio Valley High School, Concord
+<dark>West Contra Costa Unified School District
+<light>De Anza High School, Richmond
+<light>El Cerrito High School, El Cerrito
+<light>Hercules High School, Hercules
+<light>Kennedy High School, Richmond
+<light>Middle College High School (San Pablo), San Pablo
+<light>Pinole Valley High School, Pinole
+<light>Richmond High School, Richmond
+<dark>Alhambra High School, Martinez
+<dark>The Athenian School, Danville
+<dark>Bentley School, Lafayette
+<dark>Berean Christian High School, Walnut Creek
+<dark>California High School, San Ramon
+<dark>Carondelet High School, Concord
+<dark>Christ the King Catholic School, Pleasant Hill
+<dark>De La Salle High School, Concord
+<dark>Delta Christian Junior/Senior High School, Antioch
+<dark>Dougherty Valley High School, San Ramon
+<dark>El Sobrante Christian School, El Sobrante
+<dark>Freedom High School, Oakley
+<dark>Heritage High School, Brentwood
+<dark>Holden High School, Orinda
+<dark>Independence High School, Brentwood
+<dark>Liberty High School, Brentwood
+<dark>Monte Vista High School, Danville
+<dark>Orinda Academy, Orinda
+<dark>Pittsburg High School, Pittsburg
+<dark>Pleasant Hill Adventist Academy, Pleasant Hill
+<dark>Salesian College Preparatory, Richmond
+<dark>San Ramon Valley High School, Danville
+Del Norte County
+<dark>Del Norte High School, Crescent City
+El Dorado County
+<dark>El Dorado Adventist School, Placerville
+<dark>El Dorado High School, Placerville
+<dark>Golden Sierra High School, Garden Valley
+<dark>Muir Charter School, Placerville
+<dark>Oak Ridge High School, El Dorado Hills
+<dark>Ponderosa High School, Shingle Springs
+<dark>Shenandoah High School, El Dorado
+<dark>South Tahoe High School, South Lake Tahoe
+<dark>Union Mine High School, El Dorado
+<dark>Vista High School, Placerville
+Fresno County
+<dark>Clovis Unified School District
+<light>Buchanan High School, Clovis
+<light>Clovis East High School, Clovis
+<light>Clovis High School, Clovis
+<light>Clovis North High School, Fresno
+<light>Clovis West High School, Fresno
+<dark>Fresno Unified School District
+<light>Bullard High School, Fresno
+<light>The Center for Advanced Research and Technology
+<light>Erma Duncan Polytechnical High School, Fresno
+<light>Edison High School, Fresno
+<light>Fresno High School, Fresno
+<light>Herbert Hoover High School, Fresno
+<light>McLane High School, Fresno
+<light>Roosevelt High School, Fresno
+<light>Sunnyside High School, Fresno
+<dark>Ambassador Phillip V. Sanchez Public Charter, Fresno (Sunnyside)
+<dark>Ambassador Phillip V. Sanchez Public Charter, Fresno (West Shaw)
+<dark>Ambassador Phillip V. Sanchez Public Charter, Mendota
+<dark>Ambassador Phillip V. Sanchez Public Charter, Parlier
+<dark>Carter G. Woodson Public Charter School, Fresno
+<dark>Caruthers High School, Caruthers
+<dark>Central High School, Fresno
+<dark>Charter Academy of Ambassador Phillip V. Sanchez, Fresno
+<dark>Coalinga High School, Coalinga
+<dark>Crescent View South Public Charter, Clovis
+<dark>Crescent View South Public Charter, Fresno
+<dark>Crescent View West Public Charter, Fresno
+<dark>Dewolf West High School, Fresno
+<dark>Firebaugh High School, Firebaugh
+<dark>Fowler High School, Fowler
+<dark>Fresno Prep Academy, Fresno
+<dark>Immanuel High School, Reedley
+<dark>Kerman High School, Kerman
+<dark>Kingsburg High School, Kingsburg
+<dark>Laton High School, Laton
+<dark>Mendota High School, Mendota
+<dark>New Millennium Charter School, Fresno
+<dark>Parlier High School, Parlier
+<dark>Reedley High School, Reedley
+<dark>Riverdale High School, Riverdale
+<dark>San Joaquin Memorial High School, Fresno
+<dark>Sanger High School, Sanger
+<dark>School of Unlimited Learning, Fresno
+<dark>Selma High School, Selma
+<dark>Sierra High School, Tollhouse
+<dark>Tranquillity High School, Tranquility
+<dark>University High School, Fresno
+<dark>Washington Union High School, Fresno
+Glenn County
+<dark>Elk Creek Junior-Senior High School, Elk Creek
+<dark>Hamilton Union High School, Hamilton City
+<dark>Orland High School, Orland
+<dark>Princeton Junior-Senior High School, Princeton
+<dark>Willows High School, Willows
+Humboldt County
+<dark>Academy of the Redwoods Early college high school, Fortuna
+<dark>Arcata High School, Arcata
+<dark>Eureka High School, Eureka
+<dark>Ferndale High School, Ferndale
+<dark>Fortuna Union High School, Fortuna
+<dark>Hoopa Valley High School, Hoopa
+<dark>Humboldt Bay High School, Eureka
+<dark>Mattole Triple Junction High School, Petrolia
+<dark>McKinleyville High School, McKinleyville
+<dark>St. Bernard's High School, Eureka
+<dark>South Fork High School, Miranda
+Imperial County
+<dark>Brawley (renamed) North County High School, Brawley
+<dark>Brawley Union High School, Brawley
+<dark>Calexico High School, Calexico
+<dark>Calipatria High School, Calipatria
+<dark>Central Union High School, El Centro
+<dark>De Anza High School (continuation), Calexico
+<dark>Desert Valley High School (continuation), Brawley
+<dark>Holtville High School, Holtville
+<dark>Imperial High School, Imperial
+<dark>San Pasqual Valley High School, Winterhaven
+<dark>Southwest High School, El Centro
+<dark>Vincent Memorial High School (Catholic), Calexico
+<dark>West Shores High School, Salton City
+Inyo County
+<dark>Big Pine High School, Big Pine
+<dark>Bishop High School, Bishop
+<dark>Death Valley Academy, Shoshone
+<dark>Lone Pine High School, Lone Pine
+<dark>Owens Valley High School, Independence
+Kern County
+<dark>Arvin High School, Arvin
+<dark>Bakersfield Christian High School, Bakersfield
+<dark>Bakersfield High School, Bakersfield
+<dark>Boron Junior-Senior High School, Boron
+<dark>Burroughs High School, Ridgecrest
+<dark>Centennial High School, Bakersfield
+<dark>Central Valley High School, Bakersfield
+<dark>Cesar E. Chavez High School, Delano
+<dark>Delano High School, Delano
+<dark>Desert Junior/Senior High School, Edwards
+<dark>East Bakersfield High School, Bakersfield
+<dark>Foothill High School, Bakersfield
+<dark>Frazier Mountain High School, Lebec
+<dark>Frontier High School, Bakersfield
+<dark>Garces Memorial High School, Bakersfield
+<dark>Golden Valley High School, Bakersfield
+<dark>Highland High School, Bakersfield
+<dark>Independence High School, Bakersfield
+<dark>Kern Valley High School, Lake Isabella
+<dark>Liberty High School, Bakersfield
+<dark>Maricopa High School, Maricopa
+<dark>McFarland High School, McFarland
+<dark>Mira Monte High School, Bakersfield
+<dark>Mojave High School 1954, Mojave
+<dark>North High School
+<dark>Ridgeview High School, Bakersfield
+<dark>Robert F. Kennedy High School, Delano
+<dark>Rosamond High School, Rosamond
+<dark>Shafter High School, Shafter
+<dark>South High School, Bakersfield
+<dark>Stockdale High School, Bakersfield
+<dark>Taft Union High School, Taft
+<dark>Tehachapi High School, Tehachapi
+<dark>Wasco High School, Wasco
+<dark>West High School, Bakersfield
+Kings County
+<dark>Avenal High School, Avenal
+<dark>Corcoran High School, Corcoran
+<dark>Crescent Valley Public Charter, Hanford
+<dark>Hanford High School, Hanford
+<dark>Hanford West High School, Hanford
+<dark>Earl F. Johnson Continuation School, Hanford
+<dark>Kings Community School, Hanford
+<dark>Lemoore High School, Lemoore
+<dark>Sierra Pacific High School, Hanford
+<dark>Armona Union Academy, Armona
+Lake County
+<dark>Clear Lake High School, Lakeport
+<dark>Intermountain High School, Cobb
+<dark>Kelseyville High School, Kelseyville
+<dark>Lower Lake High School, Lower Lake
+<dark>Middletown High School, Middletown
+<dark>Upper Lake High School, Upper Lake
+Lassen County
+<dark>Big Valley High School, Bieber
+<dark>Herlong High School, Herlong
+<dark>Lassen High School, Susanville
+<dark>Westwood High School, Westwood
+Los Angeles County
+Catholic
+<dark>Bishop Alemany High School, Mission Hills
+<dark>Bishop Conaty-Our Lady of Loretto High School (girls), Harvard Heights
+<dark>Bishop Mora Salesian High School (boys), Boyle Heights
+<dark>Cathedral High School (boys), Elysian Park
+<dark>Chaminade College Preparatory School, West Hills
+<dark>Crespi Carmelite High School (boys), Encino
+<dark>Louisville High School (girls), Woodland Hills
+<dark>Loyola High School (boys), Harvard Heights
+<dark>Immaculate Heart High School (girls), Los Feliz
+<dark>Mary Star of the Sea High School, San Pedro
+<dark>Marymount High School (girls), Bel-Air
+<dark>Notre Dame Academy (girls), Rancho Park
+<dark>Notre Dame High School Sherman Oaks
+<dark>Providence High School, Burbank
+<dark>Sacred Heart High School (girls), Lincoln Heights
+<dark>St. Bernard High School, Playa del Rey
+<dark>St. Genevieve High School, Panorama City
+<dark>YeeYee International School
+<dark>Alverno High School (girls), Sierra Madre
+<dark>Assurance Learning Academy (charter), Harbor City
+<dark>Bellarmine-Jefferson High School, Burbank
+<dark>Bishop Amat Memorial High School, La Puente
+<dark>Bishop Montgomery High School, Torrance
+<dark>Cantwell-Sacred Heart of Mary High School, Montebello
+<dark>Damien High School (boys), La Verne,
+<dark>Don Bosco Technical Institute (boys), Rosemead
+<dark>Flintridge Sacred Heart Academy (girls), La Cañada Flintridge
+<dark>Holy Family High School (girls), Glendale
+<dark>Junípero Serra High School, Gardena
+<dark>La Salle High School, Pasadena
+<dark>Mayfield Senior School of the Holy Child Jesus (girls), Pasadena
+<dark>Paraclete High School, Lancaster
+<dark>Pomona Catholic High School (girls), Pomona, previously Holy Name Academy
+<dark>Providence High School, Burbank
+<dark>Ramona Convent Secondary School (girls), Alhambra
+<dark>St. Anthony High School, Long Beach
+<dark>St. Francis High School (boys), La Cañada Flintridge
+<dark>St. John Bosco High School (boys), Bellflower
+<dark>St. Joseph High School (girls), Lakewood
+<dark>St. Lucy's Priory High School (girls), Glendora
+<dark>St. Mary's Academy (girls), Inglewood
+<dark>St. Monica Academy, Pasadena
+<dark>St. Monica High School, Santa Monica
+<dark>St. Paul High School, Santa Fe Springs
+<dark>St. Pius X - St. Matthias Academy (coed), Downey
+<dark>San Gabriel Mission High School (girls), San Gabriel
+<dark>Bethel Christian High School, Lancaster
+<dark>Campbell Hall School, North Hollywood
+<dark>Desert Christian High School, Lancaster
+<dark>First Lutheran High School, Sylmar
+<dark>First Presbyterian School, Arcadia
+<dark>Frederick K.C. Price III Christian Schools, Los Angeles
+<dark>Glendale Adventist Academy, Glendale
+<dark>Hillcrest Christian School, Granada Hills
+<dark>Judson International School, Eagle Rock
+<dark>Lighthouse Christian Academy, Santa Monica
+<dark>Los Angeles Adventist Academy, Los Angeles
+<dark>Los Angeles Baptist High School, North Hills
+<dark>Los Angeles Lutheran High School, Sylmar
+<dark>Lutheran High School, La Verne
+<dark>Maranatha High School, Pasadena
+<dark>Oaks Christian High School, Westlake Village
+<dark>Pacific Christian on the Hill, Los Angeles
+<dark>Pacific Lutheran High School, Torrance
+<dark>Pacifica Christian High School, Santa Monica
+<dark>Pilgrim School, Los Angeles
+<dark>San Gabriel Adventist Academy, San Gabriel
+<dark>Santa Clarita Christian School, Santa Clarita
+<dark>South Bay Lutheran High School, Inglewood
+<dark>Trinity Lutheran Junior/Senior School, Reseda
+<dark>Valley Christian High School, Cerritos
+<dark>Village Christian Schools, Sun Valley
+Jewish
+<dark>Bais Chana High School (girls), Los Angeles
+<dark>Bais Yaakov of Los Angeles (girls), Los Angeles
+<dark>Bnos Devorah High School (girls), Los Angeles
+<dark>Mesivta of Greater Los Angeles (boys), Calabasas
+<dark>Mesivta Birkas Yitzchok (boys), Los Angeles
+<dark>Milken Community High School (mixed), Bel-Air
+<dark>Netan Eli High School (boys), Los Angeles
+<dark>New Community Jewish High School (mixed), West Hills
+<dark>Ohr HaEmet Institute (girls), Los Angeles
+<dark>Shalhevet High School (mixed), Los Angeles
+<dark>Valley Torah High School (boys), Valley Village
+<dark>Valley Torah Lintz High School (girls), Sun Valley
+<dark>Yeshiva Gedolah School of Los Angeles/Michael Diller High School (boys), Los Angeles
+<dark>Yeshiva High Tech, Los Angeles
+<dark>Yeshiva Ohr Elchonon Chabad High School (boys), Los Angeles
+<dark>Yeshiva University High School of Los Angeles (boys), Los Angeles
+<dark>Yeshiva University High School of Los Angeles (girls), Los Angeles
+Non-denominational
+<dark>Advanced Education Academy, La Canada
+<dark>AGBU Vatche and Tamar Manoukian High School, Pasadena
+<dark>AGBU Manoogian-Demirdjian School, Canoga Park
+<dark>American University Preparatory School, downtown Los Angeles
+<dark>Archer School for Girls, Brentwood
+<dark>Armenian Mesrobian School, Pico Rivera
+<dark>Beverly Hills Preparatory School, Beverly Hills
+<dark>Brentwood School, Brentwood
+<dark>Bridges Academy, Studio City
+<dark>Buckley School, Sherman Oaks
+<dark>Chadwick School, Palos Verdes Peninsula
+<dark>Crest View Academy, Santa Clarita
+<dark>Crossroads School, Santa Monica
+<dark>Delphi Academy of Los Angeles, Lake View Terrace
+<dark>Excelsior School, Pasadena
+<dark>Ferrahian Armenian School, Encino
+<dark>Flintridge Preparatory School, La Canada Flintridge
+<dark>Harvard-Westlake School, Holmby Hills, Studio City
+<dark>Lycée Français de Los Angeles, Rancho Park – Palms
+<dark>Marlborough School, Hancock Park
+<dark>Oakwood School, North Hollywood
+<dark>Oxford School, Rowland Heights
+<dark>Polytechnic School, Pasadena
+<dark>Renaissance Academy, Altadena
+<dark>Ribet Academy, Glassell Park
+<dark>Rio Hondo Preparatory School, Arcadia
+<dark>Rose and Alex Pilibos Armenian School, Hollywood
+<dark>Rolling Hills Preparatory, Palos Verdes Estates
+<dark>Sierra Canyon School, Chatsworth
+<dark>STAR Prep Academy, Culver City
+<dark>STEM3 Academy, Valley Glen
+<dark>TCA Arshag Dickranian Armenian School, Hollywood
+<dark>Viewpoint School, Calabasas
+<dark>Village Glen High School, Sherman Oaks
+<dark>Vistamar School, El Segundo
+<dark>The Waverly School, Pasadena
+<dark>The Webb Schools, Claremont
+<dark>Westridge School for Girls, Pasadena
+<dark>Wild Wood High School, Los Angeles
+<dark>Wildwood School, Los Angeles
+<dark>Windward School, Mar Vista
+Public
+<dark>Artesia High School, Lakewood
+<dark>Cerritos High School, Cerritos
+<dark>Richard Gahr High School, Cerritos
+<dark>Gretchen Whitney High School, Cerritos
+<dark>Tracy High School, Cerritos
+<dark>Acton-Agua Dulce Unified School District
+<dark>Assurance Learning Academy (charter), Acton
+<dark>Vasquez High School, Acton
+<dark>Alhambra High School, Alhambra
+<dark>Mark Keppel High School, Monterey Park
+<dark>San Gabriel High School, San Gabriel
+<dark>Alliance for College-Ready Public Schools
+<dark>Alliance Alice M. Baxter College-Ready High School, Los Angeles
+<dark>College-Ready Academy High School#4, Los Angeles
+<dark>College-Ready Academy High School#6, Los Angeles
+<dark>College-Ready Math-Science School, Los Angeles
+<dark>Gertz-Ressler Academy High School, Los Angeles
+<dark>Heritage College-Ready Academy High School, Los Angeles
+<dark>Huntington Park College-Ready High School, Los Angeles
+<dark>Richard Merkin Middle Academy, Los Angeles
+<dark>Antelope Valley Union High School District
+<dark>Antelope Valley High School, Lancaster
+<dark>Assurance Learning Academy (charter), Lancaster
+<dark>AV Academy High School (charter), Lake Los Angeles
+<dark>AV Academy High School (charter), Palmdale
+<dark>AV Learning Academy (charter), Lancaster
+<dark>Desert Sands Charter High School, Palmdale
+<dark>Desert Winds Continuation High School, Lancaster
+<dark>Eastside High School, Lancaster
+<dark>Highland High School, Palmdale
+<dark>Lancaster High School, Lancaster
+<dark>Littlerock High School, Littlerock
+<dark>Palmdale High School, Palmdale
+<dark>Pete Knight High School, Palmdale
+<dark>Quartz Hill High School, Quartz Hill
+<dark>R. Rex Parris Continuation High School, Palmdale
+<dark>Arcadia Unified School District
+<dark>Arcadia High School, Arcadia
+<dark>Azusa Unified School District
+<dark>Agvania High School
+<dark>Azusa High School, Azusa
+<dark>Gladstone High School, Azusa
+<dark>Baldwin Park Unified School District
+<dark>Baldwin Park High School
+<dark>North Park Continuation School
+<dark>Sierra Vista High School, Baldwin Park
+<dark>Bassett Unified School District
+<dark>Bassett High School, La Puente
+<dark>Bellflower Unified School District
+<dark>Bellflower High School, Bellflower
+<dark>Mayfair High School, Lakewood
+<dark>Somerset High School, Bellflower
+<dark>Beverly Hills Unified School District
+<dark>Beverly Hills High School, Beverly Hills
+<dark>Bonita Unified School District
+<dark>Bonita High School, La Verne
+<dark>San Dimas High School, San Dimas
+<dark>Burbank Unified School District
+<dark>Burbank High School, Burbank
+<dark>John Burroughs High School, Burbank
+<dark>Centinela Valley Union High School District
+<dark>Hawthorne High School, Hawthorne
+<dark>Lawndale High School, Lawndale
+<dark>Leuzinger High School, Lawndale
+<dark>Charter Oak Unified School District
+<dark>Charter Oak High School, Covina
+<dark>Claremont Unified School District
+<dark>Claremont High School, Claremont
+<dark>Compton Unified School District
+<dark>Centennial High School, Compton
+<dark>Compton High School, Compton
+<dark>Dominguez High School, Compton
+<dark>Covina-Valley Unified School District
+<dark>Covina High School
+<dark>Northview High School, Covina
+<dark>South Hills High School, West Covina
+<dark>Culver City Unified School District
+<dark>Culver City High School
+<dark>Downey Unified School District
+<dark>Columbus High School
+<dark>Downey High School, Downey
+<dark>Warren High School, Downey
+<dark>Duarte Unified School District
+<dark>Duarte High School, Duarte
+<dark>California School of the Arts - San Gabriel Valley
+<dark>El Monte Union High School District
+<dark>Arroyo High School, El Monte
+<dark>El Monte High School, El Monte
+<dark>Mountain View High School, El Monte
+<dark>Rosemead High School, Rosemead
+<dark>South El Monte High School, South El Monte
+<dark>El Rancho Unified School District
+<dark>El Rancho High School, Pico Rivera
+<dark>El Segundo Unified School District
+<dark>El Segundo High School, El Segundo
+<dark>Glendale Unified School District
+<dark>Clark Magnet High School
+<dark>Crescenta Valley High School, La Crescenta
+<dark>Daily High School
+<dark>Glendale High School, Glendale
+<dark>Herbert Hoover High School, Glendale
+<dark>Glendora Unified School District
+<dark>Glendora High School, Glendora
+<dark>Hacienda La Puente Unified School District
+<dark>Glen A. Wilson High School, Hacienda Heights
+<dark>La Puente High School, La Puente
+<dark>Los Altos High School, Hacienda Heights
+<dark>Puente Hills High School, La Puente
+<dark>Valley Alternative High School, La Puente
+<dark>William Workman High School, City of Industry
+<dark>Inglewood Unified School District
+<dark>City Honors High School, Inglewood
+<dark>Inglewood High School, Inglewood
+<dark>Morningside High School, Inglewood
+<dark>Philippine Los Angeles High School, Inglewood
+<dark>La Cañada Unified School District
+<dark>La Cañada High School, La Cañada Flintridge
+<dark>Las Virgenes Unified School District
+<dark>Agoura High School, Agoura
+<dark>Calabasas High School, Calabasas
+<dark>Long Beach Unified School District
+<dark>Cabrillo High School, Long Beach
+<dark>California Academy of Math and Science (CAMS)
+<dark>Jordan High School, Long Beach
+<dark>Lakewood High School
+<dark>Long Beach Polytechnic High School, Long Beach
+<dark>Millikan High School, Long Beach
+<dark>Renaissance High School for the Arts
+<dark>Wilson Classical High School, Long Beach
+<dark>Lynwood Unified School District
+<dark>Firebaugh High School, Lynwood
+<dark>Lynwood High School, Lynwood
+<dark>Manhattan Beach Unified School District
+<dark>Mira Costa High School, Manhattan Beach
+<dark>Monrovia Unified School District
+<dark>Monrovia High School, Monrovia
+<dark>Montebello Unified School District
+<dark>Applied Technology Center, Montebello
+<dark>Bell Gardens High School, Bell Gardens
+<dark>Montebello High School, Montebello
+<dark>Schurr High School, Montebello
+<dark>Norwalk-La Mirada Unified School District
+<dark>El Camino High School, Whittier
+<dark>John Glenn High School, Norwalk
+<dark>La Mirada High School, La Mirada
+<dark>Norwalk High School, Norwalk
+<dark>Southeast Academy Military and Law Enforcement High School Norwalk
+<dark>Palos Verdes Peninsula Unified School District
+<dark>Palos Verdes High School, Palos Verdes Estates
+<dark>Palos Verdes Peninsula High School, Rolling Hills Estates
+<dark>Rancho Del Mar High School, Rolling Hills
+<dark>Paramount Unified School District
+<dark>Paramount High School, Paramount
+<dark>Pasadena Unified School District
+<dark>Blair International Baccalaureate School, Pasadena
+<dark>Marshall Fundamental Secondary School, Pasadena
+<dark>Muir High School, Pasadena (zoned)
+<dark>Pasadena High School, Pasadena (zoned)
+<dark>Pomona Unified School District
+<dark>Diamond Ranch High School, Pomona
+<dark>Franklin High School, Pomona
+<dark>Ganesha High School, Pomona
+<dark>Garey High School, Pomona
+<dark>Palomares High School, Pomona
+<dark>Pomona High School, Pomona
+<dark>Village Academy High School at Indian Hill, Pomona
+<dark>Redondo Beach Unified School District
+<dark>Redondo Union High School, Redondo Beach
+<dark>John A. Rowland High School, Rowland Heights
+<dark>Nogales High School, La Puente
+<dark>Santana High School, Rowland Heights
+<dark>San Gabriel Unified School District
+<dark>Del Mar High School, San Gabriel
+<dark>Gabrielino High School, San Gabriel
+<dark>San Marino Unified School District
+<dark>San Marino High School, San Marino
+<dark>Santa Monica-Malibu Unified School District
+<dark>Malibu High School, Malibu
+<dark>Olympic High School, Santa Monica
+<dark>Santa Monica High School, Santa Monica
+<dark>South Pasadena Unified School District
+<dark>South Pasadena High School, South Pasadena
+<dark>Temple City Unified School District
+<dark>Temple City High School, Temple City
+<dark>Torrance Unified School District
+<dark>Kurt T. Shery High School, Torrance
+<dark>North High School, Torrance
+<dark>South High School, Torrance
+<dark>Torrance High School, Torrance
+<dark>West High School, Torrance
+<dark>Walnut Valley Unified School District
+<dark>Diamond Bar High School, Diamond Bar
+<dark>Ron Hockwalt Academies, Walnut
+<dark>Walnut High School, Walnut
+<dark>West Covina Unified School District
+<dark>Edgewood High School, West Covina
+<dark>West Covina High School, West Covina
+<dark>Whittier Union High School District
+<dark>California High School, Whittier
+<dark>La Serna High School, Whittier
+<dark>Pioneer High School, Whittier
+<dark>Santa Fe High School, Santa Fe Springs
+<dark>Whittier High School, Whittier
+<dark>William S. Hart Union High School District
+<dark>Academy of the Canyons, Santa Clarita
+<dark>Canyon High School, Canyon Country
+<dark>Golden Valley High School, Santa Clarita
+<dark>Saugus High School, Saugus
+<dark>Valencia High School, Valencia
+<dark>West Ranch High School, Stevenson Ranch
+<dark>William S. Hart High School, Newhall
+<dark>Assurance Learning Academy (charter), Los Angeles
+<dark>Assurance Learning Academy (charter), Wilmington
+<dark>Animo Inglewood Charter High School, Inglewood
+<dark>Animo Leadership Charter High School, Inglewood
+<dark>Animo Locke Technology High School, Los Angeles
+<dark>Booth High School, Los Angeles
+<dark>Carter-Walters Preparatory School of the Arts, San Dimas
+<dark>Crittenton High School, Los Angeles
+<dark>Da Vinci Schools, Hawthorne
+<dark>Desert Sands Charter High School, Garden Grove
+<dark>Desert Sands Charter High School, Long Beach
+<dark>Desert Sands Charter High School, Norwalk
+<dark>Desert Sands Charter High School, Santa Ana
+<dark>Desert Sands Charter School, Lancaster
+<dark>Environmental Charter High School, Lawndale
+<dark>Fred C. Nelles High School, Whittier
+<dark>International Polytechnic High School, Pomona
+<dark>Jack B. Clarke High School, Norwalk
+<dark>Los Angeles Complex Science Academy, Los Angeles
+<dark>Los Angeles County High School for the Arts, Los Angeles
+<dark>Mission View Public Charter, Gardena
+<dark>Mission View Public Charter, Inglewood
+<dark>Mission View Public Charter, Los Angeles
+<dark>Mission View Public Charter, North Hills
+<dark>Mission View Public Charter, Pacoima
+<dark>Mission View Public Charter, Panorama City
+<dark>Mission View Public Charter, San Fernando
+<dark>Mission View Public Charter, Valencia
+<dark>Montclair College Preparatory School, Van Nuys
+<dark>Pacific Learning Center Charter, Long Beach
+<dark>Paramount High School Academy, Lakewood
+<dark>Pathway High School, Lynwood
+<dark>Promise Academy, Long Beach
+<dark>Soledad Enrichment Action Charter School, Los Angeles
+Madera County
+<dark>Chowchilla High School, Chowchilla
+<dark>Evergreen High School, Oakhurst
+<dark>Glacier Charter High School, Oakhurst
+<dark>Madera High School, Madera
+<dark>Madera South High School, Madera
+<dark>Minarets High School, O'Neals
+<dark>Mountain Oaks High School, North Fork
+<dark>Pioneer Technical Center, Madera
+<dark>Yosemite High School, Oakhurst
+Marin County
+<dark>The Branson School, Ross
+<dark>Marin Academy, San Rafael
+<dark>Marin Catholic High School, Kentfield
+<dark>Marin Oaks High School, Novato
+<dark>North Bay Christian Academy, Novato
+<dark>Novato High School, Novato
+<dark>Redwood High School, Larkspur
+<dark>San Domenico School, San Anselmo
+<dark>San Marin High School, Novato
+<dark>San Rafael High School, San Rafael
+<dark>Sir Francis Drake High School, San Anselmo
+<dark>Tamalpais High School, Mill Valley
+<dark>Terra Linda High School, San Rafael
+<dark>Tomales High School, Tomales
+Mariposa County
+<dark>Coulterville High School, Coulterville
+<dark>Mariposa County High School, Mariposa
+<dark>Yosemite Park High School, Yosemite
+Mendocino County
+<dark>Anderson Valley Junior-Senior High School, Boonville
+<dark>Developing Virtue Secondary School, Ukiah
+<dark>Fort Bragg High School, Fort Bragg
+<dark>Laytonville High School, Laytonville
+<dark>Leggett Valley High School, Leggett
+<dark>Mendocino High School, Mendocino
+<dark>Pacific Community Charter High School, Point Arena
+<dark>Point Arena High School, Point Arena
+<dark>Potter Valley High School, Potter Valley
+<dark>Redwood Academy of Ukiah, Ukiah
+<dark>Round Valley High School, Covelo
+<dark>South Coast High School, Point Arena
+<dark>Ukiah High School, Ukiah
+<dark>Whale Gulch High School, Whitethorn
+<dark>Willits Charter School, Willits
+<dark>Willits High School, Willits
+<dark>Yokayo Valley Charter High School, Ukiah
+Merced County
+<dark>Atwater High School, Atwater
+<dark>Buhach Colony High School, Atwater
+<dark>Delhi High School, Delhi
+<dark>Dos Palos High School, Dos Palos
+<dark>Golden Valley High School, Merced
+<dark>Gustine High School, Gustine
+<dark>Hilmar High School, Hilmar
+<dark>Le Grand High School, Le Grand
+<dark>Livingston High School, Livingston
+<dark>Los Banos High School, Los Banos
+<dark>Merced High School, Merced
+<dark>Pacheco High School, Los Banos
+<dark>Stone Ridge Christian High School, Merced
+<dark>Valley High School, Atwater
+<dark>Valley High School, Los Banos
+<dark>Valley High School, Merced
+Modoc County
+<dark>Great Basin High School, Cedarville
+<dark>Modoc High School, Alturas
+<dark>Surprise Valley High School, Cedarville
+<dark>Warner High School, Alturas
+Mono County
+<dark>Coleville High School, Coleville
+<dark>Eastern Sierra Academy, Bridgeport
+<dark>Lee Vining High School, Lee Vining
+<dark>Mammoth High School, Mammoth Lakes
+Monterey County
+<dark>King City Union School District
+<light>Greenfield High School, Greenfield
+<light>King City High School, King City
+<dark>Monterey Peninsula Unified School District
+<light>Central Coast High School (continuation), Seaside
+<light>Marina High School, Marina
+<light>Monterey High School, Monterey
+<light>Seaside High School, Seaside
+<dark>North Monterey County Unified School District
+<light>North Monterey County High School, Castroville
+<dark>Pacific Grove Unified School District
+<light>Pacific Grove High School, Pacific Grove
+<dark>Salinas Union High School District
+<light>Alisal High School, Salinas
+<light>Everett Alvarez High School, Salinas
+<light>North Salinas High School, Salinas
+<light>Salinas High School, Salinas
+<dark>Carmel High School, Carmel
+<dark>Cypress Grove Charter High School for Arts and Science, Carmel (closed in 2006)
+<dark>Gonzales High School, Gonzales
+<dark>Notre Dame High School, Salinas
+<dark>Palma School, Salinas
+<dark>Santa Catalina School, Monterey
+<dark>Soledad High School, Soledad
+<dark>Stevenson School, Pebble Beach
+<dark>Trinity Christian High School, Monterey
+<dark>York School, Monterey
+Napa County
+<dark>American Canyon High School, American Canyon
+<dark>Calistoga High School, Calistoga
+<dark>Justin-Siena High School, Napa
+<dark>Napa High School, Napa
+<dark>New Technology High School, Napa
+<dark>Pacific Union College Prep School, Angwin
+<dark>St. Helena High School, St. Helena
+<dark>Valley Oak High School, Napa
+<dark>Vintage High School, Napa
+Nevada County
+<dark>Bear River High School, Grass Valley
+<dark>Bitney College Preparatory High School, Grass Valley
+<dark>Ghidotti Early College High School, Grass Valley
+<dark>Nevada Union High School, Grass Valley
+<dark>Sierra Mountain High School, Grass Valley
+<dark>Tahoe-Truckee High School, Truckee
+Orange County
+Anaheim Union High School District
+<dark>Anaheim High School, Anaheim
+<dark>Katella High School, Anaheim
+<dark>John F. Kennedy High School, La Palma
+<dark>Loara High School, Anaheim
+<dark>Cypress High School, Cypress
+<dark>Oxford Academy, Cypress
+<dark>Magnolia High School, Anaheim
+<dark>Savanna High School, Anaheim
+<dark>Western High School, Anaheim
+<dark>Brea Canyon Alternative High School, Brea
+<dark>Brea Olinda High School, Brea
+<dark>Aliso Niguel High School, Aliso Viejo
+<dark>Capistrano Valley High School, Mission Viejo
+<dark>Dana Hills High School, Dana Point
+<dark>San Juan Hills High School, San Juan Capistrano
+<dark>San Clemente High School, San Clemente
+<dark>Tesoro High School, Rancho Santa Margarita
+<dark>Fred Newhart Middle School, Mission Viejo
+<dark>Fullerton Union High School, Fullerton
+<dark>La Vista High School (continuation), Fullerton
+<dark>Sunny Hills High School, Fullerton
+<dark>Troy High School, Fullerton
+<dark>Buena Park High School, Buena Park
+<dark>La Habra High School, La Habra
+<dark>Sonora High School, La Habra
+<dark>Garden Grove High School, Garden Grove
+<dark>Pacifica High School, Garden Grove
+<dark>Rancho Alamitos High School, Garden Grove
+<dark>Santiago High School, Garden Grove
+<dark>Bolsa Grande High School, Garden Grove
+<dark>La Quinta High School, Westminster
+<dark>Los Amigos High School, Fountain Valley
+<dark>Edison High School, Huntington Beach
+<dark>Huntington Beach High School, Huntington Beach
+<dark>Marina High School, Huntington Beach
+<dark>Ocean View High School, Huntington Beach
+<dark>Westminster High School, Westminster
+<dark>Fountain Valley High School, Fountain Valley
+<dark>Irvine High School, Irvine
+<dark>Northwood High School, Irvine
+<dark>Portola High School, Irvine
+<dark>University High School, Irvine
+<dark>Woodbridge High School, Irvine
+<dark>Laguna Beach High School, Laguna Beach
+<dark>Los Alamitos High School, Los Alamitos
+<dark>Corona del Mar High School, Newport Beach
+<dark>Costa Mesa High School, Costa Mesa
+<dark>Estancia High School, Costa Mesa
+<dark>Early College High School, Costa Mesa
+<dark>Newport Harbor High School, Newport Beach
+<dark>El Modena High School, Orange
+<dark>Orange High School, Orange
+<dark>Villa Park High School, Villa Park
+<dark>Richland Continuation High School, Orange
+<dark>Canyon High School, Anaheim
+<dark>El Camino High School (Continuation), Placentia
+<dark>El Dorado High School, Placentia
+<dark>Valencia High School, Placentia
+<dark>Esperanza High School, Anaheim
+<dark>Yorba Linda High School, Yorba Linda
+<dark>El Toro High School, Lake Forest
+<dark>Laguna Hills High School, Laguna Hills
+<dark>Mission Viejo High School, Mission Viejo
+<dark>Silverado High School, Mission Viejo
+<dark>Trabuco Hills High School, Mission Viejo
+<dark>Albor Charter School, Santa Ana
+<dark>Century High School, Santa Ana
+<dark>Cesar Chavez High School, Santa Ana
+<dark>Godinez Fundamental High School, Santa Ana
+<dark>Lorin Griset Academy, Santa Ana
+<dark>Middle College High School, Santa Ana
+<dark>Orange County High School of the Arts, Santa Ana
+<dark>Saddleback High School, Santa Ana
+<dark>Santa Ana High School, Santa Ana
+<dark>Segerstrom Fundamental High School, Santa Ana
+<dark>Valley High School, Santa Ana
+Tustin Unified School District
+<dark>Arnold O. Beckman High School, Tustin
+<dark>Foothill High School (Tustin), North Tustin
+<dark>Hillview High School (Orange County, California), North Tustin
+<dark>Tustin High School, Tustin
+Private schools
+Catholic
+Diocesan
+<dark>Bishop Amat Memorial High School, La Puente
+<dark>Mater Dei High School, Santa Ana
+<dark>Rosary High School, Fullerton
+<dark>Santa Margarita Catholic High School, Rancho Santa Margarita
+Independent
+<dark>Cornelia Connelly High School, Anaheim
+<dark>Padre Pio Academy, Garden Grove
+<dark>JSerra Catholic High School, San Juan Capistrano
+<dark>St. Michael's Preparatory School, Silverado
+<dark>Servite High School, Anaheim
+Protestant
+7th Day Adventist
+<dark>Orangewood Academy
+Non-denominational
+<dark>Brethren Christian Junior/Senior High School, Huntington Beach
+<dark>Capistrano Valley Christian Schools, San Juan Capistrano
+<dark>Calvary Chapel High School, Santa Ana
+<dark>Crystal Cathedral High School, Garden Grove
+<dark>Saddleback Valley Christian School, San Juan Capistrano
+<dark>Spirit Christian Academy, Tustin
+<dark>Whittier Christian High School, La Habra
+<dark>Grace OC Academy, Anaheim
+Episcopal
+<dark>St. Margaret's Episcopal School
+Lutheran
+<dark>Crean Lutheran High School, Irvine
+<dark>Lutheran High School of Orange County, Orange
+Jewish
+Tarbut V' Torah Community Day School
+Hebrew Academy
+Nonsectarian
+<dark>Acaciawood Preparatory Academy, Anaheim
+<dark>Alton School, Cypress
+<dark>Eldorado-Emerson, Orange
+<dark>Fairmont Preparatory Academy, Anaheim
+<dark>Florence Crittenton School, Fullerton
+<dark>Fusion Academy & Learning Center, Huntington Beach
+<dark>Fusion Academy & Learning Center, Mission Viejo
+<dark>Halstrom High School, Mission Viejo
+<dark>Sage Hill School, Newport Beach
+<dark>Silverleaf Academy, Mission Viejo
+<dark>Desert Sands Charter High School, Anaheim
+<dark>Desert Sands Charter High School, Garden Grove
+<dark>Desert Sands Charter High School, Santa Ana
+Placer County
+<dark>Colfax High School, Colfax
+<dark>Del Oro High School, Loomis
+<dark>Forest Lake Christian High School, Auburn
+<dark>Foresthill High School, Foresthill
+<dark>Granite Bay High School, Granite Bay
+<dark>Horizon Charter School, Lincoln
+<dark>Lincoln High School, Lincoln
+<dark>North Tahoe High School, Tahoe City
+<dark>Oakmont High School, Roseville
+<dark>Pine Hills Adventist Academy, Auburn
+<dark>Placer High School, Auburn
+<dark>Rocklin High School, Rocklin
+<dark>Roseville High School, Roseville
+<dark>Sierra Christian High School, Rocklin
+<dark>Squaw Valley Academy, Squaw Valley
+<dark>Whitney High School, Rocklin
+<dark>Woodcreek High School, Roseville
+<dark>Western Sierra Collegiate Academy,Rocklin
+Plumas County
+<dark>Chester High School, Chester
+<dark>Greenville Junior-Senior High School, Greenville
+<dark>Pine Hills Adventist School
+<dark>Portola High School, Portola
+<dark>Quincy High School, Quincy
+Riverside County
+<dark>Amistad High School (continuation), Indio
+<dark>Arlington High School, Riverside
+<dark>Banning High School, Banning
+<dark>Beaumont High School, Beaumont
+<dark>California Lutheran High School, Wildomar
+<dark>Calvary Chapel Christian School, Murrieta
+<dark>Canyon Springs High School, Moreno Valley
+<dark>Cathedral City High School, Cathedral City
+<dark>Centennial High School, Corona
+<dark>Chaparral High School, Temecula
+<dark>Christian School of the Desert, Bermuda Dunes
+<dark>Citrus Hill High School, Perris
+<dark>Coachella Valley High School, Thermal
+<dark>Corona High School, Corona
+<dark>Desert Adventist Academy, Desert Hot Springs
+<dark>Desert Chapel High School, Palm Springs
+<dark>Desert Hot Springs High School, Desert Hot Springs
+<dark>Desert Mirage High School, Thermal
+<dark>Eagle Mountain (K-12) School, Desert Center
+<dark>Eleanor Roosevelt High School Eastvale
+<dark>Elsinore High School, Wildomar
+<dark>Grace Chapel of the Desert School, Indio
+<dark>Great Oak High School, Temecula
+<dark>Hamilton High School, Anza
+<dark>Hemet Academy of Applied Academics and Technology, Hemet
+<dark>Hemet High School, Hemet
+<dark>Heritage High School, Menifee
+<dark>Idyllwild Arts Academy, Idyllwild
+<dark>Indio High School, Indio
+<dark>John F. Kennedy Middle College High School, Norco
+<dark>John W. North High School, Riverside
+<dark>Jurupa Valley High School, Jurupa Valley
+<dark>La Familia High School (continuation), Thermal
+<dark>La Quinta High School, La Quinta
+<dark>La Sierra Adventist Academy, Riverside
+<dark>La Sierra High School, Riverside
+<dark>Lakeside High School, Lake Elsinore
+<dark>Lee Pollard High School, Corona
+<dark>Linfield Christian School, Temecula
+<dark>Martin Luther King Jr. High School, Riverside
+<dark>Mater Dei High School, Mecca
+<dark>Mesa Grande Academy, Calimesa
+<dark>Mojave Desert (Mission Creek) Military Academy, Desert Hot Springs
+<dark>Mount San Jacinto High School (continuation), Cathedral City
+<dark>Moreno Valley High School, Moreno Valley
+<dark>Murrieta Mesa High School, Murrieta
+<dark>Murrieta Valley High School, Murrieta
+<dark>Norco High School, Norco
+<dark>Norte Vista High School, Riverside
+<dark>Notre Dame Catholic High School, Riverside
+<dark>Nuview Bridge Academy, Nuevo
+<dark>Orange Grove High School, Corona
+<dark>Palm Desert High School, Palm Desert
+<dark>Palm Springs High School, Palm Springs
+<dark>Palm Valley High School (private), Rancho Mirage
+<dark>Palo Verde Valley High School, Blythe
+<dark>Paloma Valley High School, Menifee
+<dark>Patriot High School, Riverside
+<dark>Perris High School, Perris
+<dark>Quadrille Academy, Indio
+<dark>Polytechnic High School, Riverside
+<dark>Ramona High School, Riverside
+<dark>Rancho Christian School, Temecula
+<dark>Rancho Mirage High School, Rancho Mirage 
+<dark>Rancho Verde High School, Moreno Valley
+<dark>River Springs Charter School, County wide charter school
+<dark>Rubidoux High School, Riverside
+<dark>San Gorgonio (K-12) School, Cabazon
+<dark>San Jacinto Senior High School, San Jacinto
+<dark>Santiago High School, Corona
+<dark>Seaview High School, Thermal/Mecca
+<dark>Shadow Hills High School, Indio
+<dark>Sherman Indian High School, Riverside
+<dark>Southwest Educational Center, Wildomar
+<dark>Summit High School (independent studies), La Quinta
+<dark>Sunnymead High School (continuation), Moreno Valley
+<dark>Tahquitz High School, Hemet
+<dark>Temecula Preparatory School, French Valley
+<dark>Temecula Valley High School, Temecula
+<dark>Temescal Canyon High School, Lake Elsinore
+<dark>The Ranch Academy, 1000 Palms
+<dark>Val Verde High School, Perris
+<dark>Valley View High School, Moreno Valley
+<dark>Vista Calimesa High School, Calimesa/Yucaipa
+<dark>Vista del Lago High School, Moreno Valley
+<dark>Vista Murrieta High School, Murrieta
+<dark>West Shores High School, Salton City/Mecca
+<dark>West Valley High School, Hemet
+<dark>Woodcrest Christian School, Riverside
+<dark>Xavier College Preparatory (Catholic), Palm Desert
+Sacramento County
+<dark>American Legion High School, Central Sacramento
+<dark>Arthur A. Benjamin Health Professions High School, Sacramento
+<dark>Bella Vista High School, Fair Oaks
+<dark>C. K. McClatchy High School, Sacramento
+<dark>Calvine High School, Sacramento
+<dark>Casa Roble High School, Orangevale
+<dark>Center High School, Antelope
+<dark>Christian Brothers High School, Central Sacramento
+<dark>Cordova High School, Rancho Cordova
+<dark>Cosumnes Oaks High School, Elk Grove
+<dark>Del Campo High School, Fair Oaks
+<dark>East Anthwood Angles High School, East Sacramento
+<dark>East Side High School, East Sacramento
+<dark>El Camino Fundamental High School, Sacramento
+<dark>Elk Grove Charter School, Elk Grove
+<dark>Elk Grove High School, Elk Grove
+<dark>Encina High School, Sacramento
+<dark>Florin High School, South Sacramento
+<dark>Folsom High School, Folsom
+<dark>Foothill High School, Sacramento
+<dark>Franklin D. Roosevelt School, Sacramento
+<dark>Franklin High School, Elk Grove
+<dark>Galt High School, Galt
+<dark>Grant Union High School, North Sacramento
+<dark>Golden Valley Charter School
+<dark>Highlands High School, North Highlands
+<dark>Hiram W. Johnson High School, Sacramento
+<dark>Inderkum High School, Sacramento
+<dark>Jane Lathrop School, Carmichael
+<dark>Jesuit High School of Sacramento, Carmichael
+<dark>John F. Kennedy High School, South Sacramento
+<dark>K. Robinson Anthwood Continuation High School, East Sacramento
+<dark>Laguna Creek High School, Elk Grove
+<dark>Lexington Union High School, Central Sacramento
+<dark>Loretto High School, Sacramento
+<dark>Luther Burbank High School, Sacramento
+<dark>Lutheran School, Sacramento
+<dark>Mesa Verde High School, Citrus Heights
+<dark>Mira Loma High School, Sacramento
+<dark>Monterey Trail High School, Elk Grove
+<dark>Natomas Charter School, Sacramento
+<dark>Natomas High School, Sacramento
+<dark>Pleasant Grove High School, Elk Grove
+<dark>Rio Americano High School, Sacramento
+<dark>Rio Linda High School, Rio Linda
+<dark>River Valley School, Sacramento
+<dark>Rochester High School, East Sacramento
+<dark>Rosemont High School, Sacramento
+<dark>Sacramento Adventist Academy, Sacramento
+<dark>Sacramento Country Day School, Sacramento
+<dark>Sacramento High School, Sacramento
+<dark>Sacramento New Technology High School, Sacramento
+<dark>Sacramento Preparatory Academy, Sacramento
+<dark>Sacramento Valley School, Sacramento
+<dark>Sacramento Waldorf School, Fair Oaks
+<dark>St. Francis High School, Sacramento
+<dark>San Juan High School, Citrus Heights
+<dark>Sheldon High School, Sacramento
+<dark>Tahaloma High School, Citrus Heights
+<dark>Upper Valley High School, East Sacramento
+<dark>Valley High School, South Sacramento
+<dark>Valley Oak Academy - Mariposa, Citrus Heights
+<dark>Victory Christian High School, Carmichael
+<dark>Vista del Lago High School, Folsom
+<dark>Vista Nueva Career & Technology High School, Sacramento
+<dark>West Campus High School, West Sacramento
+<dark>West Heights High School, West Sacramento
+<dark>Wizbin High School, East Sacramento
+San Benito County
+<dark>Anzar High School, San Juan Bautista
+<dark>San Benito High School, Hollister
+San Bernardino County
+<dark>Alta Vista Public Charter, Adelanto
+<dark>Alta Vista Public Charter, Apple Valley
+<dark>Alta Vista Public Charter, Hesperia
+<dark>Alta Vista Public Charter, San Bernardino
+<dark>Alta Vista South Public Charter, Highland
+<dark>Apple Valley Unified School District
+<light>Apple Valley High School, Apple Valley
+<light>Granite Hills High School, Apple Valley
+<dark>Barstow Unified School District
+<light>Barstow High School
+<light>Central High Continuation School
+<dark>Bear Valley Unified School District
+<light>Big Bear High School, Big Bear City
+<light>Big Bear STEM School, Big Bear City
+<light>Chataqua High School, Big Bear City
+<dark>Big River School, Big River (county)
+<dark>Chaffey Joint Union High School District
+<light>Alta Loma High School
+<light>Canyon View High School
+<light>Chaffey Adult School
+<light>Chaffey High School
+<light>Colony High School
+<light>Etiwanda High School
+<light>Los Osos High School
+<light>Montclair High School
+<light>Ontario High School
+<light>Rancho Cucamonga High School
+<light>Valley View High School, Ontario
+<dark>Chino Valley Unified School District
+<light>Chino High School, Chino
+<light>Chino Hills High School, Chino Hills
+<light>Don Antonio Lugo High School
+<light>Ruben S. Ayala High School, Chino Hills
+<dark>Colton Joint Unified School District
+<light>Bloomington High School, Bloomington
+<light>Colton High School, Colton
+<light>Grand Terrace High School, Grand Terrace
+<light>Slover Mountain High School, Colton
+<light>Washington Alternative High School, Colton
+<dark>Desert Sands Charter High School, Fontana
+<dark>Desert Sands Charter High School, Rialto
+<dark>Fontana Unified School District
+<light>A. B. Miller High School, Fontana
+<light>Fontana High School, Fontana
+<light>Henry J. Kaiser High School, Fontana
+<light>Jurupa Hills High School, Fontana
+<light>Summit High School, Fontana
+<dark>Hesperia Unified School District
+<light>Hesperia High School, Hesperia
+<light>Sultana High School, Hesperia
+<dark>Mojave Desert Public School, Amboy
+<dark>Morongo Unified School District
+<light>Twentynine Palms High School, Twentynine Palms
+<light>Yucca Valley High School, Yucca Valley
+<light>Black Rock High School (continuation), Joshua Tree
+<dark>Needles Unified School District
+<light>Needles High School
+<dark>Redlands Unified School District
+<light>The Grove School
+<light>Orangewood Contintuation High School
+<light>Redlands Citrus Valley High School
+<light>Redlands East Valley High School
+<light>Redlands High School
+<dark>Rialto Unified School District
+<light>Doctor John H Milor High School, Rialto
+<light>Dwight D. Eisenhower High School, Rialto
+<light>Rialto High School, Rialto
+<light>Wilmer Amina Carter High School, Rialto
+<light>Zupanic High School, Rialto
+<dark>Rim of the World Unified School District
+<light>Rim of the World High School, Lake Arrowhead
+<dark>San Bernardino City Unified School District
+<light>Arroyo Valley High School
+<light>Cajon High School
+<light>Pacific High School
+<light>San Andreas High School
+<light>San Bernardino High School
+<light>San Gorgonio High School
+<light>Sierra High School
+<dark>Silver Valley Unified School District
+<light>Silver Valley High School, Yermo
+<dark>Snowline Joint Unified School District
+<light>Chaparral High School, Phelan
+<light>Serrano High School
+<dark>Upland Unified School District
+<light>Upland High School
+<dark>Victor Valley Union High School District
+<light>Adelanto High School, Adelanto
+<light>Maverick High School, Victorville
+<light>Silverado High School, Victorville
+<light>Victor Valley High School, Victorville
+<dark>Vista Calimesa High School, Yucaipa/Calimesa
+<dark>Yucaipa High School, Yucaipa
+Private
+<dark>Aquinas Catholic High School, San Bernardino
+<dark>Arrowhead Christian Academy, Redlands
+<dark>Bloomington Christian School, Big Bear Lake
+<dark>Bloomington Christian School, Bloomington
+<dark>Crestline High School, Crestline
+<dark>Grace Chapel of the Desert School, Yucca Valley
+<dark>Loma Linda Academy, Loma Linda
+<dark>Mesa Grande Academy, Calimesa/Yucaipa
+<dark>Mojave Desert (Morongo Basin) Military Academy, Yucca Valley
+<dark>Riverside Prep, Oro Grande
+<dark>(Seventh-Day) Adventist Academy, Yucca Valley/29 Palms
+<dark>(Seventh-Day) Adventist Academy, Yucaipa/Calimesa
+<dark>Upland Christian Academy, Rancho Cucamonga
+<dark>Xavier College Preparatory High School, Palm Desert
+San Diego County
+<dark>Warner High School, Warner Springs
+Borrego Springs Unified School District
+Main article: Borrego Springs Unified School District
+<dark>Borrego Springs High School, Borrego Springs
+<dark>Palm Canyon High School (continuation), Borrego Springs
+Carlsbad Unified School District
+Main article: Carlsbad Unified School District
+<dark>Carlsbad High School, Carlsbad
+<dark>Carlsbad Village Academy 10-12, Carlsbad
+<dark>Sage Creek High School, Carlsbad, Carlsbad
+Coronado Unified School District
+Main article: Coronado Unified School District
+<dark>Coronado High School, Coronado
+<dark>Palm Academy for Learning, Coronado
+Escondido Union School District
+Main article: Escondido Union School District
+<dark>Diego Valley Charter High School, Escondido
+<dark>Center City High School, Escondido
+<dark>Escondido Charter High School, Escondido
+<dark>Escondido High School, Escondido
+<dark>Orange Glen High School, Escondido
+<dark>San Pasqual High School, Escondido
+<dark>Valley High School (continuation), Escondido
+<dark>Classical Academy High School, Escondido
+<dark>Del Lago Academy, Escondido
+Fallbrook Union High School
+Main article: Fallbrook Union High School
+<dark>Fallbrook Union High School, Fallbrook
+<dark>Ivy High School (continuation), Fallbrook
+<dark>Oasis High School (alternative), Fallbrook
+Grossmont Union High School District
+Main article: Grossmont Union High School District
+<dark>Diego Valley Charter High School, El Cajon
+<dark>Chaparral High School (continuation), El Cajon
+<dark>El Cajon Valley High School, El Cajon
+<dark>El Capitan High School, Lakeside
+<dark>Granite Hills High School, El Cajon
+<dark>Grossmont High School, La Mesa/El Cajon
+<dark>Grossmont Middle College High School, El Cajon
+<dark>Helix High School, La Mesa (independent charter high school, authorized by the Grossmont Union HS District)
+<dark>Monte Vista High School, Spring Valley
+<dark>Mount Miguel High School, Spring Valley
+<dark>Santana High School, Santee
+<dark>Steele Canyon High School, Spring Valley (independent charter high school, authorized by the Grossmont Union HS District)
+<dark>Valhalla High School, El Cajon
+<dark>West Hills High School, Santee
+Julian Union High School District
+Main article: Julian Union High School District
+<dark>Julian High School, Julian
+<dark>Redding (Ray) High (continuation), Julian
+<dark>Summit High Community Day, Julian
+Mountain Empire Unified School District
+Main article: Mountain Empire Unified School District
+<dark>Mountain Empire High School, Pine Valley
+Oceanside Unified School District
+Main article: Oceanside Unified School District
+<dark>Diego Valley Charter High School, Oceanside
+<dark>El Camino High School, Oceanside
+<dark>Oceanside High School, Oceanside
+<dark>Oceanside School of Business and Technology, Oceanside
+<dark>Pacific View Charter School, Oceanside
+Poway Unified School District
+<dark>Abraxas High School, Poway
+<dark>Del Norte High School, San Diego
+<dark>Mount Carmel High School, San Diego
+<dark>Poway High School, Poway
+<dark>Rancho Bernardo High School, San Diego
+<dark>Westview High School, San Diego
+Ramona City Unified School District
+Main article: Ramona City Unified School District
+<dark>Montecito High School (alternative), Ramona
+<dark>Mountain Valley Academy High School, Ramona
+<dark>Ramona High School, Ramona
+San Diego County Office of Education
+<dark>Monarch School, San Diego
+San Diego Unified School District
+Main article: San Diego Unified School District
+San Dieguito Union High School District
+Main article: San Dieguito Union High School District
+<dark>Canyon Crest Academy, San Diego
+<dark>La Costa Canyon High School, Carlsbad
+<dark>North Coast High School (alternative), Encinitas
+<dark>San Dieguito Academy, Encinitas
+<dark>Sunset High School (alternative), Encinitas
+<dark>Torrey Pines High School, San Diego
+San Marcos Unified School District
+Main article: San Marcos Unified School District
+<dark>Bayshore Prep Charter School, San Marcos
+<dark>Foothills High (alternative), San Marcos
+<dark>Mission Hills High School, San Marcos
+<dark>San Marcos High School, San Marcos
+<dark>Twin Oaks High School (continuation), San Marcos
+Sweetwater Union High School District
+Main article: Sweetwater Union High School District
+<dark>Bonita Vista High School, Chula Vista
+<dark>Castle Park High School, Chula Vista
+<dark>Chula Vista High School, Chula Vista
+<dark>Eastlake High School, Chula Vista
+<dark>Hilltop High School, Chula Vista
+<dark>MAAC Community Charter School, Chula Vista
+<dark>Mar Vista High School, Imperial Beach
+<dark>Montgomery High School, San Diego
+<dark>Olympian High School, Chula Vista
+<dark>Options Secondary School, Chula Vista
+<dark>Otay Ranch High School, Chula Vista
+<dark>Palomar High School, Chula Vista
+<dark>San Ysidro High School, San Diego
+<dark>Southwest High School, San Diego
+<dark>Sweetwater High School, National City
+East Hills Academy
+Valley Center-Pauma Unified School District
+Main article: Valley Center-Pauma Unified School District
+<dark>Oak Glen High School (continuation), Valley Center
+<dark>Valley Center Adult Education, Valley Center
+<dark>Valley Center High School, Valley Center
+<dark>Valley Center Independent Study, Valley Center
+Vista Unified School District
+Main article: Vista Unified School District
+<dark>Diego Valley Charter High School, Vista
+<dark>Guajome Park Academy (charter), Vista
+<dark>Mission Vista High School, Oceanside
+<dark>North County Trade Tech High School (charter), Vista
+<dark>Rancho Buena Vista High School, Vista
+<dark>Vista High School, Vista
+Warner Unified School District
+Main article: Warner Unified School District
+<dark>San Jose Valley Continuation High School, Warner Springs
+<dark>Warner Middle / High School, Warner Springs
+Private schools
+Baptist
+<dark>Ocean View Christian Academy
+Catholic
+<dark>Academy of Our Lady of Peace
+<dark>Saint Augustine High School
+<dark>Mater Dei Catholic High School
+<dark>Cathedral Catholic High School
+Episcopal
+<dark>The Bishop's School, La Jolla
+Jewish
+<dark>San Diego Jewish Academy, San Diego
+<dark>Southern California Yeshiva High School, San Diego
+<dark>Torah High Schools of San Diego, San Diego
+Lutheran
+<dark>Victory Christian Academy, San Diego (formerly Lutheran High School of San Diego)
+Seventh-Day Adventist
+<dark>Escondido Adventist Academy, Escondido
+<dark>San Diego Academy, National City
+Non-Denominational
+<dark>Army and Navy Academy, Carlsbad
+<dark>Maranatha Christian Schools, San Diego
+<dark>Calvin Christian School, Escondido
+<dark>Santa Fe Christian Schools, Solana Beach
+<dark>Horizon Christian Academy, San Diego
+<dark>Horizon Prep School, Rancho Santa Fe
+Nonsectarian
+<dark>The Child's Primary School, San Diego
+<dark>Carlsbad Seaside Academy, Carlsbad
+<dark>Carlsbad Village Academy, Carlsbad
+<dark>Francis W. Parker School, San Diego
+<dark>Fusion Academy, Del Mar
+<dark>The Grauer School, Encinitas
+<dark>Halstrom High School, Oceanside
+<dark>Halstrom High School, San Diego
+<dark>La Jolla Country Day School, La Jolla
+<dark>Pacific Academy International, Encinitas
+<dark>Pacific Ridge School, Carlsbad
+<dark>San Diego French American School, La Jolla
+<dark>The Waldorf School of San Diego High School, San Diego
+<dark>Leeway Sudbury School, San Diego
+<dark>High Bluff Academy, San Diego
+San Francisco County
+Public
+<dark>Abraham Lincoln High School
+<dark>Academy of Arts & Sciences
+<dark>Balboa High School
+<dark>Downtown High School
+<dark>Galileo Academy of Science and Technology
+<dark>George Washington High School
+<dark>Ida B. Wells Continuation High School
+<dark>Independence High School
+<dark>International Studies Academy
+<dark>John A. O'Connell High School
+<dark>June Jordan School for Equity
+<dark>Lowell High School
+<dark>Mission High School
+<dark>Phillip & Sala Burton High School
+<dark>Raoul Wallenberg Traditional High School
+<dark>San Francisco Flex Academy
+<dark>San Francisco International High School
+<dark>School of the Arts (SOTA)
+<dark>Thurgood Marshall Academic High School
+Public charter
+<dark>City Arts & Technology
+<dark>Gateway High School
+<dark>KIPP San Francisco College Preparatory
+<dark>Leadership High School
+Private
+<dark>The Bay School of San Francisco
+<dark>Cornerstone Academy
+<dark>Drew School
+<dark>Fusion Academy
+<dark>Hillwood Academic Day School
+<dark>International High School of San Francisco
+<dark>Jewish Community High School of the Bay
+<dark>Lick-Wilmerding High School
+<dark>Lycée Français La Pérouse
+<dark>Proof School
+<dark>Saint John of San Francisco Orthodox Academy
+<dark>San Francisco Christian
+<dark>San Francisco University High School
+<dark>San Francisco Waldorf High School
+<dark>The Urban School of San Francisco
+<dark>Woodside International School
+<dark>Youth Chance High School
+Catholic
+<dark>Archbishop Riordan High School
+<dark>Convent of the Sacred Heart High School
+<dark>Immaculate Conception Academy
+<dark>Mercy High School
+<dark>Sacred Heart Cathedral Preparatory
+<dark>St. Ignatius College Preparatory
+<dark>Stuart Hall High School
+San Joaquin County
+<dark>Escalon Unified School District
+<light>Escalon High School, Escalon
+<dark>Lammersville Joint Unified School District
+<light>Mountain House High School, Mountain House
+<dark>Lincoln Unified School District
+<light>Lincoln High School, Stockton
+<dark>Linden Unified School District
+<light>Linden High School, Linden
+<dark>Lodi Academy, Lodi
+<dark>Lodi Unified School District
+<light>Bear Creek High School, Stockton
+<light>Lodi High School, Lodi
+<light>Middle College High School, Stockton
+<light>Ronald E. McNair High School, Stockton
+<light>Tokay High School, Lodi
+<dark>Manteca Unified School District
+<light>Calla Alternative High School, Manteca
+<light>East Union High School, Manteca
+<light>Lathrop High School, Lathrop
+<light>Manteca Day School, Manteca
+<light>Manteca High School, Manteca
+<light>New Vision Alternative High School, Stockton
+<light>Sierra High School, Manteca
+<light>Weston Ranch High School, Stockton
+<dark>Ripon Unified School District
+<light>Ripon High School, Ripon
+<dark>St. Mary's High School, Stockton
+<dark>Stockton Unified School District
+<light>Amos Alonzo Stagg High School, Stockton
+<light>Cesar Chavez High School, Stockton
+<light>Edison High School, Stockton
+<light>Franklin High School, Stockton
+<light>Stockton Collegiate International Schools, Stockton
+<light>Stockton Early College Academy, Stockton
+<dark>Tracy Unified School District
+<light>John Kimball High School, Tracy
+<light>Tracy High School, Tracy
+<light>West High School, Tracy
+San Luis Obispo County
+<dark>Atascadero Unified School District
+<light>Atascadero High School, Atascadero
+<light>Del Rio Continuation High School, Atascadero
+<dark>California Youth Authority
+<light>Marie C. Romero High School, Paso Robles
+<dark>Coast Unified School District
+<light>Coast Union High School, Cambria
+<light>Leffingwell Continuation High School, Cambria
+<dark>Lucia Mar Unified School District
+<light>Arroyo Grande High School, Arroyo Grande
+<light>Lopez High School, Arroyo Grande
+<light>Nipomo High School, Nipomo
+<light>Central Coast New Tech High School, Nipomo
+<dark>Paso Robles Joint Unified School District
+<light>Liberty High School, Paso Robles
+<light>Paso Robles High School, Paso Robles
+<dark>San Luis Coastal Unified School District
+<light>Morro Bay High School, Morro Bay
+<light>Pacific Beach High School, San Luis Obispo
+<light>San Luis Obispo High School, San Luis Obispo
+<dark>Shandon Joint Unified School District
+<light>Shandon High/Middle School, Shandon
+<dark>Templeton Unified School District
+<light>Eagle Canyon High School, Templeton
+<light>Templeton High School, Templeton
+<dark>Grizzly Challenge Charter School, San Luis Obispo
+<dark>Mission College Preparatory, San Luis Obispo
+<dark>North County Christian High School, Atascadero
+<dark>San Luis Obispo Classical Academy, San Luis Obispo
+San Mateo County
+Public charter
+<dark>Design Tech High School, Redwood Shores
+Public
+<dark>Cabrillo Unified School District
+<light>Half Moon Bay High School, Half Moon Bay
+<dark>Jefferson Union High School District
+<light>Jefferson High School, Daly City
+<light>Oceana High School, Pacifica
+<light>Terra Nova High School, Pacifica
+<light>Westmoor High School, Daly City
+<dark>East Palo Alto City School District
+<light>Ravenswood High School, East Palo Alto
+<dark>San Francisco Unified School District
+<light>Urban Pioneer Experiential Academy, San Bruno
+<dark>San Mateo Union High School District
+<light>Aragon High School, San Mateo
+<light>Burlingame High School, Burlingame
+<light>Capuchino High School, San Bruno
+<light>Hillsdale High School, San Mateo
+<light>Mills High School, Millbrae
+<light>San Mateo High School, San Mateo
+<dark>Sequoia Union High School District
+<light>Carlmont High School, Belmont
+<light>Everest Public High School, Redwood City
+<light>Menlo-Atherton High School, Atherton
+<light>Sequoia High School, Redwood City
+<light>Summit Preparatory Charter High School, Redwood City
+<light>Woodside High School, Woodside
+<dark>South San Francisco Unified School District
+<light>Baden High School, South San Francisco
+<light>El Camino High School, South San Francisco
+<light>South San Francisco High School, South San Francisco
+Private
+<dark>Aurora High School, Redwood City
+<dark>Crystal Springs Uplands School, Hillsborough
+<dark>East Palo Alto Phoenix Academy, East Palo Alto
+<dark>Eastside College Preparatory School, East Palo Alto
+<dark>German-American International School, Menlo Park
+<dark>Junípero Serra High School, San Mateo
+<dark>Menlo School, Atherton
+<dark>Mercy High School (Burlingame, California), Burlingame
+<dark>Mid-Peninsula High School, Menlo Park
+<dark>Notre Dame High School, Belmont
+<dark>The Nueva School, Hillsborough
+<dark>Pacific Rim International School, San Mateo
+<dark>Pescadero High School, Pescadero
+<dark>Sacred Heart Prep, Atherton
+<dark>Woodside Priory School, Portola Valley
+Santa Barbara County
+<dark>The Anacapa School, Santa Barbara
+<dark>Bishop Garcia Diego High School, Santa Barbara
+<dark>Cabrillo High School, Lompoc
+<dark>Carpinteria High School, Carpinteria
+<dark>Cate School, Carpinteria
+<dark>Cuyama Valley High School, New Cuyama
+<dark>Dos Pueblos High School, Goleta
+<dark>Ernest Righetti High School, Santa Maria
+<dark>Foothill Alternative High School, Carpinteria
+<dark>Laguna Blanca School, Santa Barbara
+<dark>Lion of Judah Christian Academy, Orcutt
+<dark>Lompoc High School, Lompoc
+<dark>Los Angeles Catholic Archdiocese
+Main article: List of schools in the Roman Catholic Archdiocese of Los Angeles
+<dark>Maple High School, Lompoc
+<dark>Midland School, Los Olivos
+<dark>Pioneer Valley High School, Santa Maria
+<dark>Rincon Continuation High School, Carpinteria
+<dark>St. Joseph High School, Santa Maria
+<dark>San Marcos High School, Santa Barbara
+<dark>Santa Barbara High School, Santa Barbara
+<dark>Santa Barbara Middle School (9th grade)
+<dark>Santa Maria High School, Santa Maria
+<dark>Santa Ynez Valley Union High School, Santa Ynez
+<dark>Valley Christian Academy, Santa Maria
+Santa Clara County
+<dark>Campbell Union High School District
+<light>Boynton High School, San Jose
+<light>Branham High School, San Jose
+<light>Del Mar High School, San Jose
+<light>Leigh High School, San Jose
+<light>Prospect High School, Saratoga
+<light>Stellar Learning Academy, Campbell
+<light>Westmont High School, Campbell
+<dark>East Side Union High School District
+<light>Andrew P. Hill High School, San Jose
+<light>East Side Cadet Academy, San Jose
+<light>Evergreen Valley High School, San Jose
+<light>Independence High School, San Jose
+<light>James Lick High School, San Jose
+<light>MACSA Academia Calmecac School, San Jose
+<light>Mount Pleasant High School, San Jose
+<light>Oak Grove High School, San Jose
+<light>Piedmont Hills High School, San Jose
+<light>San Jose Conservation Corps Charter School, San Jose
+<light>Santa Teresa High School, San Jose
+<light>Silver Creek High School, San Jose
+<light>William C. Overfelt High School, San Jose
+<light>Yerba Buena High School, San Jose
+<dark>Fremont Union High School District
+<light>Cupertino High School, Cupertino
+<light>Fremont High School, Sunnyvale
+<light>Homestead High School, Cupertino
+<light>Lynbrook High School, San Jose
+<light>Monta Vista High School, Cupertino
+<dark>Gilroy Unified School District
+<light>Christopher High School, Gilroy
+<light>Dr. TJ Owens Gilroy Early College Academy (GECA), Gilroy
+<light>Gilroy High School, Gilroy
+<light>MACSA Elementary Portal Leadership Academy, San Jose
+<dark>Los Gatos-Saratoga Joint Union High School District
+<light>Los Gatos High School, Los Gatos
+<light>Saratoga High School, Saratoga
+<dark>Milpitas Unified School District
+<light>Milpitas High School, Milpitas
+<dark>Morgan Hill Unified School District
+<light>Ann Sobrato High School, Morgan Hill
+<light>Live Oak High School, Morgan Hill
+<dark>Mountain View-Los Altos Union High School District
+<light>Los Altos High School, Los Altos
+<light>Mountain View High School, Mountain View
+<light>Silicon Valley Essential High School, Los Altos
+<dark>Palo Alto Unified School District
+<light>Gunn High School, Palo Alto
+<light>Palo Alto High School, Palo Alto
+<dark>Roman Catholic Diocese of San Jose
+<light>Archbishop Mitty High School, San Jose
+<light>Bellarmine College Preparatory, San Jose
+<light>Notre Dame High School, San Jose
+<light>Presentation High School, San Jose
+<light>Saint Francis High School, Mountain View
+<dark>San Jose Unified School District
+<light>Abraham Lincoln High School, San Jose
+<light>Downtown College Prep, San Jose
+<light>Gunderson High School, San Jose
+<light>Leland High School, San Jose
+<light>Middle College High, San Jose
+<light>Pioneer High School, San Jose
+<light>San Jose High Academy, San Jose
+<light>Willow Glen High School, San Jose
+<dark>Santa Clara Unified School District
+<light>Adrian C. Wilcox High School, Santa Clara
+<light>Santa Clara High School, Santa Clara
+<dark>Beacon School, San Jose
+<dark>Cambrian Academy, San Jose
+<dark>Castilleja School, Palo Alto
+<dark>Communitas Charter High School, San Jose
+<dark>The Harker School, San Jose
+<dark>Kehillah Jewish High School, Palo Alto
+<dark>The King's Academy, Sunnyvale
+<dark>Liberty Baptist School, San Jose
+<dark>Mountain View Academy, Mountain View
+<dark>Oakwood High School, Morgan Hill
+<dark>Our Shepherd's Academy, San Jose
+<dark>Palo Alto Preparatory School, Palo Alto
+<dark>Pine Hill School, San Jose
+<dark>Pinewood School, Los Altos Hills
+<dark>Thomas More School, San Jose
+<dark>University Preparatory Academy, San Jose
+<dark>Valley Christian High School, San Jose
+<dark>White Road Baptist Academy, San Jose
+Santa Cruz County
+<dark>Aptos High School, Aptos
+<dark>Costanoa Continuation High School, Santa Cruz
+<dark>Cypress Charter High School, Live Oak
+<dark>Delta Charter School, Santa Cruz
+<dark>Georgiana Bruce Kirby Preparatory School, Santa Cruz
+<dark>Harbor High School, Santa Cruz
+<dark>MCP Middle and High School (Monterey Coast Prep), Santa Cruz
+<dark>Monte Vista Christian School, Watsonville
+<dark>Monterey Bay Academy, Watsonville
+<dark>Pacific Collegiate School, Santa Cruz
+<dark>Pajaro Valley High School, Watsonville
+<dark>Saint Francis Central Coast Catholic High School, Watsonville
+<dark>San Lorenzo Valley High School, Felton
+<dark>Santa Cruz High School, Santa Cruz
+<dark>Santa Cruz Waldorf High School, Santa Cruz
+<dark>Scotts Valley High School, Scotts Valley
+<dark>Soquel High School, Soquel
+<dark>Watsonville High School, Watsonville
+Shasta County
+<dark>Anderson New Technology High School, Anderson
+<dark>Anderson Union High School, Anderson
+<dark>Bishop Quinn High School, Palo Cedro
+<dark>Burney High School, Burney
+<dark>Central Valley High School, Shasta Lake
+<dark>Enterprise High School, Redding
+<dark>Fall River High School, McArthur
+<dark>Foothill High School, Palo Cedro
+<dark>Liberty Christian High School, Redding
+<dark>Nawa Academy, French Gulch
+<dark>Redding Christian High School, Redding
+<dark>Shasta High School, Redding
+<dark>Stellar Charter School, Redding
+<dark>University Preparatory School, Redding
+<dark>West Valley High School, Cottonwood
+Sierra County
+<dark>Downieville School, Downieville
+<dark>Loyalton High School, Loyalton
+<dark>Pliocene Ridge Junior-Senior High School, North San Juan
+Siskiyou County
+<dark>Butte Valley Unified School District
+<light>Butte Valley High School, Dorris
+<light>Cascade High School, Dorris
+<dark>Dunsmuir High School, Dunsmuir
+<dark>Etna Union High School District
+<light>Etna High School, Etna
+<light>Scott River High School, Etna
+<dark>Golden Eagle Charter School, Mount Shasta
+<dark>Siskiyou Union High School District
+<light>Happy Camp High School, Happy Camp
+<light>Jefferson High School, Mount Shasta
+<light>McButt High School, McButt
+<light>Mount Shasta High School, Mount Shasta
+<light>Weed High School, Weed
+<dark>Tulelake Basin Joint Unified School District
+<light>Tulelake Continuation High School, Tulelake
+<light>Tulelake High School, Tulelake
+<dark>Yreka Union High School District
+<light>Discovery High School, Yreka
+<light>Yreka High School, Yreka
+Solano County
+<dark>Benicia High School, Benicia
+<dark>Buckingham Charter Magnet High School, Vacaville
+<dark>Dixon High School, Dixon
+<dark>Fairfield-Suisun Unified School District, Fairfield
+<light>Angelo Rodriguez High School, Fairfield
+<light>Armijo High School, Fairfield
+<light>Fairfield High School, Fairfield
+<light>Sem Yeto High School, Fairfield
+<dark>Hogan High School, Vallejo
+Lutheran
+<dark>Jesse M. Bethel High School, Vallejo
+<dark>Mare Island Technology Academy, Vallejo
+<dark>Mary Bird School, Fairfield
+<dark>Rio Vista High School, Rio Vista
+<dark>St. Patrick-St. Vincent High School, Vallejo
+<dark>Vacaville Christian High School, Vacaville
+<dark>Vacaville High School, Vacaville
+<dark>Vallejo High School, Vallejo
+<dark>Vanden High School, Fairfield
+<dark>Will C. Wood High School, Vacaville
+Sonoma County
+<dark>Analy High School, Sebastopol
+<dark>Cardinal Newman High School, Santa Rosa
+<dark>Casa Grande High School, Petaluma
+<dark>Cloverdale High School, Cloverdale
+<dark>El Camino High School, Rohnert Park
+<dark>El Molino High School, Forestville
+<dark>Elsie Allen High School, Santa Rosa
+<dark>Geyserville Educational Park High School, Geyserville
+<dark>Healdsburg High School, Healdsburg
+<dark>Journey High School, Sebastopol
+<dark>Maria Carrillo High School, Santa Rosa
+<dark>Montgomery High School, Santa Rosa
+<dark>Nonesuch High School, Sebastopol
+<dark>Petaluma High School, Petaluma
+<dark>Piner High School, Santa Rosa
+<dark>Rancho Cotate High School, Rohnert Park
+<dark>Rincon Valley Christian School, Santa Rosa
+<dark>Rio Lindo Adventist Academy, Healdsburg
+<dark>Roseland University Prep, Santa Rosa
+<dark>Russian River Charter School, Forestville
+<dark>St. Vincent de Paul High School, Petaluma
+<dark>Santa Rosa High School, Santa Rosa
+<dark>Sonoma Academy, Santa Rosa
+<dark>Sonoma Mountain High School, Petaluma
+<dark>Sonoma Valley High School, Sonoma
+<dark>Summerfield Waldorf High School Santa Rosa
+<dark>Technology High School, Rohnert Park
+<dark>Ursuline High School, Santa Rosa
+<dark>Windsor High School, Windsor
+<dark>Windsor Oaks Academy, Windsor
+Stanislaus County
+<dark>Big Valley Grace Christian High School, Modesto
+<dark>Brethren Heritage School, Modesto
+<dark>Central Catholic High School, Modesto
+<dark>Central Valley High School, Ceres
+<dark>Ceres High School, Ceres
+<dark>Community Middle College, Modesto
+<dark>Denair High School, Denair
+<dark>Fred C. Beyer High School, Modesto
+<dark>Grace M. Davis High School, Modesto
+<dark>Hughson Union High School, Hughson
+<dark>James C. Enochs High School, Modesto
+<dark>John H. Pitman High School, Turlock
+<dark>Joseph Gregori High School, Modesto
+<dark>Keyes to Learning Charter School, Keyes
+<dark>Modesto Christian High School, Modesto
+<dark>Modesto High School, Modesto
+<dark>Oakdale High School, Oakdale
+<dark>Orestimba High School, Newman
+<dark>Patterson High School, Patterson
+<dark>Peter Johansen High School, Modesto
+<dark>Riverbank High School, Riverbank
+<dark>Thomas Downey High School, Modesto
+<dark>Turlock Christian High School, Turlock
+<dark>Turlock High School, Turlock
+<dark>Valley Business High School, Modesto
+<dark>Waterford High School, Waterford
+Sutter County
+<dark>East Nicolaus High School, Nicolaus
+<dark>Faith Christian Junior-Senior High School, Yuba City
+<dark>Live Oak High School, Live Oak
+<dark>River Valley High School, Yuba City
+<dark>Sutter Union High School, Sutter
+<dark>Yuba City High School, Yuba City
+Tehama County
+<dark>Corning High School, Corning
+<dark>Los Molinos High School, Los Molinos
+<dark>Mercy High School, Red Bluff
+<dark>Red Bluff High School, Red Bluff
+Trinity County
+<dark>Hayfork High School, Hayfork
+<dark>Southern Trinity High School, Mad River (address in Bridgeville in Humboldt County)
+<dark>Trinity High School, Weaverville
+Tulare County
+<dark>Burton Pathways Charter High School, Porterville
+<dark>Butterfield Charter High School, Porterville
+<dark>Central Valley Christian High School, Visalia
+<dark>Citrus High School, Porterville
+<dark>Crescent Valley Public Charter, Tulare
+<dark>Crescent Valley Public Charter, Visalia
+<dark>Dinuba High School, Dinuba
+<dark>El Diamante High School, Visalia
+<dark>Exeter High School, Exeter
+<dark>Farmersville High School, Farmersville
+<dark>Golden West High School, Visalia
+<dark>Granite Hills High School, Porterville
+<dark>Harmony Magnet Academy High School, Porterville
+<dark>La Sierra High School, Visalia
+<dark>Lindsay High School, Lindsay
+<dark>Mission Oak High School, Tulare
+<dark>Monache High School, Porterville
+<dark>Mount Whitney High School, Visalia
+<dark>Orosi High School, Orosi
+<dark>Porterville High School, Porterville
+<dark>Prospect Education Center, Porterville
+<dark>Redwood High School, Visalia
+<dark>Sequoia High School, Visalia
+<dark>Strathmore High School, Porterville
+<dark>Summit Charter Collegiate High School, Porterville
+<dark>Tulare Union High School, Tulare
+<dark>Tulare Western High School, Tulare
+<dark>University Preparatory High School, Visalia
+<dark>Vine Street Community School, Porterville
+<dark>Woodlake High School, Woodlake
+Tuolumne County
+<dark>Cold Springs High School, Tuolumne
+<dark>Mountain High School, Pinecrest
+<dark>Sonora High School, Sonora
+<dark>Southfork High School, Tuolumne
+<dark>Summerville Union High School, Tuolumne
+<dark>Tioga High School, Groveland
+Ventura County
+<dark>Besant Hill School (formerly Happy Valley School), Ojai
+<dark>Buena High School, Ventura
+<dark>Cornerstone Christian School, Camarillo
+<dark>El Camino High School, Ventura
+<dark>Fillmore High School, Fillmore
+<dark>Foothill Technology High School, Ventura
+<dark>Grace Brethren High School Simi Valley
+<dark>La Reina High School, Thousand Oaks
+<dark>Los Angeles Catholic Archdiocese
+<dark>Mary B. Perry High School, Camarillo
+<dark>Moorpark High School, Moorpark
+<dark>Newbury Park Adventist Academy, Newbury Park
+<dark>Newbury Park High School, Newbury Park
+<dark>Nordhoff High School, Ojai
+<dark>Oak Park High School, Oak Park
+<dark>Oxnard Union High School District
+<light>Adolfo Camarillo High School, Camarillo
+<light>Channel Islands High School, Oxnard
+<light>Hueneme High School, Oxnard
+<light>Oxnard High School, Oxnard
+<light>Pacifica High School, Oxnard
+<light>Rio Mesa High School, Oxnard
+<dark>Royal High School, Simi Valley
+<dark>St. Bonaventure High School, Ventura
+<dark>Santa Clara High School, Oxnard
+<dark>Santa Paula High School, Santa Paula
+<dark>Santa Susana High School, Simi Valley
+<dark>Simi Valley High School, Simi Valley
+<dark>The Thacher School, Ojai
+<dark>Thousand Oaks High School, Thousand Oaks
+<dark>Ventura County Christian School, Ventura 
+<dark>Ventura High School, Ventura
+<dark>Villanova Preparatory School, Ojai
+<dark>Vista Real Charter High School, Oxnard
+<dark>Vista Real Charter High School, Santa Paula
+<dark>Vista Real Charter High School, Simi Valley
+<dark>Vista Real Charter High School, Ventura
+<dark>Weil Tennis Academy & College Prep School, Ojai
+<dark>Westlake High School, Westlake Village
+Yolo County
+<dark>Cache Creek High School (Continuation), Yolo
+<dark>Davis Senior High School, Davis
+<dark>Delta High School, Clarksburg
+<dark>Esparto High School, Esparto
+<dark>Leonardo da Vinci High School, Davis
+<dark>Martin Luther King High, Davis
+<dark>Pioneer High School, Woodland
+<dark>River City High School, West Sacramento
+<dark>Winters High School, Winters
+<dark>Woodland High School, Woodland
+Yuba County
+<dark>Lindhurst High School, Olivehurst
+<dark>Marysville Charter Academy for the Arts, Marysville
+<dark>Marysville High School, Marysville
+<dark>New Life Christian School, Linda
+<dark>Wheatland High School, Wheatland
