@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import pandas as pd
 import random
@@ -6,10 +7,10 @@ import string
 import sys
 import json
 from scipy import stats
+import textgen
+from textgen import getbio
 
-name_intro_normie = ["The Cal Poly student, ", "This student, ", "This student's name is ", "The student ",
-                     "A scholar named "]
-name_intro_normie_2 = ["ethnic orgin is ","is a","ethnicity is"]
+
 
 genders = ['male', 'female']
 religions = ['chirstian','noe','jewish','catholic','athiest', 'muslim','none']
@@ -110,7 +111,7 @@ class Student:
         for p in preferences:
             if preference == p:
                 counts.append(3)
-            elif preference == 'neutral':
+            elif preference == 'none':
                 counts.append(2)
             else:
                 counts.append(1)
@@ -154,79 +155,6 @@ class Student:
                 'activites': self.activities,
                 'clubs': self.clubs}
 
-
-    def __str__(self):
-        if self.personality == 'normie':
-            s1 = random.choice(name_intro_normie) + self.name + random.choice(name_intro_normie_2) + string.capwords(self.race) + ". "
-            s2 = (("He " if self.gender is "male" else "She ") +
-                  "went to " + self.highschool + ". ")
-            finalsentecne = s1 + s2
-            return finalsentecne
-
-        else:
-
-            s1 = (self.name +
-                  " is a " +
-                  string.capwords(self.race) + " " +
-                  self.gender +
-                  " from " + string.capwords(self.hometown) + ". ")
-            s2 = (("He " if self.gender is "male" else "She ") +
-                  "went to " + self.highschool + ". ")
-            s3 = ("He likes " if self.gender is "male" else "She likes ")
-            for i, a in enumerate(self.activities):
-                if i == len(self.activities) - 1:
-                    if len(self.activities) == 1:
-                        s3 = a + '. '
-                    else:
-                        s3 = s3 + 'and ' + a + '. '
-                else:
-                    s3 = s3 + a + ', '
-            if len(self.clubs) == 0:
-                s5 = ""
-            else:
-                s5 = ("He is a part of " if self.gender is "male" else "She is a part of ")
-                for i, a in enumerate(self.clubs):
-                    if i == len(self.clubs) - 1:
-                        if len(self.clubs) == 1:
-                            s5 = 'member of ' + a + ". "
-                        else:
-                            s5 = s5 + 'and ' + a + '. '
-                    else:
-                        s5 = s5 + a + ', '
-
-            s4 = (" Contact them at " +
-                  self.phone + " or " +
-                  self.email)
-
-            finalsentecne = s1 + s2 + s3 + s5 + s4
-
-            return finalsentecne
-
-    """data = pd.read_csv('activities.csv')
-    col = data.columns
-    active = ['normie', 'brogrammer', 'alternative']
-    if self.personality in active:
-        num_activities = random.randint(2, 5)
-    else:
-        num_activities = random.randint(2, 3)
-    preference = 'masculine' if self.gender is 'male' else 'feminine'
-    data = data[data[col[1]].str.match(self.personality)]
-    activities = data[col[0]].tolist()
-    print(activities)
-    preferences = data[col[2]].tolist()
-    print(preferences)
-    counts = []
-    for p in preferences:
-        if preference == p:
-            counts.append(3)
-        elif preference == 'neutral':
-            counts.append(2)
-        else:
-            counts.append(1)
-    s = sum(counts)
-    counts = [c / s for c in counts]
-    samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
-    return list(set([activities[s] for s in samples]))"""
 
 
     def get_clubs(self):
@@ -300,5 +228,5 @@ def get_students(n=100):
 
 if __name__ == '__main__':
     for s in build_students(int(sys.argv[1])):
-        print(s)
+        print(getbio(s))
     sys.stdout.flush()
