@@ -40,9 +40,9 @@ class Student:
         self.highschool, self.hometown = self.get_highschool_and_hometown()
         self.phone = self.get_phone()
         self.email = self.get_email()
-        self.activities = self.get_activities()
+        self.activities = self.get_activities() 
+        self.religion = self.get_religion()
         self.clubs = self.get_clubs()
-        self.religon = self.get_religion()
 
        
         
@@ -104,9 +104,9 @@ class Student:
         preference = 'masculine' if self.gender is 'male' else 'feminine'
         data = data[data[col[1]].str.match(self.personality)]
         activities = data[col[0]].tolist()
-        print(activities)
+        # print(activities)
         preferences = data[col[2]].tolist()
-        print(preferences)
+        # print(preferences)
         counts = []
         for p in preferences:
             if preference == p:
@@ -166,21 +166,28 @@ class Student:
         else:
             num_activities = random.randint(0, 3)
         preference = 'masculine' if self.gender is 'male' else 'feminine'
-        data = data[data[col[1]].str.match(self.personality)]
-        activities = data[col[0]].tolist()
-        gender_preferences = data[col[4]].tolist()
+        revised_data = data[data[col[1]].str.match(self.personality)].append(data[data[col[1]].str.match('normie')])
+        activities = revised_data[col[0]].tolist()
+        gender_preferences = revised_data[col[4]].tolist()
+        personality_preferences = revised_data[col[1]].tolist()
         counts = []
 
-        for p in gender_preferences:
-            if preference == p:
+        for i in range(len(revised_data)):
+            if revised_data.iloc[i]['gender'] == preference:
                 counts.append(5)
-            elif preference == 'none':
+            elif revised_data.iloc[i]['gender'] == 'none':
                 counts.append(3)
             else:
                 counts.append(1)
 
+            if revised_data.iloc[i]['religon'] == self.religion:
+                counts[-1] *= 1.5
+
+            if revised_data.iloc[i]['race'] == self.race:
+                counts[-1] *= 1.5
+
         s = sum(counts)
-        print(s)
+        # print(s)
         counts = [c / s for c in counts]
         samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
         clubs1 =(list(set([activities[s] for s in samples])))

@@ -18,12 +18,12 @@ interest_normie = [" With my free time I enjoy "," I try to keep myself extra bu
 Clubs_normie = ["On campus im involved with ","I try to explore my interest with ", "A lot of my time goes to ", "I'm a proud member of ",
                 "I've met a lot of my freinfds at ","Many of my favorite experiences have been with "]
 
-Clubs_normie2 = ["Being a active school student  ", "Being involved on campus  ", "All my participation ",
+Clubs_normie2 = ["Being a active school student ", "Being involved on campus ", "All my participation ",
                  "Trying to participate in College life "]
-Clubs_normie3 = ["made me lots of freinds.", "gave great experiences.", "taught me new skills.", "gave me new passions", " filled my life with joy"
-                 "taught me about myself"]
+Clubs_normie3 = ["made me lots of freinds.", "gave great experiences.", "taught me new skills.", "gave me new passions.", " filled my life with joy."
+                 "taught me about myself."]
 
-specialty = ["After some consideration I think id like to focus on ", "My experinces so far lead me to belive id like to learn ",
+specialty = [" After some consideration I think id like to focus on ", " My experinces so far lead me to belive id like to learn ",
              " Ive become increasingly more interested in", " I really feel like id enjoy "]
 
 #stoner
