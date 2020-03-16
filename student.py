@@ -13,7 +13,7 @@ from textgen import getbio
 
 
 genders = ['male', 'female']
-religions = ['chirstian','noe','jewish','catholic','athiest', 'muslim','none']
+religions = ['christian','jewish','athiest', 'muslim','none']
 
 races = ['black', 'white', 'asian', 'hispanic', 'mixed', 'native american', 'other']
 counties = ['alameda', 'alpine', 'amador', 'butte', 'calaveras', 'colusa', 
@@ -37,14 +37,13 @@ class Student:
         self.county = county
         self.name = self.get_name()
         self.personality = self.get_personality()
-        self.highschool, self.hometown = self.get_highschool_and_hometown()
+        self.highschool, self.hometown, self.school_religion = self.get_highschool_and_hometown()
         self.phone = self.get_phone()
         self.email = self.get_email()
-        self.activities = self.get_activities() 
         self.religion = self.get_religion()
+        self.activities = self.get_activities() 
         self.clubs = self.get_clubs()
 
-       
         
     def get_personality(self):
         return personalities[random.randint(0, len(personalities) - 1)]
@@ -81,7 +80,7 @@ class Student:
         data = pd.read_csv('schools.csv')
         try:
             sample = data[data['County'] == self.county].sample()
-            return tuple(sample[['School', 'City']].to_numpy()[0])
+            return tuple(sample[['School', 'City', 'Religion']].to_numpy()[0])
         except:
             print(self.county)
 
@@ -155,8 +154,6 @@ class Student:
                 'activites': self.activities,
                 'clubs': self.clubs}
 
-
-
     def get_clubs(self):
         data = pd.read_csv('clubs.csv')
         col = data.columns
@@ -193,10 +190,29 @@ class Student:
         clubs1 =(list(set([activities[s] for s in samples])))
         return clubs1
 
-
-    def get_religion(self):
-        relig = random.choice(religions)
-        return relig
+    def get_religion(self):        
+        if self.school_religion != 'None':
+            if random.random() < 0.7:
+                return self.school_religion
+            else:
+                return 'none'
+        elif self.personality == 'nerd':
+            if random.random() < 0.5:
+                return 'athiest'
+            else:
+                return 'none'
+        else:
+            s = random.random()
+            if s < 0.7:
+                return 'none'
+            elif s < 0.88:
+                return 'christian'
+            elif s < 0.93:
+                return 'jewish'
+            elif s < 0.99:
+                return 'athiest'
+            else:
+                return 'muslim'
 
 
 def populate_table():
