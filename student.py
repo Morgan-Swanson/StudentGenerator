@@ -190,6 +190,21 @@ class Student:
         clubs1 =(list(set([activities[s] for s in samples])))
         return clubs1
 
+    def __str__(self):
+        return(('Gender: ' + self.gender + '\n'+
+                'Race: ' + self.race + '\n' +
+                'County: ' + self.county + '\n' + 
+                'Name: ' + self.name + '\n' + 
+                'Personality: ' + self.personality + '\n' +
+                'High School: ' + self.highschool + '\n' +
+                'School Religion: ' + self.school_religion + '\n' +
+                'Hometown: ' + self.hometown + '\n' +
+                'Phone Number: ' + self.phone + '\n' +
+                'Email: ' + self.email + '\n' +
+                'Religion: ' + self.religion + '\n' +
+                'Activities: ' + str(self.activities) + '\n' 
+                'Clubs: ' + str(self.clubs) + '\n'))
+
     def get_religion(self):        
         if self.school_religion != 'None':
             if random.random() < 0.7:
@@ -251,5 +266,5 @@ def get_students(n=100):
 
 if __name__ == '__main__':
     for s in build_students(int(sys.argv[1])):
-        print(getbio(s))
+        print(s)
     sys.stdout.flush()
