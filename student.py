@@ -151,6 +151,7 @@ class Student:
                 'hometown': self.hometown,
                 'phone': self.phone,
                 'email': self.email,
+                'religion': self.religion,
                 'activites': self.activities,
                 'clubs': self.clubs}
 
