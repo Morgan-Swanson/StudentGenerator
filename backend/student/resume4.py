@@ -79,8 +79,8 @@ class Resume4:
         for job in jobs:
             self.doc.append(Command("begin", ["rSubsection", job[0], italic(job[1]), job[2], '']))
             self.doc.append(Command("item", job[3]))
+            self.doc.append(Command("end", "rSubsection"))
 
-        self.doc.append(Command("end", "rSubsection"))
         self.doc.append(Command("end", "rSection"))
 
     """ Type should be either 'Techincal' or 'Soft' """
