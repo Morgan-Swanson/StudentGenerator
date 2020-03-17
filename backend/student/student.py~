@@ -154,7 +154,11 @@ class Student:
 
     def get_clubs(self):
         # only one racial or religious club, make sure religion is the same
+<<<<<<< HEAD
+        df = self.clubs.copy()
+=======
         df = pd.read_csv('data/clubs.csv')
+>>>>>>> 7b49e4771d0ecc03823ca6881a1be56abc18b984
         col = df.columns
         active = ['nerd', 'tryhard']
         if self.personality in active:
