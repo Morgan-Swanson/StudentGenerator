@@ -7,7 +7,8 @@ import string
 import sys
 import json
 from scipy import stats
-from student import Textgen
+import Textgen
+from formatstats import StatData
 import os
 import bisect
 
@@ -27,11 +28,16 @@ class Student:
                 'santa barbara', 'santa clara', 'santa cruz', 'shasta', 'sierra',
                 'siskiyou', 'solano', 'sonoma', 'stanislaus', 'sutter', 'tehama',
                 'trinity', 'tulare', 'tuolumne', 'ventura', 'yolo', 'yuba']
+    county_mappings = {"Los Angeles" : "los angeles",
+                        "San Francisco Bay Area" : "san francisco",
+                        "Sacramento Area" : "sacramento",
+                        "San Diego" : "san diego",
+                        "San Joaquin" : "san joaquin"}
 
 
-    def __init__(self, county, race, gender, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs,jobs, soft_skills):
+    def __init__(self, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs,jobs, soft_skills, statdata, gender=None):
 
-        self.school_year = self.get_school_year()
+        self.school_year = statdata.getClass()
         self.personality = self.get_personality()
         self.jobs = jobs
         self.work = self.get_work()
@@ -42,9 +48,18 @@ class Student:
         self.activities_data = activities
         self.areacodes = areacodes
         self.clubs = clubs
-        self.gender = gender
-        self.race = race
-        self.county = county
+        if gender:
+            self.gender = gender
+        else:
+            self.gender = statdata.getGender(self.school_year)
+        self.race = statdata.getEthnicity()
+        self.county = statdata.getGeoArea()
+        if self.county == "Other CA Counties" or self.county == "Other US States":
+            self.county = random.choice(self.counties)
+        elif self.county == "Central Coast":
+            self.county = random.choice(["santa barbara", "san luis obispo", "ventura", "monterey", "san benito", "santa cruz"])
+        else:
+            self.county = self.county_mappings[self.county]
         self.name = self.get_name()
         self.highschool, self.hometown, self.school_religion = self.get_highschool_and_hometown()
         self.phone = self.get_phone()
@@ -111,7 +126,7 @@ class Student:
 
     def get_highschool_and_hometown(self):
         try:
-            sample = self.schools[self.schools['County'] == self.county].sample()
+            sample = self.schools[self.schools['County'] == self.county.lower()].sample()
             return tuple(sample[['School', 'City', 'Religion']].to_numpy()[0])
         except:
             print(self.county)
@@ -342,7 +357,8 @@ def build_students(n=100):
     clubs = pd.read_csv(os.path.join(location, 'data', 'clubs.csv'))
     soft = pd.read_csv(os.path.join(location, 'data', 'soft_skills.csv'))
     jobs = pd.read_csv(os.path.join(location, 'data', 'jobs.csv'))
-    return [Student(*index[s], lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs,soft) for s in students]
+    statdata = StatData()
+    return [Student(lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs, soft, statdata) for s in students]
  
 
 def get_students(n=100):
