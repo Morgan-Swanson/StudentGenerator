@@ -10,12 +10,21 @@ projects_front_4 = [("Movie Search App","Building this application I learned "
             ("Chat App","The project shows how to setup a Vue app from scratch, creating components, handling state, creating route, connecting to a third party service and even handling authentication.")
             ,("Weather App","Project implements Firebase, CSS with Grid Layout and Flexbox to create a ploshied product."),
                     ("Re-create Giphy","a web app which uses a search input and Giphy’s API to display giphs on a page. Used JavaScript and jQuery.")]
-projects_low_4 = [("Custom Operating System","Built an operating system from scratch. Learned about Linux as a development environment and x86 assembly in-depth.")]
-projects_back_4 = [("FTP Client","Built a FTP client that supports secure file transfer"),("Sports Page","Uses a  automatically updating data set. Learned about web scraping and web input to CSV output")]
-projects_graphics_4 = [("Procedurally Generated Map Maker","Browser-based application that allows users to procedurally generate a terrain map based on a random seed."),("Pixel art generator","Built a tool that takes an image as input and samples the image to produce pixel art as output. Learned about CSS and Pylatex. ")]
-projects_Machine_4 = [("Niche Chatbot","Used NLP to create a chatbot that can talk about any topic it can scrape from wikipeda "),("Spam Classifier","Uses content of email to detect Spam or Non Spam emails. Learned about NLP and Neural Nets.")]
-projects_Security_4 = [("Privileged access management","Covers human and non-human system accounts and supports a combination of on-premises, cloud, and hybrid environments, as well as APIs for automation.")
-    ,("Reputation Server","Able to track a users behavior based on feed back. Learned about SQL"),("Firewall","Created a secure and dynamic firewall using C++ learned a lot about algorithms")]
+projects_low_4 = [("Custom Operating System","Built an operating system from scratch. Learned about Linux as a development environment and x86 assembly in-depth."),
+                    ("Pipelining", "Built a pipleline in C to send messages from a parent to a child. The message got mutated along the way to demonstrate correct setup of the pipes."),
+                    ("Raspberry Pi Robot", "Built a basic operating system using assembly to control a small robot")]
+projects_back_4 = [("FTP Client","Built a FTP client that supports secure file transfer"),
+                    ("Sports Page","Uses a  automatically updating data set. Learned about web scraping and web input to CSV output"),
+                    ("Database Migration", "Migrated information from a MySQL database to a Cassandra database without loss of data. Ensured data security during migration")]
+projects_graphics_4 = [("Procedurally Generated Map Maker","Browser-based application that allows users to procedurally generate a terrain map based on a random seed."),
+                        ("Pixel art generator","Built a tool that takes an image as input and samples the image to produce pixel art as output. Learned about CSS and Pylatex.")]
+projects_Machine_4 = [("Niche Chatbot","Used NLP to create a chatbot that can talk about any topic it can scrape from wikipeda "),
+                        ("Spam Classifier","Uses content of email to detect Spam or Non Spam emails. Learned about NLP and Neural Nets."),
+                        ("Shark Identification", "Used transfer learning and machine vision to identify sharks in the water and to distinguish them from surfers or other objects."),
+                        ("Backpropagation", "Implemented backpropagation from scratch to learn about the inner workings of a neural network")]
+projects_Security_4 = [("Privileged access management","Covers human and non-human system accounts and supports a combination of on-premises, cloud, and hybrid environments, as well as APIs for automation."),
+                        ("Reputation Server","Able to track a users behavior based on feed back. Learned about SQL"),
+                        ("Firewall","Created a secure and dynamic firewall using C++ learned a lot about algorithms")]
 
 
 #work experience
