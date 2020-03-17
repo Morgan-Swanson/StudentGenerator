@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Slider from 'react-rangeslider'
 
-class YearSlider extends Component {
+class TestSlider extends Component {
   constructor(props, context) {
     super(props, context)
     this.state = {
@@ -33,4 +33,4 @@ class YearSlider extends Component {
 }
 
 
-export default YearSlider 
+export default TestSlider 

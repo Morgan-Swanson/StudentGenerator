@@ -13,8 +13,9 @@ import bisect
 
 class Student:
     genders = ['male', 'female']
-    religions = ['christian','jewish','athiest', 'muslim','none']
+    religions = ['christian','jewish','athiest', 'muslim', 'none']
     races = ['black', 'white', 'asian', 'hispanic', 'mixed', 'native american', 'other']
+    personalities = ["normie", "stoner", "brogrammer", "tryhard", "nerd", "alternative"]
     counties = ['alameda', 'alpine', 'amador', 'butte', 'calaveras', 'colusa', 
                 'contra costa', 'del norte', 'el dorado', 'fresno', 'glenn',
                 'humboldt', 'imperial', 'inyo', 'kern', 'kings', 'lake',
@@ -26,16 +27,21 @@ class Student:
                 'santa barbara', 'santa clara', 'santa cruz', 'shasta', 'sierra',
                 'siskiyou', 'solano', 'sonoma', 'stanislaus', 'sutter', 'tehama',
                 'trinity', 'tulare', 'tuolumne', 'ventura', 'yolo', 'yuba']
-    personalities = ["normie", "stoner", "brogrammer", "tryhard", "nerd", "alternative"]
 
+<<<<<<< HEAD
     def __init__(self, county, race, gender, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, soft_skills):
+=======
+    def __init__(self, county, race, gender, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs):        
+>>>>>>> origin/master
         self.school_year = self.get_school_year()
         self.personality = self.get_personality()
+        self.jobs = jobs
+        self.work = self.get_work()
         self.last_names = lastnames
         self.boy_names = boy_names
         self.girl_names = girl_names
         self.schools = schools
-        self.activities = activities
+        self.activities_data = activities
         self.areacodes = areacodes
         self.clubs = clubs
         self.gender = gender
@@ -48,11 +54,39 @@ class Student:
         self.religion = self.get_religion()
         self.activities = self.get_activities() 
         self.clubs = self.get_clubs()
+<<<<<<< HEAD
         self.soft_skills = self.get_skills(soft_skills)
         self.tech_skills = self.get_tech_skills()
+=======
+        self.key = abs(hash(str(self)) % 100000000)
+        print(self.key)
+
+    def draw_from_distribution(self, values, counts, num=1):
+        s = sum(counts)
+        p = [c / s for c in counts]
+        return list(np.random.choice(values, num, p=p))
+>>>>>>> origin/master
 
     def get_school_year(self):
-        return random.randint(1,5)
+        return str(random.randint(1,5))
+
+    def get_work(self):
+        cols = self.jobs.columns
+        jobs = self.jobs[cols[0]].tolist()
+        counts = self.jobs[cols[1]].tolist()
+        chance = random.random()
+        if self.school_year == 4 and chance < 0.85:
+            if random.random() < 0.7:
+                return self.draw_from_distribution(jobs, counts, 2)
+            return self.draw_from_distribution(jobs, counts)
+        elif self.school_year == 3 and chance < 70:
+            return self.draw_from_distribution(jobs, counts)
+        elif self.school_year == 2 and chance < 40:
+            return self.draw_from_distribution(jobs, counts)
+        elif chance < 10:
+            return self.draw_from_distribution(jobs, counts)
+        else:
+            return []
 
     def get_personality(self):
         return self.personalities[random.randint(0, len(self.personalities) - 1)]
@@ -64,12 +98,10 @@ class Student:
         col = self.last_names.columns
         names = [n.lower().capitalize() for n in self.last_names[col[0]].tolist()]
         counts = [int(s.replace(",", "")) for s in self.last_names[col[1]].tolist()]
-        s = sum(counts)
-        counts = [c / s for c in counts]
-        return names[stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(1)]
-        
+        return self.draw_from_distribution(names, counts)[0]
+
     def get_first_name(self):
-        if self.gender is 'male':
+        if self.gender is 'Male':
             col = self.boy_names.columns
             names = self.boy_names[col[0]].tolist()
             counts = self.boy_names[col[1]].tolist()
@@ -79,10 +111,8 @@ class Student:
             names = self.girl_names[col[0]].tolist()
             counts = self.girl_names[col[1]].tolist()
             race = self.girl_names[col[2]].tolist()
-        s = sum(counts)
-        counts = [c / s for c in counts] 
-        return names[stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(1)]
-        
+        return self.draw_from_distribution(names, counts)[0]
+
     def get_highschool_and_hometown(self):
         try:
             sample = self.schools[self.schools['County'] == self.county].sample()
@@ -99,18 +129,16 @@ class Student:
         return (first[0] + last[:random.randint(4, 8)] + "@calpoly.edu").lower()
 
     def get_activities(self):
-        col = self.activities.columns
+        col = self.activities_data.columns
         active = ['normie','brogrammer','alternative']
         if self.personality in active:
             num_activities = random.randint(2,5)
         else:
             num_activities = random.randint(2,3)
         preference = 'masculine' if self.gender is 'male' else 'feminine'
-        data = self.activities[self.activities[col[1]].str.match(self.personality)]
-        activities = self.activities[col[0]].tolist()
-        # print(activities)
-        preferences = self.activities[col[2]].tolist()
-        # print(preferences)
+        data = self.activities_data[self.activities_data[col[1]].str.match(self.personality)]
+        activities = self.activities_data[col[0]].tolist()
+        preferences = self.activities_data[col[2]].tolist()
         counts = []
         for p in preferences:
             if preference == p:
@@ -119,12 +147,8 @@ class Student:
                 counts.append(2)
             else:
                 counts.append(1)
-        s = sum(counts)
-
-
-        counts = [c / s for c in counts] 
-        samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
-        return list(set([activities[s] for s in samples]))
+        activities = self.draw_from_distribution(activities, counts, num_activities)
+        return list(set(activities))
     
     def get_phone(self):
         digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
@@ -144,6 +168,7 @@ class Student:
             phone = phone + digits[random.randint(0, 8)]
         return phone 
         
+<<<<<<< HEAD
     def to_dict(self):
         return {'name': self.name,
                 'gender': self.gender,
@@ -160,6 +185,8 @@ class Student:
                 'year': self.school_year,
                 'soft': self.soft_skills }
 
+=======
+>>>>>>> origin/master
     def get_clubs(self):
         # only one racial or religious club, make sure religion is the same
         df = self.clubs.copy()
@@ -169,11 +196,9 @@ class Student:
             num_activities = random.randint(1, 4)
         else:
             num_activities = random.randint(0, 3)
-        
         preference = 'masculine' if self.gender is 'male' else 'feminine'
         probs = np.ones(len(df))
         df['probabilities'] = probs
-
         df.loc[df.academic == True, 'probabilities'] *= 3.5
         df.loc[df.personality == self.personality, 'probabilities'] *= 2
         df.loc[df.personality == 'none', 'probabilities'] *= 1.5
@@ -185,14 +210,12 @@ class Student:
 
         # revised_data = data[data[col[1]].str.match(self.personality)].append(data[data[col[1]].str.match('normie')])
         activities = df[col[0]].tolist()
-
-        s = df['probabilities'].sum()
-        counts = list(df['probabilities'] / s)
-
-        samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
-        clubs1 =(list(set([activities[s] for s in samples])))
+        p = df['probabilities'].tolist()
+        self.draw_from_distribution(activities, p, num_activities)
+        clubs1 = list(set(activities))
         return clubs1
 
+<<<<<<< HEAD
     def __str__(self):
         return(('Gender: ' + self.gender + '\n'+
                 'Race: ' + self.race + '\n' +
@@ -209,6 +232,8 @@ class Student:
                 'Clubs: ' + str(self.clubs) + '\n'
                 'soft skills:' + str(self.soft_skills) + '\n'))
 
+=======
+>>>>>>> origin/master
     def get_religion(self):        
         if self.school_religion != 'None':
             if random.random() < 0.7:
@@ -232,6 +257,40 @@ class Student:
                 return 'athiest'
             else:
                 return 'muslim'
+            
+    def to_dict(self):
+        return {'name': self.name,
+                'year' : self.school_year,
+                'gender': self.gender,
+                'county': self.county,
+                'race': self.race,
+                'personality': self.personality,
+                'highschool': self.highschool,
+                'hometown': self.hometown,
+                'phone': self.phone,
+                'email': self.email,
+                'religion': self.religion,
+                'activites': self.activities,
+                'clubs': self.clubs,
+                'work' : self.work}
+
+
+    def __str__(self):
+        return(('Year: ' + self.school_year + '\n' + 
+                'Gender: ' + self.gender + '\n'+
+                'Race: ' + self.race + '\n' +
+                'County: ' + self.county + '\n' + 
+                'Name: ' + self.name + '\n' + 
+                'Personality: ' + self.personality + '\n' +
+                'High School: ' + self.highschool + '\n' +
+                'School Religion: ' + self.school_religion + '\n' +
+                'Hometown: ' + self.hometown + '\n' +
+                'Phone Number: ' + self.phone + '\n' +
+                'Email: ' + self.email + '\n' +
+                'Religion: ' + self.religion + '\n' +
+                'Activities: ' + str(self.activities) + '\n' 
+                'Clubs: ' + str(self.clubs) + '\n' + 
+                'Jobs: ' + str(self.jobs) + '\n'))
 
 
     def get_skills(self, soft_skills):
@@ -319,10 +378,16 @@ def build_students(n=100):
     activities = pd.read_csv(os.path.join(location, 'data', 'activities.csv'))
     areacodes = pd.read_csv(os.path.join(location, 'data', 'areacodes.csv'))
     clubs = pd.read_csv(os.path.join(location, 'data', 'clubs.csv'))
+<<<<<<< HEAD
     soft = pd.read_csv(os.path.join(location, 'data', 'soft_skills.csv'))
     return [Student(*index[s], lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, soft) for s in students]
 
 
+=======
+    jobs = pd.read_csv(os.path.join(location, 'data', 'jobs.csv'))
+    return [Student(*index[s], lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs) for s in students]
+ 
+>>>>>>> origin/master
 def get_students(n=100):
     S = build_students(n)
     D = [s.to_dict() for s in S]
