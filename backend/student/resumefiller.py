@@ -32,7 +32,6 @@ def generateStudentResume(student, schedule):
     resume.finish()
     tex = resume.doc.dumps()
 
-    print(student.key)
     outfile = student.key + "_resume"
     outfile = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), "../static/react/resumes/" + outfile))
     

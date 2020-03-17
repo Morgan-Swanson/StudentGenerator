@@ -34,12 +34,12 @@ companies_location = ["Los Angleles","San Luis Obispo","San Diego","San Jose","S
 companies_date = ["June 2019","July 2019","Agust 2019","May 2019","May 2019 - June 2019","June 2019 - July 2019","June 2018 - July 2018","June 2018 - August 2018","August 2018"
                   ,"July 2018","June 2018","May 2018"]
 companies_title = ["Software Developer","Software Engineer","Systems Software Developer","Web Developer","Computer Programmer"]
-companies_description_front = ["Worked on creating a front end API. I was able to learn about full stack development."]
-companies_description_back = ["Helped develop a large data base using mySQL. Learned how to create better code."]
+companies_description_front = ["Worked on creating a front end API. I was able to learn about full stack development.", "Helped devlop and design a new user UI. I gained a lot of design experience."]
+companies_description_back = ["Helped develop a large data base using mySQL. Learned how to create better code.", "Was a part of a team that developed an self updating data-base. I was able to streghten my skills in MySQL."]
 companies_description_machine = ["Worked with neural nets. learned about the importance of stastical models"]
 companies_description_security = ["Helped with the encryption of a file system. Learned a lot about algortythims and data structures."]
-companies_description_graphics = ["Worked with realistic 3D modeling. Learned about implementing advanced physics engines"]
-companies_description_low = ["Worked a lot with Linux enviroments. Helped develop a new Operating System"]
+companies_description_graphics = ["Worked with realistic 3D modeling. Learned about implementing advanced physics engines", "Used Godot to develop a 2D platformer game. From my time working on the project I was able to learn game design, texture mapping, and game physics"]
+companies_description_low = ["Worked a lot with Linux enviroments. Helped develop a new Operating System", "Worked with linux to devolp a smart and adaptive firewall."]
 
 #clubs
 months = ["Jan","Feb","Mar","Apr","May","Aug","June","October","Nov"]
