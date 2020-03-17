@@ -42,8 +42,6 @@ class Student:
         else:
             self.school_year = statdata.getClass()
         self.personality = self.get_personality()
-        self.jobs = jobs
-        self.work = self.get_work()
         self.last_names = lastnames
         self.boy_names = boy_names
         self.girl_names = girl_names
@@ -70,9 +68,10 @@ class Student:
         self.religion = self.get_religion()
         self.activities = self.get_activities() 
         self.clubs = self.get_clubs(clubs)
+        self.jobs = self.get_work(jobs)
         self.soft_skills = self.get_skills(soft_skills)
         self.specialization = self.get_specialization()
-        self.key = abs(hash(str(self)) % 100000000)
+        self.key = str(abs(hash(str(self)) % 100000000))
         print(self.key)
 
     def draw_from_distribution(self, values, counts, num=1):
@@ -84,10 +83,10 @@ class Student:
     def get_school_year(self):
         return str(random.randint(1,5))
 
-    def get_work(self):
-        cols = self.jobs.columns
-        jobs = self.jobs[cols[0]].tolist()
-        counts = self.jobs[cols[1]].tolist()
+    def get_work(self, j):
+        cols = j.columns
+        jobs = j[cols[0]].tolist()
+        counts = j[cols[1]].tolist()
         chance = random.random()
         if self.school_year == 4 and chance < 0.85:
             if random.random() < 0.7:
