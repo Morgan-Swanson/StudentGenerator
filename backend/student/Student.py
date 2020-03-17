@@ -28,11 +28,9 @@ class Student:
                 'siskiyou', 'solano', 'sonoma', 'stanislaus', 'sutter', 'tehama',
                 'trinity', 'tulare', 'tuolumne', 'ventura', 'yolo', 'yuba']
 
-<<<<<<< HEAD
-    def __init__(self, county, race, gender, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, soft_skills):
-=======
-    def __init__(self, county, race, gender, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs):        
->>>>>>> origin/master
+
+    def __init__(self, county, race, gender, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs,jobs, soft_skills):
+
         self.school_year = self.get_school_year()
         self.personality = self.get_personality()
         self.jobs = jobs
@@ -54,10 +52,8 @@ class Student:
         self.religion = self.get_religion()
         self.activities = self.get_activities() 
         self.clubs = self.get_clubs()
-<<<<<<< HEAD
         self.soft_skills = self.get_skills(soft_skills)
         self.tech_skills = self.get_tech_skills()
-=======
         self.key = abs(hash(str(self)) % 100000000)
         print(self.key)
 
@@ -65,7 +61,7 @@ class Student:
         s = sum(counts)
         p = [c / s for c in counts]
         return list(np.random.choice(values, num, p=p))
->>>>>>> origin/master
+
 
     def get_school_year(self):
         return str(random.randint(1,5))
@@ -168,25 +164,9 @@ class Student:
             phone = phone + digits[random.randint(0, 8)]
         return phone 
         
-<<<<<<< HEAD
-    def to_dict(self):
-        return {'name': self.name,
-                'gender': self.gender,
-                'county': self.county,
-                'race': self.race,
-                'personality': self.personality,
-                'highschool': self.highschool,
-                'hometown': self.hometown,
-                'phone': self.phone,
-                'email': self.email,
-                'religion': self.religion,
-                'activites': self.activities,
-                'clubs': self.clubs,
-                'year': self.school_year,
-                'soft': self.soft_skills }
 
-=======
->>>>>>> origin/master
+
+
     def get_clubs(self):
         # only one racial or religious club, make sure religion is the same
         df = self.clubs.copy()
@@ -215,25 +195,8 @@ class Student:
         clubs1 = list(set(activities))
         return clubs1
 
-<<<<<<< HEAD
-    def __str__(self):
-        return(('Gender: ' + self.gender + '\n'+
-                'Race: ' + self.race + '\n' +
-                'County: ' + self.county + '\n' + 
-                'Name: ' + self.name + '\n' + 
-                'Personality: ' + self.personality + '\n' +
-                'High School: ' + self.highschool + '\n' +
-                'School Religion: ' + self.school_religion + '\n' +
-                'Hometown: ' + self.hometown + '\n' +
-                'Phone Number: ' + self.phone + '\n' +
-                'Email: ' + self.email + '\n' +
-                'Religion: ' + self.religion + '\n' +
-                'Activities: ' + str(self.activities) + '\n' 
-                'Clubs: ' + str(self.clubs) + '\n'
-                'soft skills:' + str(self.soft_skills) + '\n'))
 
-=======
->>>>>>> origin/master
+
     def get_religion(self):        
         if self.school_religion != 'None':
             if random.random() < 0.7:
@@ -311,8 +274,7 @@ class Student:
         return list(set([soft[s] for s in samples]))
 
     def get_tech_skills(self):
-        data = WeightedTuple({'Back end': 25, 'Front end': 30, 'Graphics/Games': 5, 'Low level': 5, "Security": 10,
-                              "Machine Learning": 25})
+        data = WeightedTuple({'Back end': 25, 'Front end': 30, 'Graphics/Games': 5, 'Low level': 5, "Security": 10, "Machine Learning": 25})
         return random.choice(data)
 
 
@@ -378,16 +340,11 @@ def build_students(n=100):
     activities = pd.read_csv(os.path.join(location, 'data', 'activities.csv'))
     areacodes = pd.read_csv(os.path.join(location, 'data', 'areacodes.csv'))
     clubs = pd.read_csv(os.path.join(location, 'data', 'clubs.csv'))
-<<<<<<< HEAD
     soft = pd.read_csv(os.path.join(location, 'data', 'soft_skills.csv'))
-    return [Student(*index[s], lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, soft) for s in students]
-
-
-=======
     jobs = pd.read_csv(os.path.join(location, 'data', 'jobs.csv'))
-    return [Student(*index[s], lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs) for s in students]
+    return [Student(*index[s], lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs,soft) for s in students]
  
->>>>>>> origin/master
+
 def get_students(n=100):
     S = build_students(n)
     D = [s.to_dict() for s in S]
