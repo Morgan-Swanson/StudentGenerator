@@ -7,9 +7,9 @@ import string
 import sys
 import json
 from scipy import stats
-import Textgen
-import generateSchedule
-from formatstats import StatData
+from student import Textgen
+from student import generateSchedule
+from student.formatstats import StatData
 import os
 import bisect
 

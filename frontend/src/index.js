@@ -125,8 +125,10 @@ function ResumePrev2(props) {
 class BigSlidey extends Component {
 
     constructor(props, context) {
-      super(props, context)
-      this.state = {
+	super(props, context);
+	this.handleOnGender = this.handleOnGender.bind(this);
+	this.handleOnYear = this.handleOnYear.bind(this);
+	this.state = {
 	  gender: 0,
 	  year: 0,
 	  student : [{"name": "STUDENT1", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
@@ -137,30 +139,30 @@ class BigSlidey extends Component {
       {"name": "STUDENT3", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
       {"name": "STUDENT5", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
       {"name": "STUDENT7", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"}]
-      }
-    };
+      };
+    }
   
-    function refreshData = () => {
+    refreshData() {
 	fetch("/api/8-" + this.gender.toString(10) + "-" + this.year.toString(10))
 	.then(data => data.json())
 	.then(data => this.setState({student: data}));
-    };
+    }
 
-    function handleOnGender = (value) => {
+    handleOnGender(value) {
 	this.setState({gender: value});
-	refreshData();
-    };
+	this.refreshData();
+    }
 
-    function handleOnYear = (value) => {
+    handleOnYear(value) {
 	this.setState({year: value});
-	refreshData();
-    };
+	this.refreshData();
+    }
 	
     render() {
 	return (
 		<div>
-		<GenderSlidey value={this.state.gender} handler={handleOnGender}/>
-		<YearSlidey value={this.state.year} handler={handleOnYear}/>
+		<GenderSlidey value={this.state.gender} handler={this.handleOnGender}/>
+		<YearSlidey value={this.state.year} handler={this.handleOnYear}/>
 		<ResumePrev2 data={this.state.student.slice(0,4)}/>
 		<ResumePrev data={this.state.student.slice(4,8)}/>
 		</div>
