@@ -148,7 +148,7 @@ class Student:
             num_activities = random.randint(2,5)
         else:
             num_activities = random.randint(2,3)
-        preference = 'masculine' if self.gender is 'male' else 'feminine'
+        preference = 'masculine' if self.gender is 'Male' else 'feminine'
         data = self.activities_data[self.activities_data[col[1]].str.match(self.personality)]
         activities = self.activities_data[col[0]].tolist()
         preferences = self.activities_data[col[2]].tolist()
@@ -190,7 +190,7 @@ class Student:
             num_activities = random.randint(1, 4)
         else:
             num_activities = random.randint(0, 3)
-        preference = 'masculine' if self.gender is 'male' else 'feminine'
+        preference = 'masculine' if self.gender is 'Male' else 'feminine'
         probs = np.ones(len(df))
         df['probabilities'] = probs
         df.loc[df.academic == True, 'probabilities'] *= 3.5
@@ -332,7 +332,7 @@ def read_student(d):
     s.archetype = d['archetype']
     return s
 
-def build_students(n=100):
+def build_students(n=100, gender=None, year=None):
     index, pop = populate_table()
     total = sum(pop)
     pop = [p / total for p in pop]
@@ -347,11 +347,11 @@ def build_students(n=100):
     soft = pd.read_csv(os.path.join(location, 'data', 'soft_skills.csv'))
     jobs = pd.read_csv(os.path.join(location, 'data', 'jobs.csv'))
     statdata = formatstats.StatData()
-    return [Student(lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs, soft, statdata) for s in students]
+    return [Student(lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs, soft, statdata, gender, year) for s in students]
  
-def get_students(n=100):
+def get_students(n=100, gender=None, year=None):
     schedulegenerator = generateSchedule.ScheduleGenerator()
-    S = build_students(n)
+    S = build_students(n, gender, year)
     D = [s.to_dict() for s in S]
     schedules = [schedulegenerator.getSchedule(s.school_year, s.specialization) for s in S]
     return D

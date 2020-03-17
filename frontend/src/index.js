@@ -22,7 +22,7 @@ function GenderSlidey(props) {
 	  min = {0}
     	  max = {4}
           tooltip = {false}
-          labels = {{0: "Random", 1: "1st", 2: "2nd", 3: "3rd", 4: "4th"}}
+          labels = {{0: "Random", 1: "First", 2: "Second", 3: "Third", 4: "Fourth"}}
 	  step = {1}
           value={props.value}
           orientation="horizontal"
@@ -41,7 +41,7 @@ function YearSlidey(props) {
 	  min = {0}
 	  max = {2}
 	  tooltip = {false}
-	labels = {{0: "Random", 1: "Male", 2:"Female"}}
+	  labels = {{0: "Random", 1: "Male", 2:"Female"}}
           step = {1}
           value={props.value}
           orientation="horizontal"
@@ -75,6 +75,7 @@ function Resume(props) {
     return (
         <div class="resu">
             <h1>{props.name}</h1> 
+	    <h3>{props.year}</h3>
             <h3>{props.gender}</h3>
             <h3>{props.hometown}</h3>
             <h3>{props.ethnicity}</h3>
@@ -92,6 +93,7 @@ function ResumePrev(props) {
 	    <div className = "allresu">
 		{props.data.map(student => 
 			   <Resume name={student["name"]}
+				year={student["year"]}
 			   gender={student["gender"]}
 			   hometown={student["hometown"]}
 			   ethnicity={student["ethnicity"]}>
@@ -110,6 +112,7 @@ function ResumePrev2(props) {
 	    <div className = "allresu2">
 		{props.data.map(student => 
 			   <Resume name={student["name"]}
+				year={student["year"]}
 			   gender={student["gender"]}
 			   hometown={student["hometown"]}
 			   ethnicity={student["ethnicity"]}>
@@ -148,19 +151,17 @@ class BigSlidey extends Component {
     }
     
     refreshData() {
-	fetch("/api/8-" + this.state.gender.toString(10) + "-" + this.state.year.toString(10))
+	fetch("/api/8-" + parseInt(this.state.gender, 10) + "-" + parseInt(this.state.year, 10))
 	.then(data => data.json())
 	.then(data => this.setState({student: data}));
     }
 
     handleOnGender(value) {
 	this.setState({gender: value});
-	this.refreshData();
     }
 
     handleOnYear(value) {
 	this.setState({year: value});
-	this.refreshData();
     }
 	
     render() {
@@ -168,6 +169,7 @@ class BigSlidey extends Component {
 		<div>
 		<GenderSlidey value={this.state.gender} handler={this.handleOnGender}/>
 		<YearSlidey value={this.state.year} handler={this.handleOnYear}/>
+		<button onClick={this.refreshData}> Update </button>
 		<ResumePrev2 data={this.state.student.slice(0,4)}/>
 		<ResumePrev data={this.state.student.slice(4,8)}/>
 		</div>
