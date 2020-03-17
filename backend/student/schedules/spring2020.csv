@@ -1,0 +1,56 @@
+Course,Description,Type,Sections,GE,Req,ECap,Enrl,WaitA,WaitD,WaitU,Drop,Wthd
+CSC 225,Introduction to Computer Organization,Lec,1,,4057,30,27,25,25,25,3,0
+CSC 225,Introduction to Computer Organization,Lab,1,,4057,30,27,25,25,25,3,0
+CSC 307,Introduction to Software Engineering,Lec,3,,2464,90,68,0,,,5,0
+CSC 307,Introduction to Software Engineering,Lab,3,,2464,90,68,0,,,5,0
+CSC 309,Software Engineering II,Lec,1,,1080,35,35,0,,,0,0
+CSC 309,Software Engineering II,Lab,1,,1080,35,35,0,,,0,0
+CSC 313,Teaching Computing,Lec,1,,4057,30,30,17,17,17,1,0
+CSC 313,Teaching Computing,Lab,1,,4057,30,30,17,17,17,1,0
+CSC 348,Discrete Structures,Lec,3,,3809,90,90,18,18,18,6,0
+CSC 349,Design and Analysis of Algorithms,Lec,6,,2076,180,180,31,31,31,11,0
+CSC 349,Design and Analysis of Algorithms,Lab,6,,2076,180,180,31,31,31,11,0
+CSC 365,Introduction to Database Systems,Lec,2,,3807,60,60,39,39,39,4,0
+CSC 365,Introduction to Database Systems,Lab,2,,3807,60,60,39,39,39,4,0
+CSC 366,"Database Modeling, Design and Implementation",Lec,2,,1085,60,40,1,1,1,3,0
+CSC 366,"Database Modeling, Design and Implementation",Lab,2,,1085,60,40,1,1,1,3,0
+CSC 369,Introduction to Distributed Computing,Lec,1,,3894,30,30,9,9,9,4,0
+CSC 369,Introduction to Distributed Computing,Lab,1,,3894,30,30,9,9,9,4,0
+CSC 377,Introduction to Mixed Reality,Lec,1,,4057,9,15,29,29,29,2,0
+CSC 377,Introduction to Mixed Reality,Lab,1,,4057,9,15,29,29,29,2,0
+CSC 406,Senior Project - Software Deployment,Lec,2,,1087,63,56,1,1,1,0,0
+CSC 406,Senior Project - Software Deployment,Lab,3,,1087,63,56,1,1,1,0,0
+CSC 409,Current Topics in Software Engineering,Lec,1,,1077,30,17,0,,,1,0
+CSC 409,Current Topics in Software Engineering,Lab,1,,1077,30,17,0,,,1,0
+CSC 430,Programming Languages,Lec,3,,1089,90,90,23,23,23,8,0
+CSC 430,Programming Languages,Lab,3,,1089,90,90,23,23,23,8,0
+CSC 431,Compiler Construction,Lec,1,,1090,30,30,0,,,3,0
+CSC 431,Compiler Construction,Lab,1,,1090,30,30,0,,,3,0
+CSC 437,Dynamic Web Development,Lec,2,,2083,60,56,3,3,3,4,0
+CSC 437,Dynamic Web Development,Lab,2,,2083,60,56,3,3,3,4,0
+CSC 445,Theory of Computation I,Lec,2,,2814,60,60,21,21,21,6,0
+CSC 448,Bioinformatics Algorithms,Lec,1,,3181,30,28,0,,,0,0
+CSC 448,Bioinformatics Algorithms,Lab,1,,3181,30,28,0,,,0,0
+CSC 450,Computing for Interactive Arts Capstone II,Act,1,,3815,15,5,0,,,0,0
+CSC 466,Knowledge Discovery from Data,Lec,1,,1219,30,27,0,,,3,0
+CSC 466,Knowledge Discovery from Data,Lab,1,,1219,30,27,0,,,3,0
+CSC 480,Artificial Intelligence,Lec,2,,4382,60,60,45,45,45,12,0
+CSC 480,Artificial Intelligence,Lab,2,,4382,60,60,45,45,45,12,0
+CSC 481,Knowledge Based Systems,Lec,1,,1101,30,10,0,,,0,0
+CSC 481,Knowledge Based Systems,Lab,1,,1101,30,10,0,,,0,0
+CSC 484,User-Centered Interface Design and Development,Lec,2,,2091,60,60,28,28,28,8,0
+CSC 484,User-Centered Interface Design and Development,Lab,2,,2091,60,60,28,28,28,8,0
+CSC 486,Human-Computer Interaction Theory and Design,Lec,1,,3584,30,30,13,13,13,2,0
+CSC 486,Human-Computer Interaction Theory and Design,Lab,1,,3584,30,30,13,13,13,2,0
+CPE 101,Fundamentals of Computer Science,Lec,5,,2868,150,128,76,76,76,56,0
+CPE 101,Fundamentals of Computer Science,Lab,5,,2868,150,128,75,75,75,56,0
+CPE 202,Data Structures,Lec,10,,4056,302,202,126,126,126,89,0
+CPE 202,Data Structures,Lab,10,,4056,302,202,126,126,126,89,0
+CPE 203,Project-Based Object-Oriented Programming and Design,Lec,2,,1691,60,60,40,40,40,8,0
+CPE 203,Project-Based Object-Oriented Programming and Design,Lab,2,,1691,60,60,40,40,40,8,0
+CPE 315,Computer Architecture,Lec,5,,3176,150,151,44,44,44,23,0
+CPE 315,Computer Architecture,Lab,5,,3176,150,151,44,44,44,23,0
+CPE 321,Introduction to Computer Security,Lec,2,,3144,57,57,28,28,28,10,0
+CPE 321,Introduction to Computer Security,Lab,2,,3144,57,57,28,28,28,10,0
+CPE 357,Systems Programming,Lec,5,,3178,125,147,55,55,55,21,0
+CPE 357,Systems Programming,Lab,5,,3178,125,147,55,55,55,21,0

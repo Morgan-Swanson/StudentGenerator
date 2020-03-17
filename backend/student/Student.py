@@ -8,6 +8,7 @@ import sys
 import json
 from scipy import stats
 import Textgen
+import generateSchedule
 from formatstats import StatData
 import os
 import bisect
@@ -35,9 +36,13 @@ class Student:
                         "San Joaquin" : "san joaquin"}
 
 
-    def __init__(self, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs,jobs, soft_skills, statdata, gender=None):
+    def __init__(self, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs,jobs, soft_skills, statdata, gender=None, year=None):
 
-        self.school_year = statdata.getClass()
+        
+        if year:
+            self.school_year = year
+        else:
+            self.school_year = statdata.getClass()
         self.personality = self.get_personality()
         self.jobs = jobs
         self.work = self.get_work()
@@ -68,7 +73,7 @@ class Student:
         self.activities = self.get_activities() 
         self.clubs = self.get_clubs()
         self.soft_skills = self.get_skills(soft_skills)
-        self.tech_skills = self.get_tech_skills()
+        self.specialization = self.get_specialization()
         self.key = abs(hash(str(self)) % 100000000)
         print(self.key)
 
@@ -288,7 +293,7 @@ class Student:
         samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
         return list(set([soft[s] for s in samples]))
 
-    def get_tech_skills(self):
+    def get_specialization(self):
         data = WeightedTuple({'Back end': 25, 'Front end': 30, 'Graphics/Games': 5, 'Low level': 5, "Security": 10, "Machine Learning": 25})
         return random.choice(data)
 
@@ -362,8 +367,11 @@ def build_students(n=100):
  
 
 def get_students(n=100):
+    schedulegenerator = generateSchedule.ScheduleGenerator()
+
     S = build_students(n)
     D = [s.to_dict() for s in S]
+    schedules = [schedulegenerator.getSchedule(s.school_year, s.specialization) for s in S]
     return D
 
 if __name__ == '__main__':

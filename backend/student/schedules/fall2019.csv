@@ -1,0 +1,47 @@
+Course,Description,Type,Sections,GE,Req,ECap,Enrl,WaitA,WaitD,WaitU,Drop,Wthd
+CSC 225,Introduction to Computer Organization,Lec,4,,4057,140,119,7,,,44,4
+CSC 225,Introduction to Computer Organization,Lab,4,,4057,140,119,7,,,44,0
+CSC 305,Individual Software Design and Development,Lec,2,,1281,70,68,5,,,38,0
+CSC 305,Individual Software Design and Development,Lab,2,,1281,70,68,5,,,38,0
+CSC 307,Introduction to Software Engineering,Lec,2,,2464,70,73,16,,,16,2
+CSC 307,Introduction to Software Engineering,Lab,2,,2464,70,73,16,,,16,0
+CSC 308,Software Engineering I,Lec,1,,4287,30,36,6,,,22,0
+CSC 308,Software Engineering I,Lab,1,,4287,30,36,6,,,22,0
+CSC 348,Discrete Structures,Lec,3,,3809,105,110,3,,,29,0
+CSC 349,Design and Analysis of Algorithms,Lec,6,,2076,200,198,17,,,113,4
+CSC 349,Design and Analysis of Algorithms,Lab,6,,2076,200,198,17,,,113,0
+CSC 365,Introduction to Database Systems,Lec,4,,3807,140,147,15,,,82,2
+CSC 365,Introduction to Database Systems,Lab,4,,3807,140,147,15,,,82,0
+CSC 402,Software Requirements Engineering,Lec,2,,1086,50,61,0,,,18,0
+CSC 402,Software Requirements Engineering,Lab,2,,1086,50,61,0,,,18,0
+CSC 430,Programming Languages,Lec,3,,1089,102,113,23,,,50,4
+CSC 430,Programming Languages,Lab,3,,1089,102,113,23,,,50,0
+CSC 431,Compiler Construction,Lec,2,,1090,60,21,0,,,32,0
+CSC 431,Compiler Construction,Lab,2,,1090,60,21,0,,,32,0
+CSC 437,Dynamic Web Development,Lec,1,,2083,35,18,0,,,4,2
+CSC 437,Dynamic Web Development,Lab,1,,2083,35,18,0,,,4,0
+CSC 445,Theory of Computation I,Lec,2,,2814,70,73,22,,,49,0
+CSC 466,Knowledge Discovery from Data,Lec,1,,1219,35,26,3,,,33,0
+CSC 466,Knowledge Discovery from Data,Lab,1,,1219,35,26,3,,,33,0
+CSC 480,Artificial Intelligence,Lec,3,,4382,99,109,8,,,56,0
+CSC 480,Artificial Intelligence,Lab,3,,4382,99,109,8,,,56,0
+CSC 482,Speech and Language Processing,Lec,1,,3443,30,25,0,,,8,1
+CSC 482,Speech and Language Processing,Lab,1,,3443,30,25,0,,,8,0
+CSC 484,User-Centered Interface Design and Development,Lec,2,,2091,70,75,3,,,20,0
+CSC 484,User-Centered Interface Design and Development,Lab,2,,2091,70,75,3,,,20,0
+CSC 487,Deep Learning,Lec,1,,4306,35,38,4,,,18,0
+CSC 487,Deep Learning,Lab,1,,4306,35,38,4,,,18,0
+CPE 101,Fundamentals of Computer Science,Lec,5,,2868,175,143,1,,,63,14
+CPE 101,Fundamentals of Computer Science,Lab,5,,2868,175,143,1,,,63,0
+CPE 123,Introduction to Computing,Lec,6,,3167,167,176,0,,,31,1
+CPE 123,Introduction to Computing,Lab,6,,3167,167,176,0,,,31,0
+CPE 202,Data Structures,Lec,5,,4056,172,158,5,,,32,6
+CPE 202,Data Structures,Lab,5,,4056,172,158,5,,,32,0
+CPE 203,Project-Based Object-Oriented Programming and Design,Lec,7,,1691,233,224,26,,,82,6
+CPE 203,Project-Based Object-Oriented Programming and Design,Lab,7,,1691,233,224,26,,,82,0
+CPE 315,Computer Architecture,Lec,2,,3176,70,78,14,,,39,1
+CPE 315,Computer Architecture,Lab,2,,3176,70,78,14,,,39,0
+CPE 321,Introduction to Computer Security,Lec,3,,3144,81,77,16,,,50,2
+CPE 321,Introduction to Computer Security,Lab,3,,3144,81,77,16,,,50,0
+CPE 357,Systems Programming,Lec,5,,3178,160,139,9,,,52,10
+CPE 357,Systems Programming,Lab,5,,3178,160,139,9,,,52,0

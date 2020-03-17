@@ -1,0 +1,55 @@
+Course,Description,Type,Sections,GE,Req,ECap,Enrl,WaitA,WaitD,WaitU,Drop,Wthd
+CSC 225,Introduction to Computer Organization,Lec,2,,4057,65,50,0,,,22,2
+CSC 225,Introduction to Computer Organization,Lab,2,,4057,65,50,0,,,22,0
+CSC 305,Individual Software Design and Development,Lec,1,,1281,35,28,0,,,19,5
+CSC 305,Individual Software Design and Development,Lab,1,,1281,35,28,0,,,19,0
+CSC 307,Introduction to Software Engineering,Lec,2,,2464,70,64,4,,,26,0
+CSC 307,Introduction to Software Engineering,Lab,2,,2464,70,64,4,,,26,0
+CSC 309,Software Engineering II,Lec,2,,1080,66,64,0,,,7,0
+CSC 309,Software Engineering II,Lab,2,,1080,66,64,0,,,7,0
+CSC 323,Cryptography Engineering,Lec,2,,3144,54,52,4,,,36,3
+CSC 323,Cryptography Engineering,Lab,2,,3144,54,52,4,,,36,0
+CSC 348,Discrete Structures,Lec,6,,3809,210,199,6,,,62,4
+CSC 349,Design and Analysis of Algorithms,Lec,4,,2076,140,150,15,,,54,1
+CSC 349,Design and Analysis of Algorithms,Lab,4,,2076,140,150,15,,,54,0
+CSC 365,Introduction to Database Systems,Lec,3,,3807,105,102,9,,,53,0
+CSC 365,Introduction to Database Systems,Lab,3,,3807,105,102,9,,,53,0
+CSC 366,"Database Modeling, Design and Implementation",Lec,1,,1085,35,16,0,,,10,1
+CSC 366,"Database Modeling, Design and Implementation",Lab,1,,1085,35,16,0,,,10,0
+CSC 406,Software Deployment,Lec,2,,1087,70,60,0,,,0,0
+CSC 406,Software Deployment,Lab,2,,1087,70,60,0,,,0,0
+CSC 424,Software Security,Lec,1,,3813,35,20,0,,,6,1
+CSC 424,Software Security,Lab,1,,3813,35,20,0,,,6,0
+CSC 430,Programming Languages I,Lec,1,,1089,35,40,6,,,10,2
+CSC 430,Programming Languages I,Lab,1,,1089,35,40,6,,,10,0
+CSC 431,Programming Languages II,Lec,4,,1090,140,133,7,,,37,1
+CSC 431,Programming Languages II,Lab,4,,1090,140,133,7,,,37,0
+CSC 436,Mobile Application Development,Lec,1,,,35,32,1,,,19,2
+CSC 436,Mobile Application Development,Lab,1,,,35,32,1,,,19,0
+CSC 445,Theory of Computation I,Lec,1,,2814,35,34,10,,,14,0
+CSC 466,Knowledge Discovery from Data,Lec,2,,1219,70,61,2,,,19,0
+CSC 466,Knowledge Discovery from Data,Lab,2,,1219,70,61,2,,,19,0
+CSC 468,Database Management Systems Implementation,Lec,1,,1085,35,19,0,,,9,0
+CSC 468,Database Management Systems Implementation,Lab,1,,1085,35,19,0,,,9,0
+CSC 474,Computer Animation,Lec,1,,1100,35,16,0,,,2,1
+CSC 474,Computer Animation,Lab,1,,1100,35,16,0,,,2,0
+CSC 480,Artificial Intelligence,Lec,2,,2089,70,64,9,,,43,4
+CSC 480,Artificial Intelligence,Lab,2,,2089,70,64,9,,,43,0
+CSC 481,Knowledge Based Systems,Lec,1,,1101,35,13,0,,,1,0
+CSC 481,Knowledge Based Systems,Lab,1,,1101,35,13,0,,,1,0
+CSC 484,User-Centered Interface Design and Development,Lec,2,,2091,70,71,4,,,23,0
+CSC 484,User-Centered Interface Design and Development,Lab,2,,2091,70,71,4,,,23,0
+CSC 486,Human-Computer Interaction Theory and Design,Lec,1,,3584,35,36,0,,,4,0
+CSC 486,Human-Computer Interaction Theory and Design,Lab,1,,3584,35,36,0,,,4,0
+CPE 101,Fundamentals of Computer Science,Lec,10,,2868,300,296,20,,,192,10
+CPE 101,Fundamentals of Computer Science,Lab,10,,2868,300,296,20,,,192,0
+CPE 202,Data Structures,Lec,7,,4056,210,224,10,,,115,7
+CPE 202,Data Structures,Lab,7,,4056,210,224,10,,,115,0
+CPE 203,Project-Based Object-Oriented Programming and Design,Lec,2,,1691,70,69,11,,,26,2
+CPE 203,Project-Based Object-Oriented Programming and Design,Lab,2,,1691,70,69,11,,,26,0
+CPE 315,Computer Architecture,Lec,2,,3176,70,68,10,,,31,4
+CPE 315,Computer Architecture,Lab,2,,3176,70,68,10,,,31,0
+CPE 321,Introduction to Computer Security,Lec,1,,3144,27,29,7,,,10,0
+CPE 321,Introduction to Computer Security,Lab,1,,3144,27,29,7,,,10,0
+CPE 357,Systems Programming,Lec,6,,3178,195,210,15,,,65,10
+CPE 357,Systems Programming,Lab,6,,3178,195,210,15,,,65,0
