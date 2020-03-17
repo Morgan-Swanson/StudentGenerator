@@ -149,7 +149,7 @@ specialtyalt = [" After so soul searching I feel like I want to express myself w
 
 
 def getbio(student):
-    print(student.tech_skills)
+    print(student.specialization)
     print(student.soft_skills)
     # ["normie", "stoner", "brogrammer", "tryhard", "nerd", "alternative"]
     if student.personality == 'stoner':
@@ -178,7 +178,7 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_stoner2) + random.choice(Clubs_stoner3)
-        s6 = random.choice(specialty_stoner) + student.tech_skills + ". "
+        s6 = random.choice(specialty_stoner) + student.specialization + ". "
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
 
@@ -208,7 +208,7 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_normie2) + random.choice(Clubs_normie3)
-        s6 = random.choice(specialty) + student.tech_skills + ". "
+        s6 = random.choice(specialty) + student.specialization + ". "
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
 #from student import Textgen
@@ -242,7 +242,7 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_bro2) + random.choice(Clubs_bro3)
-        s6 = random.choice(specialtybro) + student.tech_skills + ". "
+        s6 = random.choice(specialtybro) + student.specialization + ". "
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
 
@@ -272,7 +272,7 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_try2) + random.choice(Clubs_try3)
-        s6 = random.choice(specialtytry) + student.tech_skills + ". "
+        s6 = random.choice(specialtytry) + student.specialization + ". "
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
 
@@ -304,7 +304,10 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_nerd2) + random.choice(Clubs_nerd3)
-        s6 = random.choice(specialtynerd) + student.tech_skills + ". "
+
+
+        s6 = random.choice(specialtynerd) + student.specialization + ". "
+
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
     if student.personality == "alternative":
@@ -333,7 +336,7 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_alt2) + random.choice(Clubs_alt3)
-        s6 = random.choice(specialtyalt) + student.tech_skills + ". "
+        s6 = random.choice(specialtyalt) + student.specialization + ". "
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
     else:

@@ -1,0 +1,44 @@
+Course,Description,Type,Sections,GE,Req,ECap,Enrl,WaitA,WaitD,WaitU,Drop,Wthd
+CSC 225,Introduction to Computer Organization,Lec,2,,4057,68,69,28,,,36,1
+CSC 225,Introduction to Computer Organization,Lab,2,,4057,68,69,28,,,36,0
+CSC 305,Individual Software Design and Development,Lec,2,,1281,70,70,8,,,18,2
+CSC 305,Individual Software Design and Development,Lab,2,,1281,70,70,8,,,18,0
+CSC 307,Introduction to Software Engineering,Lec,3,,2464,105,106,23,,,35,2
+CSC 307,Introduction to Software Engineering,Lab,3,,2464,105,106,23,,,35,0
+CSC 308,Software Engineering I,Lec,1,,3808,35,37,14,,,19,0
+CSC 308,Software Engineering I,Lab,1,,3808,35,37,14,,,19,0
+CSC 348,Discrete Structures,Lec,3,,3809,105,112,3,,,22,2
+CSC 349,Design and Analysis of Algorithms,Lec,4,,2076,136,161,41,,,82,1
+CSC 349,Design and Analysis of Algorithms,Lab,5,,2076,171,161,44,,,82,0
+CSC 365,Introduction to Database Systems,Lec,2,,3807,68,64,7,,,35,0
+CSC 365,Introduction to Database Systems,Lab,2,,3807,68,64,7,,,35,0
+CSC 369,Introduction to Distributed Computing,Lec,1,,3894,25,30,4,,,14,0
+CSC 430,Programming Languages I,Lec,5,,1089,168,176,12,,,34,8
+CSC 430,Programming Languages I,Lab,5,,1089,168,176,12,,,34,0
+CSC 436,Mobile Application Development,Lec,2,,,70,68,9,,,37,4
+CSC 436,Mobile Application Development,Lab,2,,,70,68,9,,,37,0
+CSC 445,Theory of Computation I,Lec,2,,2814,70,81,27,,,29,1
+CSC 453,Introduction to Operating Systems,Lec,2,,1419,69,71,16,,,38,2
+CSC 453,Introduction to Operating Systems,Lab,2,,1419,69,71,16,,,38,0
+CSC 466,Knowledge Discovery from Data,Lec,1,,1219,30,23,0,,,19,0
+CSC 466,Knowledge Discovery from Data,Lab,1,,1219,30,23,0,,,19,0
+CSC 478,Current Topics in Computer Graphics,Lec,1,,1100,35,30,0,,,11,1
+CSC 478,Current Topics in Computer Graphics,Lab,1,,1100,35,30,0,,,11,0
+CSC 480,Artificial Intelligence,Lec,3,,2089,95,113,18,,,52,1
+CSC 480,Artificial Intelligence,Lab,3,,2089,95,113,18,,,52,0
+CSC 484,User-Centered Interface Design and Development,Lec,2,,2091,65,66,0,,,10,1
+CSC 484,User-Centered Interface Design and Development,Lab,2,,2091,65,66,0,,,10,0
+CPE 101,Fundamentals of Computer Science,Lec,2,,2868,70,77,22,,,73,4
+CPE 101,Fundamentals of Computer Science,Lab,2,,2868,70,77,22,,,73,0
+CPE 123,Introduction to Computing,Lec,6,,3167,162,165,0,,,16,1
+CPE 123,Introduction to Computing,Lab,6,,3167,162,165,0,,,16,0
+CPE 202,Data Structures,Lec,7,,4056,233,210,8,,,77,3
+CPE 202,Data Structures,Lab,7,,4056,233,210,8,,,77,0
+CPE 203,Project-Based Object-Oriented Programming and Design,Lec,8,,1691,286,264,10,,,96,10
+CPE 203,Project-Based Object-Oriented Programming and Design,Lab,9,,1691,286,264,10,,,98,0
+CPE 315,Computer Architecture,Lec,3,,3176,105,106,10,,,25,3
+CPE 315,Computer Architecture,Lab,3,,3176,106,106,10,,,25,0
+CPE 321,Introduction to Computer Security,Lec,2,,3144,54,55,4,,,40,0
+CPE 321,Introduction to Computer Security,Lab,2,,3144,54,55,4,,,40,0
+CPE 357,Systems Programming,Lec,4,,3178,100,111,0,,,34,6
+CPE 357,Systems Programming,Lab,4,,3178,100,111,0,,,34,0

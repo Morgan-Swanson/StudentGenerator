@@ -4,12 +4,31 @@ from flask import render_template
 from student import Student
 app = Flask(__name__)
 
+def convert_gender(num):
+    if num == 0:
+        return None
+    elif num == 1:
+        return "Male"
+    else:
+        return "Female"
 
-@app.route('/api/<int:number>')
-def get(number):
-    return jsonify(Student.get_students(number))
-
-#return jsonify(Student.get_students(number))
+def convert_year(num):
+    if num == 0:
+        return None
+    elif num == 1:
+        return "1st"
+    elif num == 2:
+        return "2nd"
+    elif num == 3:
+        return "3rd"
+    else:
+        return "4th"
+       
+@app.route('/api/<int:number>-<int:gender>-<int:year>')
+def get(number, gender, year):
+    return jsonify(Student.get_students(number, 
+                                        convert_gender(gender),
+                                        convert_year(year)))
 
 @app.route('/')
 def hello_world():

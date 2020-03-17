@@ -13,75 +13,43 @@ import {
 import Together2 from "./scholar";
 
 
-class YearSlider extends Component {
-    constructor(props, context) {
-      super(props, context)
-      this.state = {
-	  volume: 0,
-	  options: ["1st", "2nd", "3rd", "4th"]
-      }
-    }
-  
-    handleOnChange = (value) => {
-      this.setState({
-        volume: value
-      })
-    }
-   
-  
-    render() {
-      return (
+function GenderSlidey(props) {
+    return (
 	<div className="slide">
 	<h1>Student Year</h1>
 	<div className="inslide">
         <Slider
-	  tooltip = {true}
-	  format ={this.display}
-          step = {25}
-          value={this.state.options[this.state.volume / 25]}
+	  min = {0}
+    	  max = {4}
+          tooltip = {false}
+          labels = {{0: "Random", 1: "First", 2: "Second", 3: "Third", 4: "Fourth"}}
+	  step = {1}
+          value={props.gender}
           orientation="horizontal"
-          onChange={this.handleOnChange}/>
+          onChange={props.genderHandler}/>
         </div>
 	</div>
       )
-    }
 }
 
-class GenderSlider extends Component {
-    constructor(props, context) {
-      super(props, context)
-      this.state = {
-	  volume: 0,
-	  options: ["Male", "Female"]
-      }
-    }
-  
-    handleOnChange = (value) => {
-      this.setState({
-        volume: value
-	})
-    }
-   
-  
-    render() {
-      let { volume } = this.state
+function YearSlidey(props) {
       return (
 	<div className="slide">
 	<h1>Student Gender</h1>
 	<div className="inslide">
         <Slider
-	  tooltip = {true}
-          format ={this.display}
-          step = {100}
-          value={this.state.options[this.state.volume / 100]}
+	  min = {0}
+	  max = {2}
+	  tooltip = {false}
+	  labels = {{0: "Random", 1: "Male", 2:"Female"}}
+          step = {1}
+          value={props.year}
           orientation="horizontal"
-          onChange={this.handleOnChange}/>
+          onChange={props.yearHandler}/>
         </div>
 	</div>
       )
-    }
-  }
-
+}
 
 class DivTest extends React.Component{
     render() {
@@ -95,21 +63,19 @@ class DivTest extends React.Component{
 }
 
 
-
-
 class Bottomborder extends React.Component{
-    render(){
+    render() {
         return <div className="info"> 
         <div id="rectangle" ></div>
         </div>; 
     }
-    
 }
 
 function Resume(props) {
     return (
         <div class="resu">
             <h1>{props.name}</h1> 
+	    <h3>{props.syear}</h3>
             <h3>{props.gender}</h3>
             <h3>{props.hometown}</h3>
             <h3>{props.ethnicity}</h3>
@@ -127,6 +93,7 @@ function ResumePrev(props) {
 	    <div className = "allresu">
 		{props.data.map(student => 
 			   <Resume name={student["name"]}
+				syear={student["year"]}
 			   gender={student["gender"]}
 			   hometown={student["hometown"]}
 			   ethnicity={student["ethnicity"]}>
@@ -144,7 +111,8 @@ function ResumePrev2(props) {
 	    <HashRouter>
 	    <div className = "allresu2">
 		{props.data.map(student => 
-			   <Resume name={student["name"]}
+				<Resume name={student["name"]}
+				syear={student["year"]}
 			   gender={student["gender"]}
 			   hometown={student["hometown"]}
 			   ethnicity={student["ethnicity"]}>
@@ -157,12 +125,17 @@ function ResumePrev2(props) {
             </HashRouter>); 
 }
 
+class BigSlidey extends Component {
 
-
-class Together extends React.Component{
-    constructor() {
-	super()
-	    this.state = {student: [{"name": "STUDENT1", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+    constructor(props, context) {
+	super(props, context);
+	this.handleOnGender = this.handleOnGender.bind(this);
+	this.handleOnYear = this.handleOnYear.bind(this);
+	this.refreshData = this.refreshData.bind(this);
+	this.state = {
+	    gender: 0,
+	    year: 0,
+	    student : [{"name": "STUDENT1", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
 	{"name": "STUDENT3", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
 	{"name": "STUDENT5", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
 	{"name": "STUDENT7", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
@@ -170,30 +143,50 @@ class Together extends React.Component{
 	{"name": "STUDENT3", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
 	{"name": "STUDENT5", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
 	{"name": "STUDENT7", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"}]
-	};    
+	};
     }
 
     componentDidMount() {
-	fetch("/api/8")
-	    .then(data => data.json())
-	    .then(data => this.setState({student: data}))
-	    }
-    render(){
-        return <div>
-            <DivTest></DivTest>
-            <GenderSlider></GenderSlider>
-            <YearSlider></YearSlider>
-            <Bottomborder></Bottomborder>
-            <ResumePrev2 data={this.state.student.slice(0,4)}></ResumePrev2>
-       	    <ResumePrev data={this.state.student.slice(4,8)}></ResumePrev>
-          
-        </div>
+	this.refreshData()
+    }
+    
+    refreshData() {
+	fetch("/api/8-" + parseInt(this.state.gender, 10) + "-" + parseInt(this.state.year, 10))
+	.then(data => data.json())
+	.then(data => this.setState({student: data}));
+	console.log("gender:", this.state.gender);
+	console.log("year:", this.state.year);
+    }
 
+    handleOnGender(gender) {
+	this.setState({gender: gender});
+    }
+
+    handleOnYear(year) {
+	this.setState({year: year});
+    }
+	
+    render() {
+	return (
+		<div>
+		<GenderSlidey gender={this.state.gender} genderHandler={this.handleOnGender}/>
+		<YearSlidey gender={this.state.year} yearHandler={this.handleOnYear}/>
+		<button onClick={this.refreshData}> Update </button>
+		<ResumePrev2 data={this.state.student.slice(0,4)}/>
+		<ResumePrev data={this.state.student.slice(4,8)}/>
+		</div>
+        );
     }
 }
 
-
-
+function Together() {
+    return (
+	    <div>
+	    <DivTest/>
+	    <Bottomborder/>
+	    <BigSlidey/>
+	    </div>);
+}
 ReactDOM.render(<Together />, document.getElementById('root'));
 
 /*

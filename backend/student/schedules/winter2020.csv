@@ -1,0 +1,56 @@
+Course,Description,Type,Sections,GE,Req,ECap,Enrl,WaitA,WaitD,WaitU,Drop,Wthd
+CSC 225,Introduction to Computer Organization,Lec,3,,4057,95,104,12,12,12,22,2
+CSC 225,Introduction to Computer Organization,Lab,3,,4057,95,104,12,12,12,22,0
+CSC 305,Individual Software Design and Development,Lec,2,,1281,68,33,0,,,18,5
+CSC 305,Individual Software Design and Development,Lab,2,,1281,68,33,0,,,18,0
+CSC 307,Introduction to Software Engineering,Lec,3,,2464,103,98,3,3,3,24,1
+CSC 307,Introduction to Software Engineering,Lab,3,,2464,103,98,3,3,3,24,0
+CSC 308,Software Engineering I,Lec,1,,4287,34,35,3,3,3,16,0
+CSC 308,Software Engineering I,Lab,1,,4287,34,35,3,3,3,16,0
+CSC 309,Software Engineering II,Lec,1,,1080,34,37,0,,,0,0
+CSC 309,Software Engineering II,Lab,1,,1080,34,37,0,,,0,0
+CSC 310,Computers for Poets,Lec,2,GEB7,2446,50,48,0,,,32,1
+CSC 325,Introduction to Privacy: Policy and Technology,Lec,1,,4058,27,28,1,1,1,8,0
+CSC 325,Introduction to Privacy: Policy and Technology,Lab,1,,4058,27,28,1,1,1,8,0
+CSC 348,Discrete Structures,Lec,5,,3809,175,151,1,1,1,39,0
+CSC 349,Design and Analysis of Algorithms,Lec,2,,2076,70,71,1,1,1,31,3
+CSC 349,Design and Analysis of Algorithms,Lab,2,,2076,70,71,1,1,1,31,0
+CSC 365,Introduction to Database Systems,Lec,3,,3807,95,96,12,12,12,38,3
+CSC 365,Introduction to Database Systems,Lab,3,,3807,95,96,12,12,12,38,0
+CSC 366,"Database Modeling, Design and Implementation",Lec,1,,1085,35,33,2,2,2,15,0
+CSC 366,"Database Modeling, Design and Implementation",Lab,1,,1085,35,33,2,2,2,15,0
+CSC 369,Introduction to Distributed Computing,Lec,2,,3894,65,65,2,2,2,33,0
+CSC 369,Introduction to Distributed Computing,Lab,2,,3894,65,65,2,2,2,33,0
+CSC 371,Game Design,Lec,2,,4304,60,66,3,3,3,38,0
+CSC 371,Game Design,Lab,2,,4304,60,66,3,3,3,38,0
+CSC 378,Interactive Entertainment Engineering,Lec,1,,4304,30,25,6,6,6,17,0
+CSC 378,Interactive Entertainment Engineering,Lab,1,,4304,30,25,6,6,6,17,0
+CSC 405,Software Construction,Lec,2,,1149,65,61,0,,,2,1
+CSC 405,Software Construction,Lab,3,,1149,65,61,0,,,2,0
+CSC 429,Current Topics in Computer Security,Lec,1,,3814,30,25,0,,,4,0
+CSC 429,Current Topics in Computer Security,Lab,1,,3814,30,25,0,,,4,0
+CSC 430,Programming Languages,Lec,5,,1089,175,152,5,5,5,61,7
+CSC 430,Programming Languages,Lab,5,,1089,175,152,5,5,5,61,0
+CSC 436,Mobile Application Development,Lec,1,,,32,28,0,,,20,1
+CSC 436,Mobile Application Development,Lab,1,,,32,28,0,,,20,0
+CSC 445,Theory of Computation I,Lec,5,,2814,150,119,9,9,9,40,0
+CSC 466,Knowledge Discovery from Data,Lec,2,,1219,70,63,1,1,1,26,3
+CSC 466,Knowledge Discovery from Data,Lab,2,,1219,70,63,1,1,1,26,0
+CSC 482,Speech and Language Processing,Lec,1,,3443,30,23,0,,,4,0
+CSC 482,Speech and Language Processing,Lab,1,,3443,30,23,0,,,4,0
+CSC 484,User-Centered Interface Design and Development,Lec,2,,2091,60,60,0,,,10,0
+CSC 484,User-Centered Interface Design and Development,Lab,2,,2091,60,60,0,,,10,0
+CSC 486,Human-Computer Interaction Theory and Design,Lec,1,,3584,35,32,0,,,10,0
+CSC 486,Human-Computer Interaction Theory and Design,Lab,1,,3584,35,32,0,,,10,0
+CPE 101,Fundamentals of Computer Science,Lec,14,,2868,478,417,12,12,12,177,16
+CPE 101,Fundamentals of Computer Science,Lab,14,,2868,476,417,12,12,12,177,0
+CPE 123,Introduction to Computing,Lec,1,,3167,36,36,4,4,4,11,0
+CPE 123,Introduction to Computing,Lab,1,,3167,36,36,4,4,4,11,0
+CPE 202,Data Structures,Lec,3,,4056,104,108,13,13,13,67,3
+CPE 202,Data Structures,Lab,3,,4056,104,108,13,13,13,67,0
+CPE 203,Project-Based Object-Oriented Programming and Design,Lec,4,,1691,136,143,5,5,5,49,5
+CPE 203,Project-Based Object-Oriented Programming and Design,Lab,4,,1691,136,143,5,5,5,49,0
+CPE 315,Computer Architecture,Lec,3,,3176,102,103,8,8,8,51,4
+CPE 315,Computer Architecture,Lab,3,,3176,102,103,8,8,8,51,0
+CPE 357,Systems Programming,Lec,5,,3178,170,168,7,7,7,60,7
+CPE 357,Systems Programming,Lab,5,,3178,170,168,7,7,7,60,0
