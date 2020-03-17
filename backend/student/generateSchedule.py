@@ -16,12 +16,12 @@ class Specialties(IntEnum):
 
 
 def getEnrollmentProbabilities():
-    f18 = getEnrollments("schedules/fall2018.csv")
-    w19 = getEnrollments("schedules/winter2019.csv")
-    s19 = getEnrollments("schedules/spring2019.csv")
-    f19 = getEnrollments("schedules/fall2019.csv")
-    w20 = getEnrollments("schedules/winter2020.csv")
-    s20 = getEnrollments("schedules/spring2020.csv")
+    f18 = getEnrollments(os.path.join(os.path.dirname(os.path.realpath(__file__)), "schedules/fall2018.csv"))
+    w19 = getEnrollments(os.path.join(os.path.dirname(os.path.realpath(__file__)), "schedules/winter2019.csv"))
+    s19 = getEnrollments(os.path.join(os.path.dirname(os.path.realpath(__file__)), "schedules/spring2019.csv"))
+    f19 = getEnrollments(os.path.join(os.path.dirname(os.path.realpath(__file__)), "schedules/fall2019.csv"))
+    w20 = getEnrollments(os.path.join(os.path.dirname(os.path.realpath(__file__)), "schedules/winter2020.csv"))
+    s20 = getEnrollments(os.path.join(os.path.dirname(os.path.realpath(__file__)), "schedules/spring2020.csv"))
 
     return [f18, w19, s19, f19, w20, s20]
 
