@@ -8,6 +8,7 @@ import sys
 import json
 from scipy import stats
 from student import Textgen
+
 import os
 import bisect
 
@@ -58,6 +59,7 @@ class Student:
         print(self.key)
 
     def draw_from_distribution(self, values, counts, num=1):
+
         s = sum(counts)
         p = [c / s for c in counts]
         return list(np.random.choice(values, num, p=p))

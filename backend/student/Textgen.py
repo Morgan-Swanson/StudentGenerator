@@ -304,7 +304,7 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_nerd2) + random.choice(Clubs_nerd3)
-        s6 = random.choice(specialtynerd) + student.tech_skills
+        s6 = random.choice(specialtynerd) + student.tech_skills + ". "
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
     if student.personality == "alternative":
