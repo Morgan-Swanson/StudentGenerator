@@ -153,36 +153,34 @@ class Student:
                 'clubs': self.clubs}
 
     def get_clubs(self):
-        col = self.clubs.columns
+        # only one racial or religious club, make sure religion is the same
+        df = pd.read_csv('data/clubs.csv')
+        col = df.columns
         active = ['nerd', 'tryhard']
         if self.personality in active:
             num_activities = random.randint(1, 4)
         else:
             num_activities = random.randint(0, 3)
+        
         preference = 'masculine' if self.gender is 'male' else 'feminine'
-        revised_data = self.clubs[self.clubs[col[1]].str.match(self.personality)].append(self.clubs[self.clubs[col[1]].str.match('normie')])
-        activities = revised_data[col[0]].tolist()
-        gender_preferences = revised_data[col[4]].tolist()
-        personality_preferences = revised_data[col[1]].tolist()
-        counts = []
+        probs = np.ones(len(df))
+        df['probabilities'] = probs
 
-        for i in range(len(revised_data)):
-            if revised_data.iloc[i]['gender'] == preference:
-                counts.append(5)
-            elif revised_data.iloc[i]['gender'] == 'none':
-                counts.append(3)
-            else:
-                counts.append(1)
+        df.loc[df.academic == True, 'probabilities'] *= 3.5
+        df.loc[df.personality == self.personality, 'probabilities'] *= 2
+        df.loc[df.personality == 'none', 'probabilities'] *= 1.5
+        df.loc[df.gender == preference, 'probabilities'] *= 1.5
+        df.loc[df.race == self.race, 'probabilities'] *= 1.5
+        df.loc[(df.race != self.race) & (df.race != 'none'), 'probabilities'] = 0
+        df.loc[df.religion == self.religion, 'probabilities'] *= 1.5
+        df.loc[(df.religion != self.religion) & (df.religion != 'none'), 'probabilities'] = 0
 
-            if revised_data.iloc[i]['religon'] == self.religion:
-                counts[-1] *= 1.5
+        # revised_data = data[data[col[1]].str.match(self.personality)].append(data[data[col[1]].str.match('normie')])
+        activities = df[col[0]].tolist()
 
-            if revised_data.iloc[i]['race'] == self.race:
-                counts[-1] *= 1.5
+        s = df['probabilities'].sum()
+        counts = list(df['probabilities'] / s)
 
-        s = sum(counts)
-        # print(s)
-        counts = [c / s for c in counts]
         samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
         clubs1 =(list(set([activities[s] for s in samples])))
         return clubs1
@@ -265,7 +263,7 @@ def build_students(n=100):
 def get_students(n=100):
     S = build_students(n)
     D = [s.to_dict() for s in S]
-    return json.dumps(D)
+    return D
 
 if __name__ == '__main__':
     for s in build_students(int(sys.argv[1])):

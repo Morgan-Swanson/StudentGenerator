@@ -109,10 +109,10 @@ function ResumePrev(props) {
 	    <HashRouter>
 	    <div className = "allresu">
 		{props.data.map(student => 
-			   <Resume name={student.name}
-			   gender={student.gender}
-			   hometown={student.hometown}
-			   ethnicity={student.ethnicity}>
+			   <Resume name={student["name"]}
+			   gender={student["gender"]}
+			   hometown={student["hometown"]}
+			   ethnicity={student["ethnicity"]}>
 			   </Resume>
 			   )}
                     <div className="content">
@@ -174,10 +174,10 @@ class ResumePrev2 extends React.Component
 class Together extends React.Component{
     constructor() {
 	super()
-	    this.state = {student: [{name: "STUDENT1", gender: "NONE", hometown: "NONE", ethnicity: "NONE"},
-	{name: "STUDENT1", gender: "NONE", hometown: "NONE", ethnicity: "NONE"},
-	{name: "STUDENT1", gender: "NONE", hometown: "NONE", ethnicity: "NONE"},
-	{name: "STUDENT1", gender: "NONE", hometown: "NONE", ethnicity: "NONE"}]
+	    this.state = {student: [{"name": "STUDENT1", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT3", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT5", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT7", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"}]
 	};    
     }
 
