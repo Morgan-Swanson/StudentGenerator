@@ -28,6 +28,8 @@ class Student:
     personalities = ["normie", "stoner", "brogrammer", "tryhard", "nerd", "alternative"]
 
     def __init__(self, county, race, gender, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs):        
+        self.school_year = self.get_school_year()
+        self.personality = self.get_personality()
         self.last_names = lastnames
         self.boy_names = boy_names
         self.girl_names = girl_names
@@ -39,13 +41,15 @@ class Student:
         self.race = race
         self.county = county
         self.name = self.get_name()
-        self.personality = self.get_personality()
         self.highschool, self.hometown, self.school_religion = self.get_highschool_and_hometown()
         self.phone = self.get_phone()
         self.email = self.get_email()
         self.religion = self.get_religion()
         self.activities = self.get_activities() 
         self.clubs = self.get_clubs()
+
+    def get_school_year(self):
+        return random.randint(1,5)
 
     def get_personality(self):
         return self.personalities[random.randint(0, len(self.personalities) - 1)]
@@ -119,7 +123,6 @@ class Student:
         samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
         return list(set([activities[s] for s in samples]))
     
-
     def get_phone(self):
         digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
         data_small = self.areacodes[self.areacodes['city'] == self.hometown]
@@ -150,7 +153,8 @@ class Student:
                 'email': self.email,
                 'religion': self.religion,
                 'activites': self.activities,
-                'clubs': self.clubs}
+                'clubs': self.clubs,
+                'year': self.school_year}
 
     def get_clubs(self):
         # only one racial or religious club, make sure religion is the same
