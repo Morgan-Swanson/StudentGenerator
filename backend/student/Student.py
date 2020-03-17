@@ -347,7 +347,7 @@ def build_students(n=100, gender=None, year=None):
     soft = pd.read_csv(os.path.join(location, 'data', 'soft_skills.csv'))
     jobs = pd.read_csv(os.path.join(location, 'data', 'jobs.csv'))
     statdata = formatstats.StatData()
-    return [Student(lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs, soft, statdata, gender, year) for s in students]
+    return [Student(lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs, soft, statdata, gender=gender, year=year) for s in students]
  
 def get_students(n=100, gender=None, year=None):
     schedulegenerator = generateSchedule.ScheduleGenerator()

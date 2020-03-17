@@ -24,9 +24,9 @@ function GenderSlidey(props) {
           tooltip = {false}
           labels = {{0: "Random", 1: "First", 2: "Second", 3: "Third", 4: "Fourth"}}
 	  step = {1}
-          value={props.value}
+          value={props.gender}
           orientation="horizontal"
-          onChange={props.handler}/>
+          onChange={props.genderHandler}/>
         </div>
 	</div>
       )
@@ -43,9 +43,9 @@ function YearSlidey(props) {
 	  tooltip = {false}
 	  labels = {{0: "Random", 1: "Male", 2:"Female"}}
           step = {1}
-          value={props.value}
+          value={props.year}
           orientation="horizontal"
-          onChange={props.handler}/>
+          onChange={props.yearHandler}/>
         </div>
 	</div>
       )
@@ -75,7 +75,7 @@ function Resume(props) {
     return (
         <div class="resu">
             <h1>{props.name}</h1> 
-	    <h3>{props.year}</h3>
+	    <h3>{props.syear}</h3>
             <h3>{props.gender}</h3>
             <h3>{props.hometown}</h3>
             <h3>{props.ethnicity}</h3>
@@ -93,7 +93,7 @@ function ResumePrev(props) {
 	    <div className = "allresu">
 		{props.data.map(student => 
 			   <Resume name={student["name"]}
-				year={student["year"]}
+				syear={student["year"]}
 			   gender={student["gender"]}
 			   hometown={student["hometown"]}
 			   ethnicity={student["ethnicity"]}>
@@ -111,8 +111,8 @@ function ResumePrev2(props) {
 	    <HashRouter>
 	    <div className = "allresu2">
 		{props.data.map(student => 
-			   <Resume name={student["name"]}
-				year={student["year"]}
+				<Resume name={student["name"]}
+				syear={student["year"]}
 			   gender={student["gender"]}
 			   hometown={student["hometown"]}
 			   ethnicity={student["ethnicity"]}>
@@ -133,17 +133,17 @@ class BigSlidey extends Component {
 	this.handleOnYear = this.handleOnYear.bind(this);
 	this.refreshData = this.refreshData.bind(this);
 	this.state = {
-	  gender: 0,
-	  year: 0,
-	  student : [{"name": "STUDENT1", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
-      {"name": "STUDENT3", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
-      {"name": "STUDENT5", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
-      {"name": "STUDENT7", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
-      {"name": "STUDENT1", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
-      {"name": "STUDENT3", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
-      {"name": "STUDENT5", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
-      {"name": "STUDENT7", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"}]
-      };
+	    gender: 0,
+	    year: 0,
+	    student : [{"name": "STUDENT1", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT3", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT5", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT7", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT1", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT3", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT5", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT7", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"}]
+	};
     }
 
     componentDidMount() {
@@ -154,21 +154,23 @@ class BigSlidey extends Component {
 	fetch("/api/8-" + parseInt(this.state.gender, 10) + "-" + parseInt(this.state.year, 10))
 	.then(data => data.json())
 	.then(data => this.setState({student: data}));
+	console.log("gender:", this.state.gender);
+	console.log("year:", this.state.year);
     }
 
-    handleOnGender(value) {
-	this.setState({gender: value});
+    handleOnGender(gender) {
+	this.setState({gender: gender});
     }
 
-    handleOnYear(value) {
-	this.setState({year: value});
+    handleOnYear(year) {
+	this.setState({year: year});
     }
 	
     render() {
 	return (
 		<div>
-		<GenderSlidey value={this.state.gender} handler={this.handleOnGender}/>
-		<YearSlidey value={this.state.year} handler={this.handleOnYear}/>
+		<GenderSlidey gender={this.state.gender} genderHandler={this.handleOnGender}/>
+		<YearSlidey gender={this.state.year} yearHandler={this.handleOnYear}/>
 		<button onClick={this.refreshData}> Update </button>
 		<ResumePrev2 data={this.state.student.slice(0,4)}/>
 		<ResumePrev data={this.state.student.slice(4,8)}/>
