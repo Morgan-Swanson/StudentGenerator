@@ -1,0 +1,62 @@
+\documentclass{resume3}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[tmargin=0.8in,rmargin=0.65in,lmargin=0.65in,bmargin=0.8in]{geometry}%
+%
+\name{Jessica Jones}%
+\address{Phone: (415){-}182{-}871   Email: jjones@calpoly.edu}%
+%
+\begin{document}%
+\normalsize%
+\begin{flushleft}%
+\newcommand{\EducationEntry}[1]{
+                            {\bf\italic California Polytechnic State University\linebreak }
+                            {\em September {#1} - Present}
+                        }%
+\newcommand{\BoldHeading}[1]{
+                            {\bf{#1}}
+                        }%
+\newcommand{\DatedEntry}[2]{
+                            \bf\item\fbox{#1} 
+                            ->
+                            {\bf\em{#2}}
+                        }%
+\newcommand{\FirstDatedEntry}[2]{
+                            \bf\text\fbox{#1} 
+                            ->
+                            {\bf\em{#2}}
+                        }%
+\begin{rSection}{Education:}%
+\EducationEntry{2016}%
+\linebreak%
+Bachelor of Science in Computer Science%
+\linebreak%
+Projected graduation date: June 2020%
+\end{rSection}%
+\begin{rSection}{Job Experience:}%
+\begin{rSubsection}{M}{\textit{i}}{c}{}%
+\item{r}%
+\begin{rSubsection}{S}{\textit{u}}{n}{}%
+\item{n}%
+\begin{rSubsection}{M}{\textit{a}}{y}{}%
+\item{ }%
+\begin{rSubsection}{C}{\textit{o}}{m}{}%
+\item{p}%
+\begin{rSubsection}{W}{\textit{o}}{r}{}%
+\item{k}%
+\end{rSubsection}%
+\end{rSection}%
+\begin{rSection}{Coursework Experience:}%
+\text{CSC 431 {-} Programming Languages II}%
+\item{CSC 309 {-} Software Engineering II}%
+\item{CSC 480 {-} Artificial Intelligence}%
+\item{CPE 357 {-} Systems Programming}%
+\end{rSection}%
+\begin{rSection}{Soft Skills:}%
+Constructive feedback |  Courtesy%
+\end{rSection}%
+\end{flushleft}%
+\end{document}

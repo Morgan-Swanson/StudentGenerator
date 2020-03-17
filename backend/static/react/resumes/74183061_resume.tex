@@ -1,0 +1,56 @@
+\documentclass{resume}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage[tmargin=0.6in,rmargin=0.75in,lmargin=0.75in,bmargin=0.6in]{geometry}%
+%
+\name{Sarah Thomas}%
+\address{(661){-}518{-}054 | sthoma@calpoly.edu}%
+%
+\begin{document}%
+\pagestyle{empty}%
+\normalsize%
+\begin{flushleft}%
+\newcommand{\EducationEntry}[1]{
+                            {\bf California Polytechnic State University}
+                            \hfill
+                            {\em September {#1} - Present}
+                        }%
+\newcommand{\BoldHeading}[1]{
+                            {\bf{#1}}
+                        }%
+\newcommand{\DatedEntry}[2]{
+                            \item{#1} 
+                            \hfill
+                            {\em{#2}}
+                        }%
+\newcommand{\FirstDatedEntry}[2]{
+                            \text{#1} 
+                            \hfill
+                            {\em{#2}}
+                        }%
+\begin{rSection}{Education}%
+\EducationEntry{2018}%
+\linebreak%
+Bachelor of Science in Computer Science%
+\linebreak%
+Projected graduation date: June 2022%
+\end{rSection}%
+\begin{rSection}{Work Experience}%
+\begin{rSubsection}{Google}{\textit{San Diego}}{June 2018 {-} August 2018}{}%
+\item{Computre Progrmamer}%
+\begin{rSubsection}{Intuit}{\textit{San Fransico, Cupertino}}{July 2019}{}%
+\item{Software Engineer}%
+\end{rSubsection}%
+\end{rSection}%
+\begin{rSection}{Relevant Coursework}%
+\text{CPE 203 {-} Project{-}Based Object{-}Oriented Programming and Design}%
+\item{CSC 225 {-} Introduction to Computer Organization}%
+\item{CPE 123 {-} Introduction to Computing}%
+\end{rSection}%
+\begin{rSection}{Soft Skills}%
+Diversity awareness, Divergent thinking, Effective communicator%
+\end{rSection}%
+\end{flushleft}%
+\end{document}

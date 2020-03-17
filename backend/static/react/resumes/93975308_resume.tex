@@ -1,0 +1,73 @@
+\documentclass{resume}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage[tmargin=0.6in,rmargin=0.75in,lmargin=0.75in,bmargin=0.6in]{geometry}%
+%
+\name{Matthew Lopez}%
+\address{(909){-}141{-}547 | mlopez@calpoly.edu}%
+%
+\begin{document}%
+\pagestyle{empty}%
+\normalsize%
+\begin{flushleft}%
+\newcommand{\EducationEntry}[1]{
+                            {\bf California Polytechnic State University}
+                            \hfill
+                            {\em September {#1} - Present}
+                        }%
+\newcommand{\BoldHeading}[1]{
+                            {\bf{#1}}
+                        }%
+\newcommand{\DatedEntry}[2]{
+                            \item{#1} 
+                            \hfill
+                            {\em{#2}}
+                        }%
+\newcommand{\FirstDatedEntry}[2]{
+                            \text{#1} 
+                            \hfill
+                            {\em{#2}}
+                        }%
+\begin{rSection}{Education}%
+\EducationEntry{2019}%
+\linebreak%
+Bachelor of Science in Software Engineering%
+\linebreak%
+Projected graduation date: June 2023%
+\end{rSection}%
+\begin{rSection}{Work Experience}%
+\begin{rSubsection}{Amazon {-} Los Angleles}{\textit{June 2018}}{Web Developer}{}%
+\item{Worked with realistic 3D modeling. Learned about implementing advanced physics engines}%
+\begin{rSubsection}{Adobe {-} Los Angleles}{\textit{May 2019}}{Systems Software Developer}{}%
+\item{Worked with realistic 3D modeling. Learned about implementing advanced physics engines}%
+\begin{rSubsection}{Cisco {-} Santa Barbara}{\textit{June 2018 {-} August 2018}}{Web Developer}{}%
+\item{Worked with realistic 3D modeling. Learned about implementing advanced physics engines}%
+\end{rSubsection}%
+\end{rSection}%
+\begin{rSection}{Projects}%
+\BoldHeading{Pixel art generator}%
+\linebreak%
+Built a tool that takes an image as input and samples the image to produce pixel art as output. Learned about CSS and Pylatex. %
+\linebreak%
+\linebreak%
+\BoldHeading{Procedurally Generated Map Maker}%
+\linebreak%
+Browser{-}based application that allows users to procedurally generate a terrain map based on a random seed.%
+\linebreak%
+\linebreak%
+\BoldHeading{Pixel art generator}%
+\linebreak%
+Built a tool that takes an image as input and samples the image to produce pixel art as output. Learned about CSS and Pylatex. %
+\end{rSection}%
+\begin{rSection}{Relevant Coursework}%
+\text{CPE 101 Fundamentals of Computer Science}%
+\item{CPE 202 {-} Data Structures}%
+\item{CPE 123 {-} Introduction to Computing}%
+\end{rSection}%
+\begin{rSection}{Soft Skills}%
+Goal setting, Friendliness, Analysis, Influence%
+\end{rSection}%
+\end{flushleft}%
+\end{document}

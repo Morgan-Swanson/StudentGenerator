@@ -50,11 +50,11 @@ class ScheduleGenerator:
 
     def getSchedule(self, year, specialization):
         specialization = self.spec_mappings[specialization]
-        if year == "fourth":
+        if year.lower() == "fourth":
             return self.getUpperClassSchedule(self.fourth_years.copy(deep=True), specialization)
-        elif year == "third":
+        elif year.lower() == "third":
             return self.getUpperClassSchedule(self.third_years.copy(deep=True), specialization)
-        elif year == "second":
+        elif year.lower() == "second":
             return self.getSecondYearSchedule()
         else:
             return self.getFirstYearSchedule()

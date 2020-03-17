@@ -1,0 +1,64 @@
+\documentclass[letterpaper,11pt,oneside]{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage[tmargin=1.25in,rmargin=1in,lmargin=1in,bmargin=1.25in]{geometry}%
+%
+\usepackage{graphicx}%
+%
+\begin{document}%
+\pagestyle{empty}%
+\normalsize%
+\begin{flushleft}%
+\newcommand{\NameEntry}[1]{
+                            \noindent \LARGE{\textbf{#1}}
+                            \linebreak
+                            \vspace{-2ex}
+                            \hrule
+                            \normalsize
+                        }%
+\newcommand{\PageSpacing}[0]{
+                            \vspace{1em}
+                            \noindent
+                        }%
+\newcommand{\EducationEntry}[3]{
+                            \Large{Education}
+                            & \textbf{California Polytechnic State University, San Luis Obispo}
+                            & \linebreak
+                            & B.S. {#1}
+                            & \linebreak
+                            & September {#2} - June {#3} \\
+                            \\
+                        }%
+\newcommand{\WorkEntryTitle}[1]{
+                            & \textbf{#1}
+                            \\
+                        }%
+\newcommand{\WorkEntry}[1]{
+                            & \parbox{5.0in}{#1} \\
+                            \\
+                        }%
+\newcommand{\ItemEntry}[1]{
+                            & {#1} \\
+                        }%
+\newcommand{\EndSection}[0]{
+                            & \\
+                        }%
+\NameEntry{Jacob Oliver}%
+\begin{flushright}%
+joliver@calpoly.edu, (916){-}786{-}325%
+\end {flushright}%
+\PageSpacing%
+\begin{tabular}{@{} l l}%
+\EducationEntry{Computer Science}{2017}{2021}%
+\Large{Activities}%
+\ItemEntry{F}%
+\ItemEntry{C}%
+\EndSection%
+\Large{Soft Skills}%
+\ItemEntry{Lateral thinking, Goal setting, Logical reasoning, Friendliness, Resilience, Writing skills}%
+\EndSection%
+\end{tabular}%
+\end{flushleft}%
+\end{document}

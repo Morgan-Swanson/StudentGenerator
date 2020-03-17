@@ -24,7 +24,7 @@ companies_location = ["Los Angleles","San Luis Obispo","San Diego","San Jose","S
 
 companies_date = ["June 2019","July 2019","Agust 2019","May 2019","May 2019 - June 2019","June 2019 - July 2019","June 2018 - July 2018","June 2018 - August 2018","August 2018"
                   ,"July 2018","June 2018","May 2018"]
-companies_title = ["Software Developer","Software Engineer","Systems Software Developer","Web Developer","Computre Progrmamer"]
+companies_title = ["Software Developer","Software Engineer","Systems Software Developer","Web Developer","Computer Programmer"]
 companies_description_front = ["Worked on creating a front end API. I was able to learn about full stack development."]
 companies_description_back = ["Helped develop a large data base using mySQL. Learned how to create better code."]
 companies_description_machine = ["Worked with neural nets. learned about the importance of stastical models"]
@@ -63,8 +63,7 @@ def student_work(student):
         company_desc = random.choice(companies_description_security)
     else:
         company_desc = random.choice(companies_description_machine)
-    l.append(company_name)
-    l.append(location)
+    l.append(company_name + " - " + location)
     l.append(companiesdate)
     l.append(companies)
     l.append(company_desc)

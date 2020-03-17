@@ -1,0 +1,43 @@
+\documentclass{resume3}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[tmargin=0.8in,rmargin=0.65in,lmargin=0.65in,bmargin=0.8in]{geometry}%
+%
+\name{Sean Howard}%
+\address{Phone: (909){-}786{-}062   Email: showar@calpoly.edu}%
+%
+\begin{document}%
+\normalsize%
+\begin{flushleft}%
+\newcommand{\EducationEntry}[1]{
+                            {\bf\italic California Polytechnic State University\linebreak }
+                            {\em September {#1} - Present}
+                        }%
+\newcommand{\BoldHeading}[1]{
+                            {\bf{#1}}
+                        }%
+\newcommand{\DatedEntry}[2]{
+                            \bf\item\fbox{#1} 
+                            ->
+                            {\bf\em{#2}}
+                        }%
+\newcommand{\FirstDatedEntry}[2]{
+                            \bf\text\fbox{#1} 
+                            ->
+                            {\bf\em{#2}}
+                        }%
+\begin{rSection}{Education:}%
+\EducationEntry{2018}%
+\linebreak%
+Bachelor of Science in Software Engineering%
+\linebreak%
+Projected graduation date: June 2022%
+\end{rSection}%
+\begin{rSection}{Soft Skills:}%
+Influence |  Business ethics |  Writing skills%
+\end{rSection}%
+\end{flushleft}%
+\end{document}

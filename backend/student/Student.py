@@ -357,7 +357,7 @@ def get_students(n=100, gender=None, year=None):
     S = build_students(n, gender, year)
     D = [s.to_dict() for s in S]
     schedules = [schedulegenerator.getSchedule(s.school_year, s.specialization) for s in S]
-    resumefiller.generateStudentResume(S[0].name, S[0].email, S[0].phone, S[0].key, schedules[0])
+    resumefiller.generateStudentResume(S[0], schedules[0])
     resumefiller.generateStudentBio(S[0].name, S[0].key, Textgen.getbio(S[0]))
     return D
 

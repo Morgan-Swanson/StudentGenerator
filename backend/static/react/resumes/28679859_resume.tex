@@ -1,0 +1,50 @@
+\documentclass{resume4}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[tmargin=0.6in,rmargin=0.75in,lmargin=0.75in,bmargin=0.6in]{geometry}%
+%
+\name{Roberto Roman}%
+\address{(831){-}853{-}450 / rroman@calpoly.edu}%
+%
+\begin{document}%
+\normalsize%
+\begin{flushleft}%
+\newcommand{\EducationEntry}[1]{
+                            \fbox{\bf California Polytechnic State University}
+                            \hfill
+                             \fbox{\em September {#1} - Present}
+                        }%
+\newcommand{\BoldHeading}[1]{
+                             \fbox{\bf{#1}}
+                        }%
+\newcommand{\DatedEntry}[2]{
+                            \item\fbox{#1} 
+                            \hfill
+                            \fbox{\em{#2}}
+                        }%
+\newcommand{\FirstDatedEntry}[2]{
+                            \text\fbox{#1} 
+                            \hfill
+                            \fbox{\em{#2}}
+                        }%
+\begin{rSection}{Education}%
+\EducationEntry{2016}%
+\linebreak%
+Bachelor of Science in Computer Science%
+\linebreak%
+Estimated graduation date: June 2020%
+\end{rSection}%
+\begin{rSection}{Extracurriculars}%
+\FirstDatedEntry {WISH}%
+\DatedEntry {FinTech}%
+\DatedEntry {Ukulele Club}%
+\DatedEntry {White Hat}%
+\end{rSection}%
+\begin{rSection}{Soft Skills}%
+Diversity awareness / Influence%
+\end{rSection}%
+\end{flushleft}%
+\end{document}

@@ -1,0 +1,73 @@
+\documentclass{resume4}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[tmargin=0.6in,rmargin=0.75in,lmargin=0.75in,bmargin=0.6in]{geometry}%
+%
+\name{Richard Elliott}%
+\address{(530){-}357{-}003 / relliott@calpoly.edu}%
+%
+\begin{document}%
+\normalsize%
+\begin{flushleft}%
+\newcommand{\EducationEntry}[1]{
+                            \fbox{\bf California Polytechnic State University}
+                            \hfill
+                             \fbox{\em September {#1} - Present}
+                        }%
+\newcommand{\BoldHeading}[1]{
+                             \fbox{\bf{#1}}
+                        }%
+\newcommand{\DatedEntry}[2]{
+                            \item\fbox{#1} 
+                            \hfill
+                            \fbox{\em{#2}}
+                        }%
+\newcommand{\FirstDatedEntry}[2]{
+                            \text\fbox{#1} 
+                            \hfill
+                            \fbox{\em{#2}}
+                        }%
+\begin{rSection}{Education}%
+\EducationEntry{2016}%
+\linebreak%
+Bachelor of Science in Computer Science%
+\linebreak%
+Estimated graduation date: June 2020%
+\end{rSection}%
+\begin{rSection}{Related Work Experience}%
+\begin{rSubsection}{Amazon {-} San Luis Obispo}{\textit{May 2018}}{Software Engineer}{}%
+\item{Helped with the encryption of a file system. Learned a lot about algortythims and data structures.}%
+\begin{rSubsection}{Intuit {-} San Fransico, Cupertino}{\textit{May 2019}}{Software Engineer}{}%
+\item{Helped with the encryption of a file system. Learned a lot about algortythims and data structures.}%
+\begin{rSubsection}{Salesforce {-} San Jose}{\textit{June 2019}}{Computer Programmer}{}%
+\item{Helped with the encryption of a file system. Learned a lot about algortythims and data structures.}%
+\end{rSubsection}%
+\end{rSection}%
+\begin{rSection}{Projects}%
+\BoldHeading{Firewall}%
+\linebreak%
+Created a secure and dynamic firewall using C++ learned a lot about algorithms%
+\linebreak%
+\linebreak%
+\BoldHeading{Firewall}%
+\linebreak%
+Created a secure and dynamic firewall using C++ learned a lot about algorithms%
+\linebreak%
+\linebreak%
+\BoldHeading{Reputation Server}%
+\linebreak%
+Able to track a users behavior based on feed back. Learned about SQL%
+\end{rSection}%
+\begin{rSection}{Coursework}%
+\text->{CPE 315 {-} Computer Architecture}%
+\item->{CPE 321 {-} Introduction to Computer Security}%
+\item->{CSC 323 {-} Cryptography Engineering}%
+\end{rSection}%
+\begin{rSection}{Soft Skills}%
+Humility / Accountability / Resourcefulness / Focus / Staying on task%
+\end{rSection}%
+\end{flushleft}%
+\end{document}
