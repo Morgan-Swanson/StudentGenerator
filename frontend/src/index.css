@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(236, 222, 240)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.menu{
+  background-color: rgb(62, 26, 146);
+  max-width: 5000px;
+  width: 110%;
+  font-family: Chalkduster;
+  position: fixed;
+  z-index: 1;
+  
+}
+
+
+.menu a {
+  float: left;
+  color: rgb(197, 202, 212);
+  font-family: Chalkduster;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 74%;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ 
+
+.menu a:hover {
+  
+  color: #F3BF39;
+}
+
+.menu h1{
+  font-size: 26px;
+  color: #F7F8F4;
+  text-align:left;
+  padding-left: 3%;
+}
+
+.slide{
+  padding-top: 100px;
+  width: 50%;
+  height: 10px;
+  padding-left: 30px;
+  z-index: 0;
+}
+
+.slide2{
+  padding-top: 90px;
+  width: 50%;
+  height: 10px;
+  padding-left: 30px;
+}
+
+.rangeslider__fill {
+  background-color: #F3BF39 !important; 
+}
+
+.slide h1{
+  font-family: sans-serif;
+  font-size: 30px;
+  color:rgb(62, 26, 146);
+}
+
+.slide2 h1{
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(62, 26, 146);
+  
+  
+}
+
+.info{
+  position: fixed;
+  top: 400px;
+  height:  1200px;
+  margin: auto;
+  width:100%;
+  display: block;
+  margin: 0 auto;
+  background: rgb(154, 139, 190);
+ 
+  
+}
+
+
+
+.resu  {
+  float: bottom;
+  width: 40.33%;
+  padding-left: 15px;
+  height: 250px;
+}
+
+.resu h1
+{
+  font-style: Bold;
+  color:rgb(62, 26, 146);
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
+
+.resu h2{
+  margin-top: -10px;
+  margin-left: 30px;
+  font-size: 40px;
+  color:rgb(62, 26, 146);
+}
+.resu a{
+  font-family: sans-serif;
+  font-style: Bold;
+  font-size: 20px;
+  color:rgb(62, 26, 146);
+}
+
+.resu a:hover{
+ 
+  color: rgb(159, 91, 199);
+}
+
+.resu h3
+{
+  font-family: sans-serif;
+  font-size: 20px;
+  color:rgb(62, 26, 146);
+}
+
+.allresu {
+  top: 450px;
+  background-color: #F3BF39;
+  left: 150px;
+  width: 500px;
+  position: absolute;
+  float: left;
+
+
+}
+
+
+
+.allresu2 {
+  top: 450px;
+  background-color: #F3BF39;
+  left: 750px;
+  width: 500px;
+  position: absolute;
+  float: left;
+
+
+
+}
+
+
