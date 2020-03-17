@@ -3,6 +3,7 @@ import random
 major_list = ["Software Engineering","Computer Science"]
 
 
+
 projects_front_4 = [("Movie Search App","Building this application I learned "
             "React Skills using the relatively new "
             "Hooks API. The example projects makes use of React components and CSS styling."),
@@ -38,25 +39,27 @@ years_3 =["2017","2019","2018"]
 years_2 = ["2019","2018"]
 years_1 = ["2019"]
 
+
+
 def student_major():
     return random.choice(major_list)
 
-def student_projects(self):
+def student_work(student):
     a = ()
     l = list(a)
     company_name = random.choice(companies_name)
     location = random.choice(companies_location)
     companiesdate = random.choice(companies_date)
     companies = random.choice(companies_title)
-    if self.tech_skills == "Back end":
+    if student.specialization == "Back end":
         company_desc = random.choice(companies_description_back)
-    if self.tech_skills == "Front end":
+    elif student.specialization == "Front end":
         company_desc = random.choice(companies_description_front)
-    if self.tech_skills == 'Graphics/Games':
+    elif student.specialization == 'Graphics/Games':
         company_desc = random.choice(companies_description_graphics)
-    if self.tech_skills == 'Low level':
+    elif student.specialization == 'Low level':
         company_desc = random.choice(companies_description_low)
-    if self.tech_skills == 'Security':
+    elif student.specialization == 'Security':
         company_desc = random.choice(companies_description_security)
     else:
         company_desc = random.choice(companies_description_machine)
@@ -65,45 +68,30 @@ def student_projects(self):
     l.append(companiesdate)
     l.append(companies)
     l.append(company_desc)
-    return l
-
-def student_clubs(self):
-    clubs = self.clubs
+    return tuple(l)
 
 
 
-
-
-def resumegen(self):
-    #major
-    major = random.choice(major_list)
-    education_start = 2020 - self.school
-
-
-    # soft skills ex: ["Leadership", "Teamwork", "Learns quickly"]
-    soft_skills = self.soft_skills
-
-    # tech_skills ex: ["Python", "Javascript"]
-    tech_skills = self.tech_skills
-
-
-    # club title
-    club = self.clubs
-    #club year
-    if self.school == 1:
-         years_in_club = random.choice(years_1)
-    if self.school == 2:
-        years_in_club = random.choice(years_2)
-
-    if self.school == 3:
-        years_in_club = random.choice(years_3)
+def student_proj(student):
+    if student.specialization == "Back end":
+        proj_desc = random.choice(projects_back_4)
+    elif student.specialization == "Front end":
+        proj_desc = random.choice(projects_front_4)
+    elif student.specialization == 'Graphics/Games':
+        proj_desc = random.choice(projects_graphics_4)
+    elif student.specialization == 'Low level':
+        proj_desc = random.choice(projects_low_4)
+    elif student.specialization == 'Security':
+        proj_desc = random.choice(projects_Security_4)
     else:
-        years_in_club = random.choice(years_4)
-    club_date = random.choice(months) + years_in_club
-    #club title and date = ("Women in Software and Hardware", "October 2017 - Present")
+        proj_desc = random.choice(companies_description_machine)
+    return proj_desc
 
 
-    return club_date
+
+
+
+
 
 
 
