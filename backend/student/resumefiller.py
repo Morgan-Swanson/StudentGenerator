@@ -20,14 +20,15 @@ def generateStudentResume(student, schedule):
     school_years = years[student.school_year.lower()]
     major = Resumegen.student_major()
 
-    experiences = [Resumegen.student_work(student), Resumegen.student_work(student), Resumegen.student_work(student)]
-    projects = [Resumegen.student_proj(student), Resumegen.student_proj(student), Resumegen.student_proj(student)]
+    experiences = Resumegen.student_work(student)
+    projects = [Resumegen.student_proj(student), Resumegen.student_proj(student)]
 
     resume.addEducation(school_years[0], school_years[1], major)
     resume.addExperience(experiences)
     resume.addProjects(projects)
     resume.addRelevantCoursework(schedule)
     resume.addSkills("Soft", student.soft_skills)
+    resume.addSkills("Hard", Resumegen.student_hard(student))
 
     resume.finish()
     tex = resume.doc.dumps()
