@@ -32,7 +32,7 @@ class StatData:
     def getStatData(self, filename):
         path = (os.path.realpath(__file__))
         print(path)
-        df = pd.read_csv(os.path.join(os.path.dirname(os.path.realpath(__file__)),  filename))
+        df = pd.read_csv(os.path.join(os.path.dirname(os.path.realpath(__file__)), filename))
         frosh = df[df['Cohort'] == "First-Time Freshmen Fall 2019"]
         soph = df[df['Cohort'] == "First-Time Freshmen Fall 2018"]
         jun = df[df['Cohort'] == "First-Time Freshmen Fall 2017"]
@@ -105,20 +105,20 @@ class StatData:
         return [f_male, f_female], [so_male, so_female], [j_male, j_female], [sn_male, sn_female]
 
     def getClass(self):
-        classes = ["first", "second", "third", "fourth"]
+        classes = ["First", "Second", "Third", "Fourth"]
         index = stats.rv_discrete(values=(np.arange(len(classes)), self.class_probs)).rvs(size=1)
         
         return classes[index[0]]
 
     def getGender(self, year):
-        gender = ["male", "female"]
-        if year == "first":
+        gender = ["Male", "Female"]
+        if year == "First":
             index = stats.rv_discrete(values=([0, 1], self.frosh_gender_probs)).rvs(size=1)
-        elif year == "second":
+        elif year == "Second":
             index = stats.rv_discrete(values=([0, 1], self.soph_gender_probs)).rvs(size=1)
-        elif year == "third":
+        elif year == "Third":
             index = stats.rv_discrete(values=([0, 1], self.jun_gender_probs)).rvs(size=1)
-        elif year == "fourth":
+        elif year == "Fourth":
             index = stats.rv_discrete(values=([0, 1], self.sen_gender_probs)).rvs(size=1)
         
         return gender[index[0]]
