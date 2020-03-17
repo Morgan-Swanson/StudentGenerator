@@ -72,7 +72,7 @@ class Student:
         self.clubs = self.get_clubs(clubs)
         self.soft_skills = self.get_skills(soft_skills)
         self.specialization = self.get_specialization()
-        self.key = abs(hash(str(self)) % 100000000)
+        self.key = str(abs(hash(str(self)) % 100000000))
         print(self.key)
 
     def draw_from_distribution(self, values, counts, num=1):
@@ -355,7 +355,8 @@ def get_students(n=100, gender=None, year=None):
     S = build_students(n, gender, year)
     D = [s.to_dict() for s in S]
     schedules = [schedulegenerator.getSchedule(s.school_year, s.specialization) for s in S]
-    resumefiller.generateStudentResume("Ariel Chen", "achen@calpoly.edu", "925-786-3014", schedules[0])
+    resumefiller.generateStudentResume(S[0].name, S[0].email, S[0].phone, S[0].key, schedules[0])
+    resumefiller.generateStudentBio(S[0].name, S[0].key, Textgen.getbio(S[0]))
     return D
 
 if __name__ == '__main__':

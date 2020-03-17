@@ -68,17 +68,17 @@ class Bio:
         self.doc.append(Command("end", "flushleft"))
 
 
-def main():
-    resume = Bio()
-    resume.addProjects([("Jessica Ferguson",
-"My name is Pepe, just kidding my name is Jessica Ferguson."
-"I can't stop myself from wasting time on Super Smash Bros Ultimate. "
-"You can tell I'm a cool with hobbies like surfing, watching anime, and lifting weights. I try to get stuff done at Greek Week Committee, Mobile App Dev Club, FinTech, and Computer Science and Artificial Intelligence club. College life has let me explore my niche interest. I want to be cool and learn more about Machine Learning ")])
-    resume.finish()
+# def main():
+#     resume = Bio()
+#     resume.addProjects([("Jessica Ferguson",
+# "My name is Pepe, just kidding my name is Jessica Ferguson."
+# "I can't stop myself from wasting time on Super Smash Bros Ultimate. "
+# "You can tell I'm a cool with hobbies like surfing, watching anime, and lifting weights. I try to get stuff done at Greek Week Committee, Mobile App Dev Club, FinTech, and Computer Science and Artificial Intelligence club. College life has let me explore my niche interest. I want to be cool and learn more about Machine Learning ")])
+#     resume.finish()
 
-    tex = resume.doc.dumps()
-    resume.doc.generate_tex("./biotex", compiler="/Library/TeX/texbin/pdflatex")
-    resume.doc.generate_pdf("./biopdf", compiler="/Library/TeX/texbin/pdflatex")
+#     tex = resume.doc.dumps()
+#     resume.doc.generate_tex("./biotex", compiler="/Library/TeX/texbin/pdflatex")
+#     resume.doc.generate_pdf("./biopdf", compiler="/Library/TeX/texbin/pdflatex")
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
