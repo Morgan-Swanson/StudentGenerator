@@ -10,6 +10,7 @@ from scipy import stats
 from student import Textgen
 from student import generateSchedule
 from student import formatstats
+from student import resumefiller
 import os
 import bisect
 
@@ -354,9 +355,11 @@ def get_students(n=100, gender=None, year=None):
     S = build_students(n, gender, year)
     D = [s.to_dict() for s in S]
     schedules = [schedulegenerator.getSchedule(s.school_year, s.specialization) for s in S]
+    resumefiller.generateStudentResume("Ariel Chen", "achen@calpoly.edu", "925-786-3014", schedules[0])
     return D
 
 if __name__ == '__main__':
     for s in build_students(int(sys.argv[1])):
         print(s)
+    D = get_students(int(sys.argv[1]))
     sys.stdout.flush()
