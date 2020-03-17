@@ -20,7 +20,7 @@ function GenderSlidey(props) {
 	<div className="inslide">
         <Slider
 	  min = {0}
-    	  max = {5}
+    	  max = {4}
           tooltip = {false}
           labels = {{0: "Random", 1: "1st", 2: "2nd", 3: "3rd", 4: "4th"}}
 	  step = {1}
@@ -128,6 +128,7 @@ class BigSlidey extends Component {
 	super(props, context);
 	this.handleOnGender = this.handleOnGender.bind(this);
 	this.handleOnYear = this.handleOnYear.bind(this);
+	this.refreshData = this.refreshData.bind(this);
 	this.state = {
 	  gender: 0,
 	  year: 0,
@@ -141,9 +142,13 @@ class BigSlidey extends Component {
       {"name": "STUDENT7", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"}]
       };
     }
-  
+
+    componentDidMount() {
+	this.refreshData()
+    }
+    
     refreshData() {
-	fetch("/api/8-" + this.gender.toString(10) + "-" + this.year.toString(10))
+	fetch("/api/8-" + this.state.gender.toString(10) + "-" + this.state.year.toString(10))
 	.then(data => data.json())
 	.then(data => this.setState({student: data}));
     }

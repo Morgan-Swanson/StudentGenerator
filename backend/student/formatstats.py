@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 from scipy import stats 
@@ -16,7 +17,7 @@ class StatData:
 
         self.geogender_frosh_new = self.geogender_frosh_new[self.geogender_frosh_new['Gender'] != "Other"]
 
-        self.georace = pd.read_csv("statdata/georace.csv")
+        self.georace = pd.read_csv(os.path.join(os.path.dirname(os.path.realpath(__file__)), "statdata/georace.csv"))
 
         self.total_students = self.getTotalStudents()
         self.class_probs = self.getClassProbs()
@@ -29,7 +30,9 @@ class StatData:
         self.geo_probs = self.getGeoProbs()
 
     def getStatData(self, filename):
-        df = pd.read_csv(filename)
+        path = (os.path.realpath(__file__))
+        print(path)
+        df = pd.read_csv(os.path.join(os.path.dirname(os.path.realpath(__file__)),  filename))
         frosh = df[df['Cohort'] == "First-Time Freshmen Fall 2019"]
         soph = df[df['Cohort'] == "First-Time Freshmen Fall 2018"]
         jun = df[df['Cohort'] == "First-Time Freshmen Fall 2017"]

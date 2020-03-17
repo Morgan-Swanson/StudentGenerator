@@ -9,7 +9,7 @@ import json
 from scipy import stats
 from student import Textgen
 from student import generateSchedule
-from student.formatstats import StatData
+from student import formatstats
 import os
 import bisect
 
@@ -346,7 +346,7 @@ def build_students(n=100):
     clubs = pd.read_csv(os.path.join(location, 'data', 'clubs.csv'))
     soft = pd.read_csv(os.path.join(location, 'data', 'soft_skills.csv'))
     jobs = pd.read_csv(os.path.join(location, 'data', 'jobs.csv'))
-    statdata = StatData()
+    statdata = formatstats.StatData()
     return [Student(lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs, soft, statdata) for s in students]
  
 def get_students(n=100):

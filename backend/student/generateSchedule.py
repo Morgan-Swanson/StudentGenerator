@@ -1,3 +1,4 @@
+import os
 import random
 import pandas as pd
 import numpy as np
@@ -25,7 +26,7 @@ def getEnrollmentProbabilities():
     return [f18, w19, s19, f19, w20, s20]
 
 def getEnrollments(filename):
-    df = pd.read_csv(filename, usecols=["Course", "Description", "Type", "Enrl"])
+    df = pd.read_csv(os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', filename), usecols=["Course", "Description", "Type", "Enrl"])
     return df[df.Type != "Lab"].reset_index(drop=True).drop("Type", axis=1)
 
 
