@@ -104,19 +104,21 @@ function Resume(props) {
 }
 
 function ResumePrev(props) {
+    console.log(props)
     return (
 	    <HashRouter>
 	    <div className = "allresu">
-		{props.map(student => 
+		{props.data.map(student => 
 			   <Resume name={student.name}
 			   gender={student.gender}
 			   hometown={student.hometown}
 			   ethnicity={student.ethnicity}>
-                    </Resume>
+			   </Resume>
+			   )}
                     <div className="content">
                     <Route exact path="/scholar" component={Together2}/>
                     </div>
-                </div>
+		 </div>
             </HashRouter>); 
 }
 
@@ -172,7 +174,10 @@ class ResumePrev2 extends React.Component
 class Together extends React.Component{
     constructor() {
 	super()
-	this.state = {student: null,
+	    this.state = {student: [{name: "STUDENT1", gender: "NONE", hometown: "NONE", ethnicity: "NONE"},
+	{name: "STUDENT1", gender: "NONE", hometown: "NONE", ethnicity: "NONE"},
+	{name: "STUDENT1", gender: "NONE", hometown: "NONE", ethnicity: "NONE"},
+	{name: "STUDENT1", gender: "NONE", hometown: "NONE", ethnicity: "NONE"}]
 	};    
     }
 
@@ -188,7 +193,7 @@ class Together extends React.Component{
             <Slide2></Slide2>
             <Bottomborder></Bottomborder>
             <ResumePrev2></ResumePrev2>
-            <ResumePrev data={this.student}></ResumePrev>
+            <ResumePrev data={this.state.student}></ResumePrev>
            
         </div>
 

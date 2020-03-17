@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/api/<int:number>')
 def get(number):
-    return jsonify(get_students(number))
+    return jsonify(Student.get_students(number))
 
 #return jsonify(Student.get_students(number))
 
