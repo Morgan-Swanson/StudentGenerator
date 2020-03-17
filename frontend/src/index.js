@@ -104,7 +104,6 @@ function Resume(props) {
 }
 
 function ResumePrev(props) {
-    console.log(props)
     return (
 	    <HashRouter>
 	    <div className = "allresu">
@@ -122,52 +121,23 @@ function ResumePrev(props) {
             </HashRouter>); 
 }
 
-
-class ResumePrev2 extends React.Component
-{
-
-    render(){
-        return <HashRouter>
-	    <p>My Token = {window.token}</p>
-        <div className = "allresu2">
-            <div class="resu">
-            <h1>SCHOLAR 2</h1> 
-            <a href="#link 1">NAME</a>
-            <h3>GENDER</h3>
-            <h3>HOME TOWN</h3>
-            <h3>ETHNICITY</h3>
-            <h2>______________________ </h2>
-            </div>
-            <div class="resu">
-            <h1>SCHOLAR 4</h1>  
-            <a href="#link 2">NAME</a>
-            <h3>GENDER</h3>
-            <h3>HOME TOWN</h3>
-            <h3>ETHNICITY</h3>
-            <h2>______________________ </h2>
-            </div>
-            <div class="resu">
-            <h1>SCHOLAR 6</h1>  
-            <a href="#link 3">NAME</a>
-            <h3>GENDER</h3>
-            <h3>HOME TOWN</h3>
-            <h3>ETHNICITY</h3>
-            <h2>______________________ </h2>
-            </div>
-            <div class="resu">
-            <h1>SCHOLAR 8</h1>  
-            <a href="#link 4">NAME</a>
-            <h3>GENDER</h3>
-            <h3>HOME TOWN</h3>
-            <h3>ETHNICITY</h3>
-            </div>
-        </div>
-      </HashRouter>
-     
-    }
-
+function ResumePrev2(props) {
+    return (
+	    <HashRouter>
+	    <div className = "allresu2">
+		{props.data.map(student => 
+			   <Resume name={student["name"]}
+			   gender={student["gender"]}
+			   hometown={student["hometown"]}
+			   ethnicity={student["ethnicity"]}>
+			   </Resume>
+			   )}
+                    <div className="content">
+                    <Route exact path="/scholar" component={Together2}/>
+                    </div>
+		 </div>
+            </HashRouter>); 
 }
-
 
 
 
@@ -177,12 +147,16 @@ class Together extends React.Component{
 	    this.state = {student: [{"name": "STUDENT1", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
 	{"name": "STUDENT3", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
 	{"name": "STUDENT5", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT7", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT1", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT3", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
+	{"name": "STUDENT5", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"},
 	{"name": "STUDENT7", "gender": "NONE", "hometown": "NONE", "ethnicity": "NONE"}]
 	};    
     }
 
     componentDidMount() {
-	fetch("/api/1")
+	fetch("/api/8")
 	    .then(data => data.json())
 	    .then(data => this.setState({student: data}))
 	    }
@@ -192,9 +166,9 @@ class Together extends React.Component{
             <Slide></Slide>
             <Slide2></Slide2>
             <Bottomborder></Bottomborder>
-            <ResumePrev2></ResumePrev2>
-            <ResumePrev data={this.state.student}></ResumePrev>
-           
+            <ResumePrev2 data={this.state.student.slice(0,4)}></ResumePrev2>
+       	    <ResumePrev data={this.state.student.slice(4,8)}></ResumePrev>
+          
         </div>
 
     }
