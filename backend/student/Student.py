@@ -29,7 +29,7 @@ class Student:
                 'trinity', 'tulare', 'tuolumne', 'ventura', 'yolo', 'yuba']
 
 
-    def __init__(self, county, race, gender, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs,jobs, soft_skills):
+    def __init__(self, county, race, gender, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs, soft_skills):
 
         self.school_year = self.get_school_year()
         self.personality = self.get_personality()
@@ -41,7 +41,6 @@ class Student:
         self.schools = schools
         self.activities_data = activities
         self.areacodes = areacodes
-        self.clubs = clubs
         self.gender = gender
         self.race = race
         self.county = county
@@ -51,7 +50,7 @@ class Student:
         self.email = self.get_email()
         self.religion = self.get_religion()
         self.activities = self.get_activities() 
-        self.clubs = self.get_clubs()
+        self.clubs = self.get_clubs(clubs)
         self.soft_skills = self.get_skills(soft_skills)
         self.tech_skills = self.get_tech_skills()
         self.key = abs(hash(str(self)) % 100000000)
@@ -164,12 +163,9 @@ class Student:
             phone = phone + digits[random.randint(0, 8)]
         return phone 
         
-
-
-
-    def get_clubs(self):
+    def get_clubs(self, clubs):
         # only one racial or religious club, make sure religion is the same
-        df = self.clubs.copy()
+        df = clubs.copy()
         col = df.columns
         active = ['nerd', 'tryhard']
         if self.personality in active:
@@ -191,11 +187,7 @@ class Student:
         # revised_data = data[data[col[1]].str.match(self.personality)].append(data[data[col[1]].str.match('normie')])
         activities = df[col[0]].tolist()
         p = df['probabilities'].tolist()
-        self.draw_from_distribution(activities, p, num_activities)
-        clubs1 = list(set(activities))
-        return clubs1
-
-
+        return list(set(self.draw_from_distribution(activities, p, num_activities)))
 
     def get_religion(self):        
         if self.school_religion != 'None':
