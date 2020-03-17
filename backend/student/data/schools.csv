@@ -1,0 +1,1677 @@
+,School,City,County,Religion
+0,Alameda Community Learning Center,Alameda,alameda,None
+1,Alameda High School,Alameda,alameda,None
+2,Alameda Science and Technology Institute,Alameda,alameda,None
+3,Encinal High School,Alameda,alameda,None
+4,Island High School,Alameda,alameda,None
+5,Albany High School,Alameda,alameda,None
+6,MacGregor High School,Alameda,alameda,None
+7,Berkeley High School,Alameda,alameda,None
+8,Castro Valley High School,Alameda,alameda,None
+9,Redwood Alternative High School,Alameda,alameda,None
+10,Dublin High School,Alameda,alameda,None
+11,Emery Secondary School,Alameda,alameda,None
+12,American High School,Alameda,alameda,None
+13,Irvington High School,Alameda,alameda,None
+14,John F. Kennedy High School,Alameda,alameda,None
+15,Mission San Jose High School,Alameda,alameda,None
+16,Washington High School,Alameda,alameda,None
+17,Hayward High School,Alameda,alameda,None
+18,Mount Eden High School,Alameda,alameda,None
+19,Sunset High School,Alameda,alameda,None
+20,Tennyson High School,Alameda,alameda,None
+21,Granada High School,Alameda,alameda,None
+22,Livermore High School,Alameda,alameda,None
+23,Conley-Caraballo High School,Hayward,alameda,None
+24,James Logan High School,Union City,alameda,None
+25,Newark Memorial High School,Alameda,alameda,None
+26,Bay Area Technology School,Alameda,alameda,None
+27,Castlemont Community of Small Schools,Alameda,alameda,None
+28,Fremont Federation of High Schools,Alameda,alameda,None
+29,McClymonds Educational Complex,Alameda,alameda,None
+30,Oakland High School,Alameda,alameda,None
+31,Oakland International High School,Alameda,alameda,None
+32,Oakland Military Institute,Alameda,alameda,None
+33,Oakland School for the Arts,Alameda,alameda,None
+34,Oakland Technical High School,Alameda,alameda,None
+35,Skyline High School,Alameda,alameda,None
+36,University Preparatory Charter Academy,Alameda,alameda,None
+37,Millennium High School,Alameda,alameda,None
+38,Piedmont High School,Alameda,alameda,None
+39,Amador Valley High School,Alameda,alameda,None
+40,Foothill High School,Alameda,alameda,None
+41,Horizon High School,Alameda,alameda,None
+42,Village High School,Alameda,alameda,None
+43,Lincoln High School,Alameda,alameda,None
+44,San Leandro High School,Alameda,alameda,None
+45,Arroyo High School,Alameda,alameda,None
+46,San Lorenzo High School,Alameda,alameda,None
+47,Bishop O'Dowd High School,Oakland,alameda,Christian
+48,Holy Names High School,Oakland,alameda,Christian
+49,Moreau Catholic High School,Hayward,alameda,Christian
+50,St. Elizabeth High School,Oakland,alameda,Christian
+51,St. Joseph Notre Dame High School,Alameda,alameda,Christian
+52,St. Mary's College High School,Albany,alameda,Christian
+53,Alameda Community Learning Center,Alameda,alameda,Christian
+54,Averroes High School,Fremont,alameda,Christian
+55,Chinese Christian Schools,San Leandro,alameda,Christian
+56,The College Preparatory School,Oakland,alameda,Christian
+57,Emery High School,Emeryville,alameda,Christian
+58,Head-Royce School,Oakland,alameda,Christian
+59,Maybeck High School,Berkeley,alameda,Christian
+60,The Quarry Lane School,Dublin,alameda,Christian
+61,Valley Christian School,Dublin,alameda,Christian
+62,Bear Valley High School,Bear Valley,alpine,Christian
+63,Woodfords High School,Markleeville,alpine,Christian
+64,Amador High School,Sutter Creek,amador,Christian
+65,Argonaut High School,Jackson,amador,Christian
+66,Biggs High School,Biggs,butte,Christian
+67,Chico High School,Chico,butte,Christian
+68,Couture High School,Oroville,butte,Christian
+69,Durham High School,Durham,butte,Christian
+70,Gridley High School,Gridley,butte,Christian
+71,Las Plumas High School,Oroville,butte,Christian
+72,Oroville High School,Oroville,butte,Christian
+73,Paradise High School,Paradise,butte,Christian
+74,Pleasant Valley High School,Chico,butte,Christian
+75,Arnold High School,Arnold,calaveras,Christian
+76,Bret Harte Union High School,Angels Camp,calaveras,Christian
+77,Calaveras High School,San Andreas,calaveras,Christian
+78,Copper Cove High School,Copperopolis,calaveras,Christian
+79,Colusa High School,Colusa,colusa,Christian
+80,Maxwell High School,Maxwell,colusa,Christian
+81,Pierce High School,Sudhir,colusa,Christian
+82,Williams High School,Williams,colusa,Christian
+83,Acalanes High School,Lafayette,contra costa,Christian
+84,Campolindo High School,Moraga,contra costa,Christian
+85,Las Lomas High School,Walnut Creek,contra costa,Christian
+86,Miramonte High School,Orinda,contra costa,Christian
+87,Antioch High School,Antioch,contra costa,Christian
+88,Deer Valley High School,Antioch,contra costa,Christian
+89,Dozier-Libbey Medical High School,Antioch,contra costa,Christian
+90,John Swett High School,Crockett,contra costa,Christian
+91,Willow High School,Crockett,contra costa,Christian
+92,Clayton Valley High School,Concord,contra costa,Christian
+93,College Park High School,Pleasant Hill,contra costa,Christian
+94,Concord High School,Concord,contra costa,Christian
+95,Mount Diablo High School,Concord,contra costa,Christian
+96,Northgate High School,Walnut Creek,contra costa,Christian
+97,Ygnacio Valley High School,Concord,contra costa,Christian
+98,De Anza High School,Richmond,contra costa,Christian
+99,El Cerrito High School,El Cerrito,contra costa,Christian
+100,Hercules High School,Hercules,contra costa,Christian
+101,Kennedy High School,Richmond,contra costa,Christian
+102,Middle College High School,San Pablo,contra costa,Christian
+103,Pinole Valley High School,Pinole,contra costa,Christian
+104,Richmond High School,Richmond,contra costa,Christian
+105,Alhambra High School,Martinez,contra costa,Christian
+106,The Athenian School,Danville,contra costa,Christian
+107,Bentley School,Lafayette,contra costa,Christian
+108,Berean Christian High School,Walnut Creek,contra costa,Christian
+109,California High School,San Ramon,contra costa,Christian
+110,Carondelet High School,Concord,contra costa,Christian
+111,Christ the King Catholic School,Pleasant Hill,contra costa,Christian
+112,De La Salle High School,Concord,contra costa,Christian
+113,Delta Christian Junior/Senior High School,Antioch,contra costa,Christian
+114,Dougherty Valley High School,San Ramon,contra costa,Christian
+115,El Sobrante Christian School,El Sobrante,contra costa,Christian
+116,Freedom High School,Oakley,contra costa,Christian
+117,Heritage High School,Brentwood,contra costa,Christian
+118,Holden High School,Orinda,contra costa,Christian
+119,Independence High School,Brentwood,contra costa,Christian
+120,Liberty High School,Brentwood,contra costa,Christian
+121,Monte Vista High School,Danville,contra costa,Christian
+122,Orinda Academy,Orinda,contra costa,Christian
+123,Pittsburg High School,Pittsburg,contra costa,Christian
+124,Pleasant Hill Adventist Academy,Pleasant Hill,contra costa,Christian
+125,Salesian College Preparatory,Richmond,contra costa,Christian
+126,San Ramon Valley High School,Danville,contra costa,Christian
+127,Del Norte High School,Crescent City,del norte,Christian
+128,El Dorado Adventist School,Placerville,el dorado,Christian
+129,El Dorado High School,Placerville,el dorado,Christian
+130,Golden Sierra High School,Garden Valley,el dorado,Christian
+131,Muir Charter School,Placerville,el dorado,Christian
+132,Oak Ridge High School,El Dorado Hills,el dorado,Christian
+133,Ponderosa High School,Shingle Springs,el dorado,Christian
+134,Shenandoah High School,El Dorado,el dorado,Christian
+135,South Tahoe High School,South Lake Tahoe,el dorado,Christian
+136,Union Mine High School,El Dorado,el dorado,Christian
+137,Vista High School,Placerville,el dorado,Christian
+138,Buchanan High School,Clovis,fresno,Christian
+139,Clovis East High School,Clovis,fresno,Christian
+140,Clovis High School,Clovis,fresno,Christian
+141,Clovis North High School,Fresno,fresno,Christian
+142,Clovis West High School,Fresno,fresno,Christian
+143,Bullard High School,Fresno,fresno,Christian
+144,The Center for Advanced Research and Technology,Fresno,fresno,Christian
+145,Erma Duncan Polytechnical High School,Fresno,fresno,Christian
+146,Edison High School,Fresno,fresno,Christian
+147,Fresno High School,Fresno,fresno,Christian
+148,Herbert Hoover High School,Fresno,fresno,Christian
+149,McLane High School,Fresno,fresno,Christian
+150,Roosevelt High School,Fresno,fresno,Christian
+151,Sunnyside High School,Fresno,fresno,Christian
+152,Ambassador Phillip V. Sanchez Public Charter,Fresno,fresno,Christian
+153,Ambassador Phillip V. Sanchez Public Charter,Fresno,fresno,Christian
+154,Ambassador Phillip V. Sanchez Public Charter,Mendota,fresno,Christian
+155,Ambassador Phillip V. Sanchez Public Charter,Parlier,fresno,Christian
+156,Carter G. Woodson Public Charter School,Fresno,fresno,Christian
+157,Caruthers High School,Caruthers,fresno,Christian
+158,Central High School,Fresno,fresno,Christian
+159,Charter Academy of Ambassador Phillip V. Sanchez,Fresno,fresno,Christian
+160,Coalinga High School,Coalinga,fresno,Christian
+161,Crescent View South Public Charter,Clovis,fresno,Christian
+162,Crescent View South Public Charter,Fresno,fresno,Christian
+163,Crescent View West Public Charter,Fresno,fresno,Christian
+164,Dewolf West High School,Fresno,fresno,Christian
+165,Firebaugh High School,Firebaugh,fresno,Christian
+166,Fowler High School,Fowler,fresno,Christian
+167,Fresno Prep Academy,Fresno,fresno,Christian
+168,Immanuel High School,Reedley,fresno,Christian
+169,Kerman High School,Kerman,fresno,Christian
+170,Kingsburg High School,Kingsburg,fresno,Christian
+171,Laton High School,Laton,fresno,Christian
+172,Mendota High School,Mendota,fresno,Christian
+173,New Millennium Charter School,Fresno,fresno,Christian
+174,Parlier High School,Parlier,fresno,Christian
+175,Reedley High School,Reedley,fresno,Christian
+176,Riverdale High School,Riverdale,fresno,Christian
+177,San Joaquin Memorial High School,Fresno,fresno,Christian
+178,Sanger High School,Sanger,fresno,Christian
+179,School of Unlimited Learning,Fresno,fresno,Christian
+180,Selma High School,Selma,fresno,Christian
+181,Sierra High School,Tollhouse,fresno,Christian
+182,Tranquillity High School,Tranquility,fresno,Christian
+183,University High School,Fresno,fresno,Christian
+184,Washington Union High School,Fresno,fresno,Christian
+185,Elk Creek Junior-Senior High School,Elk Creek,glenn,Christian
+186,Hamilton Union High School,Hamilton City,glenn,Christian
+187,Orland High School,Orland,glenn,Christian
+188,Princeton Junior-Senior High School,Princeton,glenn,Christian
+189,Willows High School,Willows,glenn,Christian
+190,Academy of the Redwoods Early college high school,Fortuna,humboldt,Christian
+191,Arcata High School,Arcata,humboldt,Christian
+192,Eureka High School,Eureka,humboldt,Christian
+193,Ferndale High School,Ferndale,humboldt,Christian
+194,Fortuna Union High School,Fortuna,humboldt,Christian
+195,Hoopa Valley High School,Hoopa,humboldt,Christian
+196,Humboldt Bay High School,Eureka,humboldt,Christian
+197,Mattole Triple Junction High School,Petrolia,humboldt,Christian
+198,McKinleyville High School,McKinleyville,humboldt,Christian
+199,St. Bernard's High School,Eureka,humboldt,Christian
+200,South Fork High School,Miranda,humboldt,Christian
+201,Brawley  North County High School,Brawley,imperial,Christian
+202,Brawley Union High School,Brawley,imperial,Christian
+203,Calexico High School,Calexico,imperial,Christian
+204,Calipatria High School,Calipatria,imperial,Christian
+205,Central Union High School,El Centro,imperial,Christian
+206,De Anza High School,Calexico,imperial,Christian
+207,Desert Valley High School,Brawley,imperial,Christian
+208,Holtville High School,Holtville,imperial,Christian
+209,Imperial High School,Imperial,imperial,Christian
+210,San Pasqual Valley High School,Winterhaven,imperial,Christian
+211,Southwest High School,El Centro,imperial,Christian
+212,Vincent Memorial High School,Calexico,imperial,Christian
+213,West Shores High School,Salton City,imperial,Christian
+214,Big Pine High School,Big Pine,inyo,Christian
+215,Bishop High School,Bishop,inyo,Christian
+216,Death Valley Academy,Shoshone,inyo,Christian
+217,Lone Pine High School,Lone Pine,inyo,Christian
+218,Owens Valley High School,Independence,inyo,Christian
+219,Arvin High School,Arvin,kern,Christian
+220,Bakersfield Christian High School,Bakersfield,kern,Christian
+221,Bakersfield High School,Bakersfield,kern,Christian
+222,Boron Junior-Senior High School,Boron,kern,Christian
+223,Burroughs High School,Ridgecrest,kern,Christian
+224,Centennial High School,Bakersfield,kern,Christian
+225,Central Valley High School,Bakersfield,kern,Christian
+226,Cesar E. Chavez High School,Delano,kern,Christian
+227,Delano High School,Delano,kern,Christian
+228,Desert Junior/Senior High School,Edwards,kern,Christian
+229,East Bakersfield High School,Bakersfield,kern,Christian
+230,Foothill High School,Bakersfield,kern,Christian
+231,Frazier Mountain High School,Lebec,kern,Christian
+232,Frontier High School,Bakersfield,kern,Christian
+233,Garces Memorial High School,Bakersfield,kern,Christian
+234,Golden Valley High School,Bakersfield,kern,Christian
+235,Highland High School,Bakersfield,kern,Christian
+236,Independence High School,Bakersfield,kern,Christian
+237,Kern Valley High School,Lake Isabella,kern,Christian
+238,Liberty High School,Bakersfield,kern,Christian
+239,Maricopa High School,Maricopa,kern,Christian
+240,McFarland High School,McFarland,kern,Christian
+241,Mira Monte High School,Bakersfield,kern,Christian
+242,Mojave High School 1954,Mojave,kern,Christian
+243,North High School,Kern,kern,Christian
+244,Ridgeview High School,Bakersfield,kern,Christian
+245,Robert F. Kennedy High School,Delano,kern,Christian
+246,Rosamond High School,Rosamond,kern,Christian
+247,Shafter High School,Shafter,kern,Christian
+248,South High School,Bakersfield,kern,Christian
+249,Stockdale High School,Bakersfield,kern,Christian
+250,Taft Union High School,Taft,kern,Christian
+251,Tehachapi High School,Tehachapi,kern,Christian
+252,Wasco High School,Wasco,kern,Christian
+253,West High School,Bakersfield,kern,Christian
+254,Avenal High School,Avenal,kings,Christian
+255,Corcoran High School,Corcoran,kings,Christian
+256,Crescent Valley Public Charter,Hanford,kings,Christian
+257,Hanford High School,Hanford,kings,Christian
+258,Hanford West High School,Hanford,kings,Christian
+259,Earl F. Johnson Continuation School,Hanford,kings,Christian
+260,Kings Community School,Hanford,kings,Christian
+261,Lemoore High School,Lemoore,kings,Christian
+262,Sierra Pacific High School,Hanford,kings,Christian
+263,Armona Union Academy,Armona,kings,Christian
+264,Clear Lake High School,Lakeport,lake,Christian
+265,Intermountain High School,Cobb,lake,Christian
+266,Kelseyville High School,Kelseyville,lake,Christian
+267,Lower Lake High School,Lower Lake,lake,Christian
+268,Middletown High School,Middletown,lake,Christian
+269,Upper Lake High School,Upper Lake,lake,Christian
+270,Big Valley High School,Bieber,lassen,Christian
+271,Herlong High School,Herlong,lassen,Christian
+272,Lassen High School,Susanville,lassen,Christian
+273,Westwood High School,Westwood,lassen,Christian
+274,Bishop Alemany High School,Mission Hills,los angeles,Christian
+275,Bishop Conaty-Our Lady of Loretto High School,Harvard Heights,los angeles,Christian
+276,Bishop Mora Salesian High School,Boyle Heights,los angeles,Christian
+277,Cathedral High School,Elysian Park,los angeles,Christian
+278,Chaminade College Preparatory School,West Hills,los angeles,Christian
+279,Crespi Carmelite High School,Encino,los angeles,Christian
+280,Louisville High School,Woodland Hills,los angeles,Christian
+281,Loyola High School,Harvard Heights,los angeles,Christian
+282,Immaculate Heart High School,Los Feliz,los angeles,Christian
+283,Mary Star of the Sea High School,San Pedro,los angeles,Christian
+284,Marymount High School,Bel-Air,los angeles,Christian
+285,Notre Dame Academy,Rancho Park,los angeles,Christian
+286,Notre Dame High School Sherman Oaks,Los Angeles,los angeles,Christian
+287,Providence High School,Burbank,los angeles,Christian
+288,Sacred Heart High School,Lincoln Heights,los angeles,Christian
+289,St. Bernard High School,Playa del Rey,los angeles,Christian
+290,St. Genevieve High School,Panorama City,los angeles,Christian
+291,YeeYee International School,Los Angeles,los angeles,Christian
+292,Alverno High School,Sierra Madre,los angeles,Christian
+293,Assurance Learning Academy,Harbor City,los angeles,Christian
+294,Bellarmine-Jefferson High School,Burbank,los angeles,Christian
+295,Bishop Amat Memorial High School,La Puente,los angeles,Christian
+296,Bishop Montgomery High School,Torrance,los angeles,Christian
+297,Cantwell-Sacred Heart of Mary High School,Montebello,los angeles,Christian
+298,Damien High School,La Verne,los angeles,Christian
+299,Don Bosco Technical Institute,Rosemead,los angeles,Christian
+300,Flintridge Sacred Heart Academy,La Cañada Flintridge,los angeles,Christian
+301,Holy Family High School,Glendale,los angeles,Christian
+302,Junípero Serra High School,Gardena,los angeles,Christian
+303,La Salle High School,Pasadena,los angeles,Christian
+304,Mayfield Senior School of the Holy Child Jesus,Pasadena,los angeles,Christian
+305,Paraclete High School,Lancaster,los angeles,Christian
+306,Pomona Catholic High School,Pomona,los angeles,Christian
+307,Providence High School,Burbank,los angeles,Christian
+308,Ramona Convent Secondary School,Alhambra,los angeles,Christian
+309,St. Anthony High School,Long Beach,los angeles,Christian
+310,St. Francis High School,La Cañada Flintridge,los angeles,Christian
+311,St. John Bosco High School,Bellflower,los angeles,Christian
+312,St. Joseph High School,Lakewood,los angeles,Christian
+313,St. Lucy's Priory High School,Glendora,los angeles,Christian
+314,St. Mary's Academy,Inglewood,los angeles,Christian
+315,St. Monica Academy,Pasadena,los angeles,Christian
+316,St. Monica High School,Santa Monica,los angeles,Christian
+317,St. Paul High School,Santa Fe Springs,los angeles,Christian
+318,St. Pius X - St. Matthias Academy,Downey,los angeles,Christian
+319,San Gabriel Mission High School,San Gabriel,los angeles,Christian
+320,Bethel Christian High School,Lancaster,los angeles,Christian
+321,Campbell Hall School,North Hollywood,los angeles,Christian
+322,Desert Christian High School,Lancaster,los angeles,Christian
+323,First Lutheran High School,Sylmar,los angeles,Christian
+324,First Presbyterian School,Arcadia,los angeles,Christian
+325,Frederick K.C. Price III Christian Schools,Los Angeles,los angeles,Christian
+326,Glendale Adventist Academy,Glendale,los angeles,Christian
+327,Hillcrest Christian School,Granada Hills,los angeles,Christian
+328,Judson International School,Eagle Rock,los angeles,Christian
+329,Lighthouse Christian Academy,Santa Monica,los angeles,Christian
+330,Los Angeles Adventist Academy,Los Angeles,los angeles,Christian
+331,Los Angeles Baptist High School,North Hills,los angeles,Christian
+332,Los Angeles Lutheran High School,Sylmar,los angeles,Christian
+333,Lutheran High School,La Verne,los angeles,Christian
+334,Maranatha High School,Pasadena,los angeles,Christian
+335,Oaks Christian High School,Westlake Village,los angeles,Christian
+336,Pacific Christian on the Hill,Los Angeles,los angeles,Christian
+337,Pacific Lutheran High School,Torrance,los angeles,Christian
+338,Pacifica Christian High School,Santa Monica,los angeles,Christian
+339,Pilgrim School,Los Angeles,los angeles,Christian
+340,San Gabriel Adventist Academy,San Gabriel,los angeles,Christian
+341,Santa Clarita Christian School,Santa Clarita,los angeles,Christian
+342,South Bay Lutheran High School,Inglewood,los angeles,Christian
+343,Trinity Lutheran Junior/Senior School,Reseda,los angeles,Christian
+344,Valley Christian High School,Cerritos,los angeles,Christian
+345,Village Christian Schools,Sun Valley,los angeles,Christian
+346,Bais Chana High School,Los Angeles,los angeles,Jewish
+347,Bais Yaakov of Los Angeles,Los Angeles,los angeles,Jewish
+348,Bnos Devorah High School,Los Angeles,los angeles,Jewish
+349,Mesivta of Greater Los Angeles,Calabasas,los angeles,Jewish
+350,Mesivta Birkas Yitzchok,Los Angeles,los angeles,Jewish
+351,Milken Community High School,Bel-Air,los angeles,Jewish
+352,Netan Eli High School,Los Angeles,los angeles,Jewish
+353,New Community Jewish High School,West Hills,los angeles,Jewish
+354,Ohr HaEmet Institute,Los Angeles,los angeles,Jewish
+355,Shalhevet High School,Los Angeles,los angeles,Jewish
+356,Valley Torah High School,Valley Village,los angeles,Jewish
+357,Valley Torah Lintz High School,Sun Valley,los angeles,Jewish
+358,Yeshiva Gedolah School of Los Angeles/Michael Diller High School,Los Angeles,los angeles,Jewish
+359,Yeshiva High Tech,Los Angeles,los angeles,Jewish
+360,Yeshiva Ohr Elchonon Chabad High School,Los Angeles,los angeles,Jewish
+361,Yeshiva University High School of Los Angeles,Los Angeles,los angeles,Jewish
+362,Yeshiva University High School of Los Angeles,Los Angeles,los angeles,Jewish
+363,Advanced Education Academy,La Canada,los angeles,Christian
+364,AGBU Vatche and Tamar Manoukian High School,Pasadena,los angeles,Christian
+365,AGBU Manoogian-Demirdjian School,Canoga Park,los angeles,Christian
+366,American University Preparatory School,downtown Los Angeles,los angeles,Christian
+367,Archer School for Girls,Brentwood,los angeles,Christian
+368,Armenian Mesrobian School,Pico Rivera,los angeles,Christian
+369,Beverly Hills Preparatory School,Beverly Hills,los angeles,Christian
+370,Brentwood School,Brentwood,los angeles,Christian
+371,Bridges Academy,Studio City,los angeles,Christian
+372,Buckley School,Sherman Oaks,los angeles,Christian
+373,Chadwick School,Palos Verdes Peninsula,los angeles,Christian
+374,Crest View Academy,Santa Clarita,los angeles,Christian
+375,Crossroads School,Santa Monica,los angeles,Christian
+376,Delphi Academy of Los Angeles,Lake View Terrace,los angeles,Christian
+377,Excelsior School,Pasadena,los angeles,Christian
+378,Ferrahian Armenian School,Encino,los angeles,Christian
+379,Flintridge Preparatory School,La Canada Flintridge,los angeles,Christian
+380,Harvard-Westlake School,Holmby Hills,los angeles,Christian
+381,Lycée Français de Los Angeles,Rancho Park – Palms,los angeles,Christian
+382,Marlborough School,Hancock Park,los angeles,Christian
+383,Oakwood School,North Hollywood,los angeles,Christian
+384,Oxford School,Rowland Heights,los angeles,Christian
+385,Polytechnic School,Pasadena,los angeles,Christian
+386,Renaissance Academy,Altadena,los angeles,Christian
+387,Ribet Academy,Glassell Park,los angeles,Christian
+388,Rio Hondo Preparatory School,Arcadia,los angeles,Christian
+389,Rose and Alex Pilibos Armenian School,Hollywood,los angeles,Christian
+390,Rolling Hills Preparatory,Palos Verdes Estates,los angeles,Christian
+391,Sierra Canyon School,Chatsworth,los angeles,Christian
+392,STAR Prep Academy,Culver City,los angeles,Christian
+393,STEM3 Academy,Valley Glen,los angeles,Christian
+394,TCA Arshag Dickranian Armenian School,Hollywood,los angeles,Christian
+395,Viewpoint School,Calabasas,los angeles,Christian
+396,Village Glen High School,Sherman Oaks,los angeles,Christian
+397,Vistamar School,El Segundo,los angeles,Christian
+398,The Waverly School,Pasadena,los angeles,Christian
+399,The Webb Schools,Claremont,los angeles,Christian
+400,Westridge School for Girls,Pasadena,los angeles,Christian
+401,Wild Wood High School,Los Angeles,los angeles,Christian
+402,Wildwood School,Los Angeles,los angeles,Christian
+403,Windward School,Mar Vista,los angeles,Christian
+404,Artesia High School,Lakewood,los angeles,None
+405,Cerritos High School,Cerritos,los angeles,None
+406,Richard Gahr High School,Cerritos,los angeles,None
+407,Gretchen Whitney High School,Cerritos,los angeles,None
+408,Tracy High School,Cerritos,los angeles,None
+409,Assurance Learning Academy,Acton,los angeles,None
+410,Vasquez High School,Acton,los angeles,None
+411,Alhambra High School,Alhambra,los angeles,None
+412,Mark Keppel High School,Monterey Park,los angeles,None
+413,San Gabriel High School,San Gabriel,los angeles,None
+414,Alliance for College-Ready Public Schools,Los Angeles,los angeles,None
+415,Alliance Alice M. Baxter College-Ready High School,Los Angeles,los angeles,None
+416,College-Ready Academy High School#4,Los Angeles,los angeles,None
+417,College-Ready Academy High School#6,Los Angeles,los angeles,None
+418,College-Ready Math-Science School,Los Angeles,los angeles,None
+419,Gertz-Ressler Academy High School,Los Angeles,los angeles,None
+420,Heritage College-Ready Academy High School,Los Angeles,los angeles,None
+421,Huntington Park College-Ready High School,Los Angeles,los angeles,None
+422,Richard Merkin Middle Academy,Los Angeles,los angeles,None
+423,Antelope Valley High School,Lancaster,los angeles,None
+424,Assurance Learning Academy,Lancaster,los angeles,None
+425,AV Academy High School,Lake Los Angeles,los angeles,None
+426,AV Academy High School,Palmdale,los angeles,None
+427,AV Learning Academy,Lancaster,los angeles,None
+428,Desert Sands Charter High School,Palmdale,los angeles,None
+429,Desert Winds Continuation High School,Lancaster,los angeles,None
+430,Eastside High School,Lancaster,los angeles,None
+431,Highland High School,Palmdale,los angeles,None
+432,Lancaster High School,Lancaster,los angeles,None
+433,Littlerock High School,Littlerock,los angeles,None
+434,Palmdale High School,Palmdale,los angeles,None
+435,Pete Knight High School,Palmdale,los angeles,None
+436,Quartz Hill High School,Quartz Hill,los angeles,None
+437,R. Rex Parris Continuation High School,Palmdale,los angeles,None
+438,Arcadia High School,Arcadia,los angeles,None
+439,Agvania High School,Los Angeles,los angeles,None
+440,Azusa High School,Azusa,los angeles,None
+441,Gladstone High School,Azusa,los angeles,None
+442,Baldwin Park High School,Los Angeles,los angeles,None
+443,North Park Continuation School,Los Angeles,los angeles,None
+444,Sierra Vista High School,Baldwin Park,los angeles,None
+445,Bassett High School,La Puente,los angeles,None
+446,Bellflower High School,Bellflower,los angeles,None
+447,Mayfair High School,Lakewood,los angeles,None
+448,Somerset High School,Bellflower,los angeles,None
+449,Beverly Hills High School,Beverly Hills,los angeles,None
+450,Bonita High School,La Verne,los angeles,None
+451,San Dimas High School,San Dimas,los angeles,None
+452,Burbank High School,Burbank,los angeles,None
+453,John Burroughs High School,Burbank,los angeles,None
+454,Hawthorne High School,Hawthorne,los angeles,None
+455,Lawndale High School,Lawndale,los angeles,None
+456,Leuzinger High School,Lawndale,los angeles,None
+457,Charter Oak High School,Covina,los angeles,None
+458,Claremont High School,Claremont,los angeles,None
+459,Centennial High School,Compton,los angeles,None
+460,Compton High School,Compton,los angeles,None
+461,Dominguez High School,Compton,los angeles,None
+462,Covina High School,Los Angeles,los angeles,None
+463,Northview High School,Covina,los angeles,None
+464,South Hills High School,West Covina,los angeles,None
+465,Culver City High School,Los Angeles,los angeles,None
+466,Columbus High School,Los Angeles,los angeles,None
+467,Downey High School,Downey,los angeles,None
+468,Warren High School,Downey,los angeles,None
+469,Duarte High School,Duarte,los angeles,None
+470,California School of the Arts - San Gabriel Valley,Los Angeles,los angeles,None
+471,Arroyo High School,El Monte,los angeles,None
+472,El Monte High School,El Monte,los angeles,None
+473,Mountain View High School,El Monte,los angeles,None
+474,Rosemead High School,Rosemead,los angeles,None
+475,South El Monte High School,South El Monte,los angeles,None
+476,El Rancho High School,Pico Rivera,los angeles,None
+477,El Segundo High School,El Segundo,los angeles,None
+478,Clark Magnet High School,Los Angeles,los angeles,None
+479,Crescenta Valley High School,La Crescenta,los angeles,None
+480,Daily High School,Los Angeles,los angeles,None
+481,Glendale High School,Glendale,los angeles,None
+482,Herbert Hoover High School,Glendale,los angeles,None
+483,Glendora High School,Glendora,los angeles,None
+484,Glen A. Wilson High School,Hacienda Heights,los angeles,None
+485,La Puente High School,La Puente,los angeles,None
+486,Los Altos High School,Hacienda Heights,los angeles,None
+487,Puente Hills High School,La Puente,los angeles,None
+488,Valley Alternative High School,La Puente,los angeles,None
+489,William Workman High School,City of Industry,los angeles,None
+490,City Honors High School,Inglewood,los angeles,None
+491,Inglewood High School,Inglewood,los angeles,None
+492,Morningside High School,Inglewood,los angeles,None
+493,Philippine Los Angeles High School,Inglewood,los angeles,None
+494,La Cañada High School,La Cañada Flintridge,los angeles,None
+495,Agoura High School,Agoura,los angeles,None
+496,Calabasas High School,Calabasas,los angeles,None
+497,Cabrillo High School,Long Beach,los angeles,None
+498,California Academy of Math and Science,Los Angeles,los angeles,None
+499,Jordan High School,Long Beach,los angeles,None
+500,Lakewood High School,Los Angeles,los angeles,None
+501,Long Beach Polytechnic High School,Long Beach,los angeles,None
+502,Millikan High School,Long Beach,los angeles,None
+503,Renaissance High School for the Arts,Los Angeles,los angeles,None
+504,Wilson Classical High School,Long Beach,los angeles,None
+505,Firebaugh High School,Lynwood,los angeles,None
+506,Lynwood High School,Lynwood,los angeles,None
+507,Mira Costa High School,Manhattan Beach,los angeles,None
+508,Monrovia High School,Monrovia,los angeles,None
+509,Applied Technology Center,Montebello,los angeles,None
+510,Bell Gardens High School,Bell Gardens,los angeles,None
+511,Montebello High School,Montebello,los angeles,None
+512,Schurr High School,Montebello,los angeles,None
+513,El Camino High School,Whittier,los angeles,None
+514,John Glenn High School,Norwalk,los angeles,None
+515,La Mirada High School,La Mirada,los angeles,None
+516,Norwalk High School,Norwalk,los angeles,None
+517,Southeast Academy Military and Law Enforcement High School Norwalk,Los Angeles,los angeles,None
+518,Palos Verdes High School,Palos Verdes Estates,los angeles,None
+519,Palos Verdes Peninsula High School,Rolling Hills Estates,los angeles,None
+520,Rancho Del Mar High School,Rolling Hills,los angeles,None
+521,Paramount High School,Paramount,los angeles,None
+522,Blair International Baccalaureate School,Pasadena,los angeles,None
+523,Marshall Fundamental Secondary School,Pasadena,los angeles,None
+524,Muir High School,Pasadena,los angeles,None
+525,Pasadena High School,Pasadena,los angeles,None
+526,Diamond Ranch High School,Pomona,los angeles,None
+527,Franklin High School,Pomona,los angeles,None
+528,Ganesha High School,Pomona,los angeles,None
+529,Garey High School,Pomona,los angeles,None
+530,Palomares High School,Pomona,los angeles,None
+531,Pomona High School,Pomona,los angeles,None
+532,Village Academy High School at Indian Hill,Pomona,los angeles,None
+533,Redondo Union High School,Redondo Beach,los angeles,None
+534,John A. Rowland High School,Rowland Heights,los angeles,None
+535,Nogales High School,La Puente,los angeles,None
+536,Santana High School,Rowland Heights,los angeles,None
+537,Del Mar High School,San Gabriel,los angeles,None
+538,Gabrielino High School,San Gabriel,los angeles,None
+539,San Marino High School,San Marino,los angeles,None
+540,Malibu High School,Malibu,los angeles,None
+541,Olympic High School,Santa Monica,los angeles,None
+542,Santa Monica High School,Santa Monica,los angeles,None
+543,South Pasadena High School,South Pasadena,los angeles,None
+544,Temple City High School,Temple City,los angeles,None
+545,Kurt T. Shery High School,Torrance,los angeles,None
+546,North High School,Torrance,los angeles,None
+547,South High School,Torrance,los angeles,None
+548,Torrance High School,Torrance,los angeles,None
+549,West High School,Torrance,los angeles,None
+550,Diamond Bar High School,Diamond Bar,los angeles,None
+551,Ron Hockwalt Academies,Walnut,los angeles,None
+552,Walnut High School,Walnut,los angeles,None
+553,Edgewood High School,West Covina,los angeles,None
+554,West Covina High School,West Covina,los angeles,None
+555,California High School,Whittier,los angeles,None
+556,La Serna High School,Whittier,los angeles,None
+557,Pioneer High School,Whittier,los angeles,None
+558,Santa Fe High School,Santa Fe Springs,los angeles,None
+559,Whittier High School,Whittier,los angeles,None
+560,Academy of the Canyons,Santa Clarita,los angeles,None
+561,Canyon High School,Canyon Country,los angeles,None
+562,Golden Valley High School,Santa Clarita,los angeles,None
+563,Saugus High School,Saugus,los angeles,None
+564,Valencia High School,Valencia,los angeles,None
+565,West Ranch High School,Stevenson Ranch,los angeles,None
+566,William S. Hart High School,Newhall,los angeles,None
+567,Assurance Learning Academy,Los Angeles,los angeles,None
+568,Assurance Learning Academy,Wilmington,los angeles,None
+569,Animo Inglewood Charter High School,Inglewood,los angeles,None
+570,Animo Leadership Charter High School,Inglewood,los angeles,None
+571,Animo Locke Technology High School,Los Angeles,los angeles,None
+572,Booth High School,Los Angeles,los angeles,None
+573,Carter-Walters Preparatory School of the Arts,San Dimas,los angeles,None
+574,Crittenton High School,Los Angeles,los angeles,None
+575,Da Vinci Schools,Hawthorne,los angeles,None
+576,Desert Sands Charter High School,Garden Grove,los angeles,None
+577,Desert Sands Charter High School,Long Beach,los angeles,None
+578,Desert Sands Charter High School,Norwalk,los angeles,None
+579,Desert Sands Charter High School,Santa Ana,los angeles,None
+580,Desert Sands Charter School,Lancaster,los angeles,None
+581,Environmental Charter High School,Lawndale,los angeles,None
+582,Fred C. Nelles High School,Whittier,los angeles,None
+583,International Polytechnic High School,Pomona,los angeles,None
+584,Jack B. Clarke High School,Norwalk,los angeles,None
+585,Los Angeles Complex Science Academy,Los Angeles,los angeles,None
+586,Los Angeles County High School for the Arts,Los Angeles,los angeles,None
+587,Mission View Public Charter,Gardena,los angeles,None
+588,Mission View Public Charter,Inglewood,los angeles,None
+589,Mission View Public Charter,Los Angeles,los angeles,None
+590,Mission View Public Charter,North Hills,los angeles,None
+591,Mission View Public Charter,Pacoima,los angeles,None
+592,Mission View Public Charter,Panorama City,los angeles,None
+593,Mission View Public Charter,San Fernando,los angeles,None
+594,Mission View Public Charter,Valencia,los angeles,None
+595,Montclair College Preparatory School,Van Nuys,los angeles,None
+596,Pacific Learning Center Charter,Long Beach,los angeles,None
+597,Paramount High School Academy,Lakewood,los angeles,None
+598,Pathway High School,Lynwood,los angeles,None
+599,Promise Academy,Long Beach,los angeles,None
+600,Soledad Enrichment Action Charter School,Los Angeles,los angeles,None
+601,Chowchilla High School,Chowchilla,madera,None
+602,Evergreen High School,Oakhurst,madera,None
+603,Glacier Charter High School,Oakhurst,madera,None
+604,Madera High School,Madera,madera,None
+605,Madera South High School,Madera,madera,None
+606,Minarets High School,O'Neals,madera,None
+607,Mountain Oaks High School,North Fork,madera,None
+608,Pioneer Technical Center,Madera,madera,None
+609,Yosemite High School,Oakhurst,madera,None
+610,The Branson School,Ross,marin,None
+611,Marin Academy,San Rafael,marin,None
+612,Marin Catholic High School,Kentfield,marin,None
+613,Marin Oaks High School,Novato,marin,None
+614,North Bay Christian Academy,Novato,marin,None
+615,Novato High School,Novato,marin,None
+616,Redwood High School,Larkspur,marin,None
+617,San Domenico School,San Anselmo,marin,None
+618,San Marin High School,Novato,marin,None
+619,San Rafael High School,San Rafael,marin,None
+620,Sir Francis Drake High School,San Anselmo,marin,None
+621,Tamalpais High School,Mill Valley,marin,None
+622,Terra Linda High School,San Rafael,marin,None
+623,Tomales High School,Tomales,marin,None
+624,Coulterville High School,Coulterville,mariposa,None
+625,Mariposa County High School,Mariposa,mariposa,None
+626,Yosemite Park High School,Yosemite,mariposa,None
+627,Anderson Valley Junior-Senior High School,Boonville,mendocino,None
+628,Developing Virtue Secondary School,Ukiah,mendocino,None
+629,Fort Bragg High School,Fort Bragg,mendocino,None
+630,Laytonville High School,Laytonville,mendocino,None
+631,Leggett Valley High School,Leggett,mendocino,None
+632,Mendocino High School,Mendocino,mendocino,None
+633,Pacific Community Charter High School,Point Arena,mendocino,None
+634,Point Arena High School,Point Arena,mendocino,None
+635,Potter Valley High School,Potter Valley,mendocino,None
+636,Redwood Academy of Ukiah,Ukiah,mendocino,None
+637,Round Valley High School,Covelo,mendocino,None
+638,South Coast High School,Point Arena,mendocino,None
+639,Ukiah High School,Ukiah,mendocino,None
+640,Whale Gulch High School,Whitethorn,mendocino,None
+641,Willits Charter School,Willits,mendocino,None
+642,Willits High School,Willits,mendocino,None
+643,Yokayo Valley Charter High School,Ukiah,mendocino,None
+644,Atwater High School,Atwater,merced,None
+645,Buhach Colony High School,Atwater,merced,None
+646,Delhi High School,Delhi,merced,None
+647,Dos Palos High School,Dos Palos,merced,None
+648,Golden Valley High School,Merced,merced,None
+649,Gustine High School,Gustine,merced,None
+650,Hilmar High School,Hilmar,merced,None
+651,Le Grand High School,Le Grand,merced,None
+652,Livingston High School,Livingston,merced,None
+653,Los Banos High School,Los Banos,merced,None
+654,Merced High School,Merced,merced,None
+655,Pacheco High School,Los Banos,merced,None
+656,Stone Ridge Christian High School,Merced,merced,None
+657,Valley High School,Atwater,merced,None
+658,Valley High School,Los Banos,merced,None
+659,Valley High School,Merced,merced,None
+660,Great Basin High School,Cedarville,modoc,None
+661,Modoc High School,Alturas,modoc,None
+662,Surprise Valley High School,Cedarville,modoc,None
+663,Warner High School,Alturas,modoc,None
+664,Coleville High School,Coleville,mono,None
+665,Eastern Sierra Academy,Bridgeport,mono,None
+666,Lee Vining High School,Lee Vining,mono,None
+667,Mammoth High School,Mammoth Lakes,mono,None
+668,Greenfield High School,Greenfield,monterey,None
+669,King City High School,King City,monterey,None
+670,Central Coast High School,Seaside,monterey,None
+671,Marina High School,Marina,monterey,None
+672,Monterey High School,Monterey,monterey,None
+673,Seaside High School,Seaside,monterey,None
+674,North Monterey County High School,Castroville,monterey,None
+675,Pacific Grove High School,Pacific Grove,monterey,None
+676,Alisal High School,Salinas,monterey,None
+677,Everett Alvarez High School,Salinas,monterey,None
+678,North Salinas High School,Salinas,monterey,None
+679,Salinas High School,Salinas,monterey,None
+680,Carmel High School,Carmel,monterey,None
+681,Cypress Grove Charter High School for Arts and Science,Carmel,monterey,None
+682,Gonzales High School,Gonzales,monterey,None
+683,Notre Dame High School,Salinas,monterey,None
+684,Palma School,Salinas,monterey,None
+685,Santa Catalina School,Monterey,monterey,None
+686,Soledad High School,Soledad,monterey,None
+687,Stevenson School,Pebble Beach,monterey,None
+688,Trinity Christian High School,Monterey,monterey,None
+689,York School,Monterey,monterey,None
+690,American Canyon High School,American Canyon,napa,None
+691,Calistoga High School,Calistoga,napa,None
+692,Justin-Siena High School,Napa,napa,None
+693,Napa High School,Napa,napa,None
+694,New Technology High School,Napa,napa,None
+695,Pacific Union College Prep School,Angwin,napa,None
+696,St. Helena High School,St. Helena,napa,None
+697,Valley Oak High School,Napa,napa,None
+698,Vintage High School,Napa,napa,None
+699,Bear River High School,Grass Valley,nevada,None
+700,Bitney College Preparatory High School,Grass Valley,nevada,None
+701,Ghidotti Early College High School,Grass Valley,nevada,None
+702,Nevada Union High School,Grass Valley,nevada,None
+703,Sierra Mountain High School,Grass Valley,nevada,None
+704,Tahoe-Truckee High School,Truckee,nevada,None
+705,Anaheim High School,Anaheim,orange,None
+706,Katella High School,Anaheim,orange,None
+707,John F. Kennedy High School,La Palma,orange,None
+708,Loara High School,Anaheim,orange,None
+709,Cypress High School,Cypress,orange,None
+710,Oxford Academy,Cypress,orange,None
+711,Magnolia High School,Anaheim,orange,None
+712,Savanna High School,Anaheim,orange,None
+713,Western High School,Anaheim,orange,None
+714,Brea Canyon Alternative High School,Brea,orange,None
+715,Brea Olinda High School,Brea,orange,None
+716,Aliso Niguel High School,Aliso Viejo,orange,None
+717,Capistrano Valley High School,Mission Viejo,orange,None
+718,Dana Hills High School,Dana Point,orange,None
+719,San Juan Hills High School,San Juan Capistrano,orange,None
+720,San Clemente High School,San Clemente,orange,None
+721,Tesoro High School,Rancho Santa Margarita,orange,None
+722,Fred Newhart Middle School,Mission Viejo,orange,None
+723,Fullerton Union High School,Fullerton,orange,None
+724,La Vista High School,Fullerton,orange,None
+725,Sunny Hills High School,Fullerton,orange,None
+726,Troy High School,Fullerton,orange,None
+727,Buena Park High School,Buena Park,orange,None
+728,La Habra High School,La Habra,orange,None
+729,Sonora High School,La Habra,orange,None
+730,Garden Grove High School,Garden Grove,orange,None
+731,Pacifica High School,Garden Grove,orange,None
+732,Rancho Alamitos High School,Garden Grove,orange,None
+733,Santiago High School,Garden Grove,orange,None
+734,Bolsa Grande High School,Garden Grove,orange,None
+735,La Quinta High School,Westminster,orange,None
+736,Los Amigos High School,Fountain Valley,orange,None
+737,Edison High School,Huntington Beach,orange,None
+738,Huntington Beach High School,Huntington Beach,orange,None
+739,Marina High School,Huntington Beach,orange,None
+740,Ocean View High School,Huntington Beach,orange,None
+741,Westminster High School,Westminster,orange,None
+742,Fountain Valley High School,Fountain Valley,orange,None
+743,Irvine High School,Irvine,orange,None
+744,Northwood High School,Irvine,orange,None
+745,Portola High School,Irvine,orange,None
+746,University High School,Irvine,orange,None
+747,Woodbridge High School,Irvine,orange,None
+748,Laguna Beach High School,Laguna Beach,orange,None
+749,Los Alamitos High School,Los Alamitos,orange,None
+750,Corona del Mar High School,Newport Beach,orange,None
+751,Costa Mesa High School,Costa Mesa,orange,None
+752,Estancia High School,Costa Mesa,orange,None
+753,Early College High School,Costa Mesa,orange,None
+754,Newport Harbor High School,Newport Beach,orange,None
+755,El Modena High School,Orange,orange,None
+756,Orange High School,Orange,orange,None
+757,Villa Park High School,Villa Park,orange,None
+758,Richland Continuation High School,Orange,orange,None
+759,Canyon High School,Anaheim,orange,None
+760,El Camino High School,Placentia,orange,None
+761,El Dorado High School,Placentia,orange,None
+762,Valencia High School,Placentia,orange,None
+763,Esperanza High School,Anaheim,orange,None
+764,Yorba Linda High School,Yorba Linda,orange,None
+765,El Toro High School,Lake Forest,orange,None
+766,Laguna Hills High School,Laguna Hills,orange,None
+767,Mission Viejo High School,Mission Viejo,orange,None
+768,Silverado High School,Mission Viejo,orange,None
+769,Trabuco Hills High School,Mission Viejo,orange,None
+770,Albor Charter School,Santa Ana,orange,None
+771,Century High School,Santa Ana,orange,None
+772,Cesar Chavez High School,Santa Ana,orange,None
+773,Godinez Fundamental High School,Santa Ana,orange,None
+774,Lorin Griset Academy,Santa Ana,orange,None
+775,Middle College High School,Santa Ana,orange,None
+776,Orange County High School of the Arts,Santa Ana,orange,None
+777,Saddleback High School,Santa Ana,orange,None
+778,Santa Ana High School,Santa Ana,orange,None
+779,Segerstrom Fundamental High School,Santa Ana,orange,None
+780,Valley High School,Santa Ana,orange,None
+781,Arnold O. Beckman High School,Tustin,orange,None
+782,Foothill High School,North Tustin,orange,None
+783,Hillview High School,North Tustin,orange,None
+784,Tustin High School,Tustin,orange,None
+785,Bishop Amat Memorial High School,La Puente,orange,Christian
+786,Mater Dei High School,Santa Ana,orange,Christian
+787,Rosary High School,Fullerton,orange,Christian
+788,Santa Margarita Catholic High School,Rancho Santa Margarita,orange,Christian
+789,Cornelia Connelly High School,Anaheim,orange,Christian
+790,Padre Pio Academy,Garden Grove,orange,Christian
+791,JSerra Catholic High School,San Juan Capistrano,orange,Christian
+792,St. Michael's Preparatory School,Silverado,orange,Christian
+793,Servite High School,Anaheim,orange,Christian
+794,Orangewood Academy,Orange,orange,Christian
+795,Brethren Christian Junior/Senior High School,Huntington Beach,orange,Christian
+796,Capistrano Valley Christian Schools,San Juan Capistrano,orange,Christian
+797,Calvary Chapel High School,Santa Ana,orange,Christian
+798,Crystal Cathedral High School,Garden Grove,orange,Christian
+799,Saddleback Valley Christian School,San Juan Capistrano,orange,Christian
+800,Spirit Christian Academy,Tustin,orange,Christian
+801,Whittier Christian High School,La Habra,orange,Christian
+802,Grace OC Academy,Anaheim,orange,Christian
+803,St. Margaret's Episcopal School,Orange,orange,Christian
+804,Crean Lutheran High School,Irvine,orange,Christian
+805,Lutheran High School of Orange County,Orange,orange,Christian
+806,Acaciawood Preparatory Academy,Anaheim,orange,Christian
+807,Alton School,Cypress,orange,Christian
+808,Eldorado-Emerson,Orange,orange,Christian
+809,Fairmont Preparatory Academy,Anaheim,orange,Christian
+810,Florence Crittenton School,Fullerton,orange,Christian
+811,Fusion Academy & Learning Center,Huntington Beach,orange,Christian
+812,Fusion Academy & Learning Center,Mission Viejo,orange,Christian
+813,Halstrom High School,Mission Viejo,orange,Christian
+814,Sage Hill School,Newport Beach,orange,Christian
+815,Silverleaf Academy,Mission Viejo,orange,Christian
+816,Desert Sands Charter High School,Anaheim,orange,Christian
+817,Desert Sands Charter High School,Garden Grove,orange,Christian
+818,Desert Sands Charter High School,Santa Ana,orange,Christian
+819,Colfax High School,Colfax,placer,Christian
+820,Del Oro High School,Loomis,placer,Christian
+821,Forest Lake Christian High School,Auburn,placer,Christian
+822,Foresthill High School,Foresthill,placer,Christian
+823,Granite Bay High School,Granite Bay,placer,Christian
+824,Horizon Charter School,Lincoln,placer,Christian
+825,Lincoln High School,Lincoln,placer,Christian
+826,North Tahoe High School,Tahoe City,placer,Christian
+827,Oakmont High School,Roseville,placer,Christian
+828,Pine Hills Adventist Academy,Auburn,placer,Christian
+829,Placer High School,Auburn,placer,Christian
+830,Rocklin High School,Rocklin,placer,Christian
+831,Roseville High School,Roseville,placer,Christian
+832,Sierra Christian High School,Rocklin,placer,Christian
+833,Squaw Valley Academy,Squaw Valley,placer,Christian
+834,Whitney High School,Rocklin,placer,Christian
+835,Woodcreek High School,Roseville,placer,Christian
+836,Western Sierra Collegiate Academy,Rocklin,placer,Christian
+837,Chester High School,Chester,plumas,Christian
+838,Greenville Junior-Senior High School,Greenville,plumas,Christian
+839,Pine Hills Adventist School,Plumas,plumas,Christian
+840,Portola High School,Portola,plumas,Christian
+841,Quincy High School,Quincy,plumas,Christian
+842,Amistad High School,Indio,riverside,Christian
+843,Arlington High School,Riverside,riverside,Christian
+844,Banning High School,Banning,riverside,Christian
+845,Beaumont High School,Beaumont,riverside,Christian
+846,California Lutheran High School,Wildomar,riverside,Christian
+847,Calvary Chapel Christian School,Murrieta,riverside,Christian
+848,Canyon Springs High School,Moreno Valley,riverside,Christian
+849,Cathedral City High School,Cathedral City,riverside,Christian
+850,Centennial High School,Corona,riverside,Christian
+851,Chaparral High School,Temecula,riverside,Christian
+852,Christian School of the Desert,Bermuda Dunes,riverside,Christian
+853,Citrus Hill High School,Perris,riverside,Christian
+854,Coachella Valley High School,Thermal,riverside,Christian
+855,Corona High School,Corona,riverside,Christian
+856,Desert Adventist Academy,Desert Hot Springs,riverside,Christian
+857,Desert Chapel High School,Palm Springs,riverside,Christian
+858,Desert Hot Springs High School,Desert Hot Springs,riverside,Christian
+859,Desert Mirage High School,Thermal,riverside,Christian
+860,Eagle Mountain  School,Desert Center,riverside,Christian
+861,Eleanor Roosevelt High School Eastvale,Riverside,riverside,Christian
+862,Elsinore High School,Wildomar,riverside,Christian
+863,Grace Chapel of the Desert School,Indio,riverside,Christian
+864,Great Oak High School,Temecula,riverside,Christian
+865,Hamilton High School,Anza,riverside,Christian
+866,Hemet Academy of Applied Academics and Technology,Hemet,riverside,Christian
+867,Hemet High School,Hemet,riverside,Christian
+868,Heritage High School,Menifee,riverside,Christian
+869,Idyllwild Arts Academy,Idyllwild,riverside,Christian
+870,Indio High School,Indio,riverside,Christian
+871,John F. Kennedy Middle College High School,Norco,riverside,Christian
+872,John W. North High School,Riverside,riverside,Christian
+873,Jurupa Valley High School,Jurupa Valley,riverside,Christian
+874,La Familia High School,Thermal,riverside,Christian
+875,La Quinta High School,La Quinta,riverside,Christian
+876,La Sierra Adventist Academy,Riverside,riverside,Christian
+877,La Sierra High School,Riverside,riverside,Christian
+878,Lakeside High School,Lake Elsinore,riverside,Christian
+879,Lee Pollard High School,Corona,riverside,Christian
+880,Linfield Christian School,Temecula,riverside,Christian
+881,Martin Luther King Jr. High School,Riverside,riverside,Christian
+882,Mater Dei High School,Mecca,riverside,Christian
+883,Mesa Grande Academy,Calimesa,riverside,Christian
+884,Mojave Desert  Military Academy,Desert Hot Springs,riverside,Christian
+885,Mount San Jacinto High School,Cathedral City,riverside,Christian
+886,Moreno Valley High School,Moreno Valley,riverside,Christian
+887,Murrieta Mesa High School,Murrieta,riverside,Christian
+888,Murrieta Valley High School,Murrieta,riverside,Christian
+889,Norco High School,Norco,riverside,Christian
+890,Norte Vista High School,Riverside,riverside,Christian
+891,Notre Dame Catholic High School,Riverside,riverside,Christian
+892,Nuview Bridge Academy,Nuevo,riverside,Christian
+893,Orange Grove High School,Corona,riverside,Christian
+894,Palm Desert High School,Palm Desert,riverside,Christian
+895,Palm Springs High School,Palm Springs,riverside,Christian
+896,Palm Valley High School,Rancho Mirage,riverside,Christian
+897,Palo Verde Valley High School,Blythe,riverside,Christian
+898,Paloma Valley High School,Menifee,riverside,Christian
+899,Patriot High School,Riverside,riverside,Christian
+900,Perris High School,Perris,riverside,Christian
+901,Quadrille Academy,Indio,riverside,Christian
+902,Polytechnic High School,Riverside,riverside,Christian
+903,Ramona High School,Riverside,riverside,Christian
+904,Rancho Christian School,Temecula,riverside,Christian
+905,Rancho Mirage High School,Rancho Mirage,riverside,Christian
+906,Rancho Verde High School,Moreno Valley,riverside,Christian
+907,River Springs Charter School,County wide charter school,riverside,Christian
+908,Rubidoux High School,Riverside,riverside,Christian
+909,San Gorgonio  School,Cabazon,riverside,Christian
+910,San Jacinto Senior High School,San Jacinto,riverside,Christian
+911,Santiago High School,Corona,riverside,Christian
+912,Seaview High School,Thermal/Mecca,riverside,Christian
+913,Shadow Hills High School,Indio,riverside,Christian
+914,Sherman Indian High School,Riverside,riverside,Christian
+915,Southwest Educational Center,Wildomar,riverside,Christian
+916,Summit High School,La Quinta,riverside,Christian
+917,Sunnymead High School,Moreno Valley,riverside,Christian
+918,Tahquitz High School,Hemet,riverside,Christian
+919,Temecula Preparatory School,French Valley,riverside,Christian
+920,Temecula Valley High School,Temecula,riverside,Christian
+921,Temescal Canyon High School,Lake Elsinore,riverside,Christian
+922,The Ranch Academy,1000 Palms,riverside,Christian
+923,Val Verde High School,Perris,riverside,Christian
+924,Valley View High School,Moreno Valley,riverside,Christian
+925,Vista Calimesa High School,Calimesa/Yucaipa,riverside,Christian
+926,Vista del Lago High School,Moreno Valley,riverside,Christian
+927,Vista Murrieta High School,Murrieta,riverside,Christian
+928,West Shores High School,Salton City/Mecca,riverside,Christian
+929,West Valley High School,Hemet,riverside,Christian
+930,Woodcrest Christian School,Riverside,riverside,Christian
+931,Xavier College Preparatory,Palm Desert,riverside,Christian
+932,American Legion High School,Central Sacramento,sacramento,Christian
+933,Arthur A. Benjamin Health Professions High School,Sacramento,sacramento,Christian
+934,Bella Vista High School,Fair Oaks,sacramento,Christian
+935,C. K. McClatchy High School,Sacramento,sacramento,Christian
+936,Calvine High School,Sacramento,sacramento,Christian
+937,Casa Roble High School,Orangevale,sacramento,Christian
+938,Center High School,Antelope,sacramento,Christian
+939,Christian Brothers High School,Central Sacramento,sacramento,Christian
+940,Cordova High School,Rancho Cordova,sacramento,Christian
+941,Cosumnes Oaks High School,Elk Grove,sacramento,Christian
+942,Del Campo High School,Fair Oaks,sacramento,Christian
+943,East Anthwood Angles High School,East Sacramento,sacramento,Christian
+944,East Side High School,East Sacramento,sacramento,Christian
+945,El Camino Fundamental High School,Sacramento,sacramento,Christian
+946,Elk Grove Charter School,Elk Grove,sacramento,Christian
+947,Elk Grove High School,Elk Grove,sacramento,Christian
+948,Encina High School,Sacramento,sacramento,Christian
+949,Florin High School,South Sacramento,sacramento,Christian
+950,Folsom High School,Folsom,sacramento,Christian
+951,Foothill High School,Sacramento,sacramento,Christian
+952,Franklin D. Roosevelt School,Sacramento,sacramento,Christian
+953,Franklin High School,Elk Grove,sacramento,Christian
+954,Galt High School,Galt,sacramento,Christian
+955,Grant Union High School,North Sacramento,sacramento,Christian
+956,Golden Valley Charter School,Sacramento,sacramento,Christian
+957,Highlands High School,North Highlands,sacramento,Christian
+958,Hiram W. Johnson High School,Sacramento,sacramento,Christian
+959,Inderkum High School,Sacramento,sacramento,Christian
+960,Jane Lathrop School,Carmichael,sacramento,Christian
+961,Jesuit High School of Sacramento,Carmichael,sacramento,Christian
+962,John F. Kennedy High School,South Sacramento,sacramento,Christian
+963,K. Robinson Anthwood Continuation High School,East Sacramento,sacramento,Christian
+964,Laguna Creek High School,Elk Grove,sacramento,Christian
+965,Lexington Union High School,Central Sacramento,sacramento,Christian
+966,Loretto High School,Sacramento,sacramento,Christian
+967,Luther Burbank High School,Sacramento,sacramento,Christian
+968,Lutheran School,Sacramento,sacramento,Christian
+969,Mesa Verde High School,Citrus Heights,sacramento,Christian
+970,Mira Loma High School,Sacramento,sacramento,Christian
+971,Monterey Trail High School,Elk Grove,sacramento,Christian
+972,Natomas Charter School,Sacramento,sacramento,Christian
+973,Natomas High School,Sacramento,sacramento,Christian
+974,Pleasant Grove High School,Elk Grove,sacramento,Christian
+975,Rio Americano High School,Sacramento,sacramento,Christian
+976,Rio Linda High School,Rio Linda,sacramento,Christian
+977,River Valley School,Sacramento,sacramento,Christian
+978,Rochester High School,East Sacramento,sacramento,Christian
+979,Rosemont High School,Sacramento,sacramento,Christian
+980,Sacramento Adventist Academy,Sacramento,sacramento,Christian
+981,Sacramento Country Day School,Sacramento,sacramento,Christian
+982,Sacramento High School,Sacramento,sacramento,Christian
+983,Sacramento New Technology High School,Sacramento,sacramento,Christian
+984,Sacramento Preparatory Academy,Sacramento,sacramento,Christian
+985,Sacramento Valley School,Sacramento,sacramento,Christian
+986,Sacramento Waldorf School,Fair Oaks,sacramento,Christian
+987,St. Francis High School,Sacramento,sacramento,Christian
+988,San Juan High School,Citrus Heights,sacramento,Christian
+989,Sheldon High School,Sacramento,sacramento,Christian
+990,Tahaloma High School,Citrus Heights,sacramento,Christian
+991,Upper Valley High School,East Sacramento,sacramento,Christian
+992,Valley High School,South Sacramento,sacramento,Christian
+993,Valley Oak Academy - Mariposa,Citrus Heights,sacramento,Christian
+994,Victory Christian High School,Carmichael,sacramento,Christian
+995,Vista del Lago High School,Folsom,sacramento,Christian
+996,Vista Nueva Career & Technology High School,Sacramento,sacramento,Christian
+997,West Campus High School,West Sacramento,sacramento,Christian
+998,West Heights High School,West Sacramento,sacramento,Christian
+999,Wizbin High School,East Sacramento,sacramento,Christian
+1000,Anzar High School,San Juan Bautista,san benito,Christian
+1001,San Benito High School,Hollister,san benito,Christian
+1002,Alta Vista Public Charter,Adelanto,san bernardino,Christian
+1003,Alta Vista Public Charter,Apple Valley,san bernardino,Christian
+1004,Alta Vista Public Charter,Hesperia,san bernardino,Christian
+1005,Alta Vista Public Charter,San Bernardino,san bernardino,Christian
+1006,Alta Vista South Public Charter,Highland,san bernardino,Christian
+1007,Apple Valley High School,Apple Valley,san bernardino,Christian
+1008,Granite Hills High School,Apple Valley,san bernardino,Christian
+1009,Barstow High School,San Bernardino,san bernardino,Christian
+1010,Central High Continuation School,San Bernardino,san bernardino,Christian
+1011,Big Bear High School,Big Bear City,san bernardino,Christian
+1012,Big Bear STEM School,Big Bear City,san bernardino,Christian
+1013,Chataqua High School,Big Bear City,san bernardino,Christian
+1014,Big River School,Big River,san bernardino,Christian
+1015,Alta Loma High School,San Bernardino,san bernardino,Christian
+1016,Canyon View High School,San Bernardino,san bernardino,Christian
+1017,Chaffey Adult School,San Bernardino,san bernardino,Christian
+1018,Chaffey High School,San Bernardino,san bernardino,Christian
+1019,Colony High School,San Bernardino,san bernardino,Christian
+1020,Etiwanda High School,San Bernardino,san bernardino,Christian
+1021,Los Osos High School,San Bernardino,san bernardino,Christian
+1022,Montclair High School,San Bernardino,san bernardino,Christian
+1023,Ontario High School,San Bernardino,san bernardino,Christian
+1024,Rancho Cucamonga High School,San Bernardino,san bernardino,Christian
+1025,Valley View High School,Ontario,san bernardino,Christian
+1026,Chino High School,Chino,san bernardino,Christian
+1027,Chino Hills High School,Chino Hills,san bernardino,Christian
+1028,Don Antonio Lugo High School,San Bernardino,san bernardino,Christian
+1029,Ruben S. Ayala High School,Chino Hills,san bernardino,Christian
+1030,Bloomington High School,Bloomington,san bernardino,Christian
+1031,Colton High School,Colton,san bernardino,Christian
+1032,Grand Terrace High School,Grand Terrace,san bernardino,Christian
+1033,Slover Mountain High School,Colton,san bernardino,Christian
+1034,Washington Alternative High School,Colton,san bernardino,Christian
+1035,Desert Sands Charter High School,Fontana,san bernardino,Christian
+1036,Desert Sands Charter High School,Rialto,san bernardino,Christian
+1037,A. B. Miller High School,Fontana,san bernardino,Christian
+1038,Fontana High School,Fontana,san bernardino,Christian
+1039,Henry J. Kaiser High School,Fontana,san bernardino,Christian
+1040,Jurupa Hills High School,Fontana,san bernardino,Christian
+1041,Summit High School,Fontana,san bernardino,Christian
+1042,Hesperia High School,Hesperia,san bernardino,Christian
+1043,Sultana High School,Hesperia,san bernardino,Christian
+1044,Mojave Desert Public School,Amboy,san bernardino,Christian
+1045,Twentynine Palms High School,Twentynine Palms,san bernardino,Christian
+1046,Yucca Valley High School,Yucca Valley,san bernardino,Christian
+1047,Black Rock High School,Joshua Tree,san bernardino,Christian
+1048,Needles High School,San Bernardino,san bernardino,Christian
+1049,The Grove School,San Bernardino,san bernardino,Christian
+1050,Orangewood Contintuation High School,San Bernardino,san bernardino,Christian
+1051,Redlands Citrus Valley High School,San Bernardino,san bernardino,Christian
+1052,Redlands East Valley High School,San Bernardino,san bernardino,Christian
+1053,Redlands High School,San Bernardino,san bernardino,Christian
+1054,Doctor John H Milor High School,Rialto,san bernardino,Christian
+1055,Dwight D. Eisenhower High School,Rialto,san bernardino,Christian
+1056,Rialto High School,Rialto,san bernardino,Christian
+1057,Wilmer Amina Carter High School,Rialto,san bernardino,Christian
+1058,Zupanic High School,Rialto,san bernardino,Christian
+1059,Rim of the World High School,Lake Arrowhead,san bernardino,Christian
+1060,Arroyo Valley High School,San Bernardino,san bernardino,Christian
+1061,Cajon High School,San Bernardino,san bernardino,Christian
+1062,Pacific High School,San Bernardino,san bernardino,Christian
+1063,San Andreas High School,San Bernardino,san bernardino,Christian
+1064,San Bernardino High School,San Bernardino,san bernardino,Christian
+1065,San Gorgonio High School,San Bernardino,san bernardino,Christian
+1066,Sierra High School,San Bernardino,san bernardino,Christian
+1067,Silver Valley High School,Yermo,san bernardino,Christian
+1068,Chaparral High School,Phelan,san bernardino,Christian
+1069,Serrano High School,San Bernardino,san bernardino,Christian
+1070,Upland High School,San Bernardino,san bernardino,Christian
+1071,Adelanto High School,Adelanto,san bernardino,Christian
+1072,Maverick High School,Victorville,san bernardino,Christian
+1073,Silverado High School,Victorville,san bernardino,Christian
+1074,Victor Valley High School,Victorville,san bernardino,Christian
+1075,Vista Calimesa High School,Yucaipa/Calimesa,san bernardino,Christian
+1076,Yucaipa High School,Yucaipa,san bernardino,Christian
+1077,Aquinas Catholic High School,San Bernardino,san bernardino,None
+1078,Arrowhead Christian Academy,Redlands,san bernardino,None
+1079,Bloomington Christian School,Big Bear Lake,san bernardino,None
+1080,Bloomington Christian School,Bloomington,san bernardino,None
+1081,Crestline High School,Crestline,san bernardino,None
+1082,Grace Chapel of the Desert School,Yucca Valley,san bernardino,None
+1083,Loma Linda Academy,Loma Linda,san bernardino,None
+1084,Mesa Grande Academy,Calimesa/Yucaipa,san bernardino,None
+1085,Mojave Desert  Military Academy,Yucca Valley,san bernardino,None
+1086,Riverside Prep,Oro Grande,san bernardino,None
+1087,Adventist Academy,Yucca Valley/29 Palms,san bernardino,None
+1088,Adventist Academy,Yucaipa/Calimesa,san bernardino,None
+1089,Upland Christian Academy,Rancho Cucamonga,san bernardino,None
+1090,Xavier College Preparatory High School,Palm Desert,san bernardino,None
+1091,Warner High School,Warner Springs,san diego,None
+1092,Borrego Springs High School,Borrego Springs,san diego,None
+1093,Palm Canyon High School,Borrego Springs,san diego,None
+1094,Carlsbad High School,Carlsbad,san diego,None
+1095,Carlsbad Village Academy 10-12,Carlsbad,san diego,None
+1096,Sage Creek High School,Carlsbad,san diego,None
+1097,Coronado High School,Coronado,san diego,None
+1098,Palm Academy for Learning,Coronado,san diego,None
+1099,Diego Valley Charter High School,Escondido,san diego,None
+1100,Center City High School,Escondido,san diego,None
+1101,Escondido Charter High School,Escondido,san diego,None
+1102,Escondido High School,Escondido,san diego,None
+1103,Orange Glen High School,Escondido,san diego,None
+1104,San Pasqual High School,Escondido,san diego,None
+1105,Valley High School,Escondido,san diego,None
+1106,Classical Academy High School,Escondido,san diego,None
+1107,Del Lago Academy,Escondido,san diego,None
+1108,Fallbrook Union High School,Fallbrook,san diego,None
+1109,Ivy High School,Fallbrook,san diego,None
+1110,Oasis High School,Fallbrook,san diego,None
+1111,Diego Valley Charter High School,El Cajon,san diego,None
+1112,Chaparral High School,El Cajon,san diego,None
+1113,El Cajon Valley High School,El Cajon,san diego,None
+1114,El Capitan High School,Lakeside,san diego,None
+1115,Granite Hills High School,El Cajon,san diego,None
+1116,Grossmont High School,La Mesa/El Cajon,san diego,None
+1117,Grossmont Middle College High School,El Cajon,san diego,None
+1118,Helix High School,La Mesa,san diego,None
+1119,Monte Vista High School,Spring Valley,san diego,None
+1120,Mount Miguel High School,Spring Valley,san diego,None
+1121,Santana High School,Santee,san diego,None
+1122,Steele Canyon High School,Spring Valley,san diego,None
+1123,Valhalla High School,El Cajon,san diego,None
+1124,West Hills High School,Santee,san diego,None
+1125,Julian High School,Julian,san diego,None
+1126,Redding  High (continuation),Julian,san diego,None
+1127,Summit High Community Day,Julian,san diego,None
+1128,Mountain Empire High School,Pine Valley,san diego,None
+1129,Diego Valley Charter High School,Oceanside,san diego,None
+1130,El Camino High School,Oceanside,san diego,None
+1131,Oceanside High School,Oceanside,san diego,None
+1132,Oceanside School of Business and Technology,Oceanside,san diego,None
+1133,Pacific View Charter School,Oceanside,san diego,None
+1134,Abraxas High School,Poway,san diego,None
+1135,Del Norte High School,San Diego,san diego,None
+1136,Mount Carmel High School,San Diego,san diego,None
+1137,Poway High School,Poway,san diego,None
+1138,Rancho Bernardo High School,San Diego,san diego,None
+1139,Westview High School,San Diego,san diego,None
+1140,Montecito High School,Ramona,san diego,None
+1141,Mountain Valley Academy High School,Ramona,san diego,None
+1142,Ramona High School,Ramona,san diego,None
+1143,Monarch School,San Diego,san diego,None
+1144,Canyon Crest Academy,San Diego,san diego,None
+1145,La Costa Canyon High School,Carlsbad,san diego,None
+1146,North Coast High School,Encinitas,san diego,None
+1147,San Dieguito Academy,Encinitas,san diego,None
+1148,Sunset High School,Encinitas,san diego,None
+1149,Torrey Pines High School,San Diego,san diego,None
+1150,Bayshore Prep Charter School,San Marcos,san diego,None
+1151,Foothills High,San Marcos,san diego,None
+1152,Mission Hills High School,San Marcos,san diego,None
+1153,San Marcos High School,San Marcos,san diego,None
+1154,Twin Oaks High School,San Marcos,san diego,None
+1155,Bonita Vista High School,Chula Vista,san diego,None
+1156,Castle Park High School,Chula Vista,san diego,None
+1157,Chula Vista High School,Chula Vista,san diego,None
+1158,Eastlake High School,Chula Vista,san diego,None
+1159,Hilltop High School,Chula Vista,san diego,None
+1160,MAAC Community Charter School,Chula Vista,san diego,None
+1161,Mar Vista High School,Imperial Beach,san diego,None
+1162,Montgomery High School,San Diego,san diego,None
+1163,Olympian High School,Chula Vista,san diego,None
+1164,Options Secondary School,Chula Vista,san diego,None
+1165,Otay Ranch High School,Chula Vista,san diego,None
+1166,Palomar High School,Chula Vista,san diego,None
+1167,San Ysidro High School,San Diego,san diego,None
+1168,Southwest High School,San Diego,san diego,None
+1169,Sweetwater High School,National City,san diego,None
+1170,Oak Glen High School,Valley Center,san diego,None
+1171,Valley Center Adult Education,Valley Center,san diego,None
+1172,Valley Center High School,Valley Center,san diego,None
+1173,Valley Center Independent Study,Valley Center,san diego,None
+1174,Diego Valley Charter High School,Vista,san diego,None
+1175,Guajome Park Academy,Vista,san diego,None
+1176,Mission Vista High School,Oceanside,san diego,None
+1177,North County Trade Tech High School,Vista,san diego,None
+1178,Rancho Buena Vista High School,Vista,san diego,None
+1179,Vista High School,Vista,san diego,None
+1180,San Jose Valley Continuation High School,Warner Springs,san diego,None
+1181,Warner Middle / High School,Warner Springs,san diego,None
+1182,Ocean View Christian Academy,San Diego,san diego,Christian
+1183,Academy of Our Lady of Peace,San Diego,san diego,Christian
+1184,Saint Augustine High School,San Diego,san diego,Christian
+1185,Mater Dei Catholic High School,San Diego,san diego,Christian
+1186,Cathedral Catholic High School,San Diego,san diego,Christian
+1187,The Bishop's School,La Jolla,san diego,Christian
+1188,San Diego Jewish Academy,San Diego,san diego,Jewish
+1189,Southern California Yeshiva High School,San Diego,san diego,Jewish
+1190,Torah High Schools of San Diego,San Diego,san diego,Jewish
+1191,Victory Christian Academy,San Diego,san diego,Christian
+1192,Escondido Adventist Academy,Escondido,san diego,Christian
+1193,San Diego Academy,National City,san diego,Christian
+1194,Army and Navy Academy,Carlsbad,san diego,Christian
+1195,Maranatha Christian Schools,San Diego,san diego,Christian
+1196,Calvin Christian School,Escondido,san diego,Christian
+1197,Santa Fe Christian Schools,Solana Beach,san diego,Christian
+1198,Horizon Christian Academy,San Diego,san diego,Christian
+1199,Horizon Prep School,Rancho Santa Fe,san diego,Christian
+1200,The Child's Primary School,San Diego,san diego,Christian
+1201,Carlsbad Seaside Academy,Carlsbad,san diego,Christian
+1202,Carlsbad Village Academy,Carlsbad,san diego,Christian
+1203,Francis W. Parker School,San Diego,san diego,Christian
+1204,Fusion Academy,Del Mar,san diego,Christian
+1205,The Grauer School,Encinitas,san diego,Christian
+1206,Halstrom High School,Oceanside,san diego,Christian
+1207,Halstrom High School,San Diego,san diego,Christian
+1208,La Jolla Country Day School,La Jolla,san diego,Christian
+1209,Pacific Academy International,Encinitas,san diego,Christian
+1210,Pacific Ridge School,Carlsbad,san diego,Christian
+1211,San Diego French American School,La Jolla,san diego,Christian
+1212,The Waldorf School of San Diego High School,San Diego,san diego,Christian
+1213,Leeway Sudbury School,San Diego,san diego,Christian
+1214,High Bluff Academy,San Diego,san diego,Christian
+1215,Abraham Lincoln High School,San Francisco,san francisco,None
+1216,Academy of Arts & Sciences,San Francisco,san francisco,None
+1217,Balboa High School,San Francisco,san francisco,None
+1218,Downtown High School,San Francisco,san francisco,None
+1219,Galileo Academy of Science and Technology,San Francisco,san francisco,None
+1220,George Washington High School,San Francisco,san francisco,None
+1221,Ida B. Wells Continuation High School,San Francisco,san francisco,None
+1222,Independence High School,San Francisco,san francisco,None
+1223,International Studies Academy,San Francisco,san francisco,None
+1224,John A. O'Connell High School,San Francisco,san francisco,None
+1225,June Jordan School for Equity,San Francisco,san francisco,None
+1226,Lowell High School,San Francisco,san francisco,None
+1227,Mission High School,San Francisco,san francisco,None
+1228,Phillip & Sala Burton High School,San Francisco,san francisco,None
+1229,Raoul Wallenberg Traditional High School,San Francisco,san francisco,None
+1230,San Francisco Flex Academy,San Francisco,san francisco,None
+1231,San Francisco International High School,San Francisco,san francisco,None
+1232,School of the Arts,San Francisco,san francisco,None
+1233,Thurgood Marshall Academic High School,San Francisco,san francisco,None
+1234,City Arts & Technology,San Francisco,san francisco,None
+1235,Gateway High School,San Francisco,san francisco,None
+1236,KIPP San Francisco College Preparatory,San Francisco,san francisco,None
+1237,Leadership High School,San Francisco,san francisco,None
+1238,The Bay School of San Francisco,San Francisco,san francisco,None
+1239,Cornerstone Academy,San Francisco,san francisco,None
+1240,Drew School,San Francisco,san francisco,None
+1241,Fusion Academy,San Francisco,san francisco,None
+1242,Hillwood Academic Day School,San Francisco,san francisco,None
+1243,International High School of San Francisco,San Francisco,san francisco,None
+1244,Jewish Community High School of the Bay,San Francisco,san francisco,None
+1245,Lick-Wilmerding High School,San Francisco,san francisco,None
+1246,Lycée Français La Pérouse,San Francisco,san francisco,None
+1247,Proof School,San Francisco,san francisco,None
+1248,Saint John of San Francisco Orthodox Academy,San Francisco,san francisco,None
+1249,San Francisco Christian,San Francisco,san francisco,None
+1250,San Francisco University High School,San Francisco,san francisco,None
+1251,San Francisco Waldorf High School,San Francisco,san francisco,None
+1252,The Urban School of San Francisco,San Francisco,san francisco,None
+1253,Woodside International School,San Francisco,san francisco,None
+1254,Youth Chance High School,San Francisco,san francisco,None
+1255,Archbishop Riordan High School,San Francisco,san francisco,Christian
+1256,Convent of the Sacred Heart High School,San Francisco,san francisco,Christian
+1257,Immaculate Conception Academy,San Francisco,san francisco,Christian
+1258,Mercy High School,San Francisco,san francisco,Christian
+1259,Sacred Heart Cathedral Preparatory,San Francisco,san francisco,Christian
+1260,St. Ignatius College Preparatory,San Francisco,san francisco,Christian
+1261,Stuart Hall High School,San Francisco,san francisco,Christian
+1262,Escalon High School,Escalon,san joaquin,Christian
+1263,Mountain House High School,Mountain House,san joaquin,Christian
+1264,Lincoln High School,Stockton,san joaquin,Christian
+1265,Linden High School,Linden,san joaquin,Christian
+1266,Lodi Academy,Lodi,san joaquin,Christian
+1267,Bear Creek High School,Stockton,san joaquin,Christian
+1268,Lodi High School,Lodi,san joaquin,Christian
+1269,Middle College High School,Stockton,san joaquin,Christian
+1270,Ronald E. McNair High School,Stockton,san joaquin,Christian
+1271,Tokay High School,Lodi,san joaquin,Christian
+1272,Calla Alternative High School,Manteca,san joaquin,Christian
+1273,East Union High School,Manteca,san joaquin,Christian
+1274,Lathrop High School,Lathrop,san joaquin,Christian
+1275,Manteca Day School,Manteca,san joaquin,Christian
+1276,Manteca High School,Manteca,san joaquin,Christian
+1277,New Vision Alternative High School,Stockton,san joaquin,Christian
+1278,Sierra High School,Manteca,san joaquin,Christian
+1279,Weston Ranch High School,Stockton,san joaquin,Christian
+1280,Ripon High School,Ripon,san joaquin,Christian
+1281,St. Mary's High School,Stockton,san joaquin,Christian
+1282,Amos Alonzo Stagg High School,Stockton,san joaquin,Christian
+1283,Cesar Chavez High School,Stockton,san joaquin,Christian
+1284,Edison High School,Stockton,san joaquin,Christian
+1285,Franklin High School,Stockton,san joaquin,Christian
+1286,Stockton Collegiate International Schools,Stockton,san joaquin,Christian
+1287,Stockton Early College Academy,Stockton,san joaquin,Christian
+1288,John Kimball High School,Tracy,san joaquin,Christian
+1289,Tracy High School,Tracy,san joaquin,Christian
+1290,West High School,Tracy,san joaquin,Christian
+1291,Atascadero High School,Atascadero,san luis obispo,Christian
+1292,Del Rio Continuation High School,Atascadero,san luis obispo,Christian
+1293,California Youth Authority,San Luis Obispo,san luis obispo,Christian
+1294,Marie C. Romero High School,Paso Robles,san luis obispo,Christian
+1295,Coast Union High School,Cambria,san luis obispo,Christian
+1296,Leffingwell Continuation High School,Cambria,san luis obispo,Christian
+1297,Arroyo Grande High School,Arroyo Grande,san luis obispo,Christian
+1298,Lopez High School,Arroyo Grande,san luis obispo,Christian
+1299,Nipomo High School,Nipomo,san luis obispo,Christian
+1300,Central Coast New Tech High School,Nipomo,san luis obispo,Christian
+1301,Liberty High School,Paso Robles,san luis obispo,Christian
+1302,Paso Robles High School,Paso Robles,san luis obispo,Christian
+1303,Morro Bay High School,Morro Bay,san luis obispo,Christian
+1304,Pacific Beach High School,San Luis Obispo,san luis obispo,Christian
+1305,San Luis Obispo High School,San Luis Obispo,san luis obispo,Christian
+1306,Shandon High/Middle School,Shandon,san luis obispo,Christian
+1307,Eagle Canyon High School,Templeton,san luis obispo,Christian
+1308,Templeton High School,Templeton,san luis obispo,Christian
+1309,Grizzly Challenge Charter School,San Luis Obispo,san luis obispo,Christian
+1310,Mission College Preparatory,San Luis Obispo,san luis obispo,Christian
+1311,North County Christian High School,Atascadero,san luis obispo,Christian
+1312,San Luis Obispo Classical Academy,San Luis Obispo,san luis obispo,Christian
+1313,Design Tech High School,Redwood Shores,san mateo,None
+1314,Half Moon Bay High School,Half Moon Bay,san mateo,None
+1315,Jefferson High School,Daly City,san mateo,None
+1316,Oceana High School,Pacifica,san mateo,None
+1317,Terra Nova High School,Pacifica,san mateo,None
+1318,Westmoor High School,Daly City,san mateo,None
+1319,Ravenswood High School,East Palo Alto,san mateo,None
+1320,Urban Pioneer Experiential Academy,San Bruno,san mateo,None
+1321,Aragon High School,San Mateo,san mateo,None
+1322,Burlingame High School,Burlingame,san mateo,None
+1323,Capuchino High School,San Bruno,san mateo,None
+1324,Hillsdale High School,San Mateo,san mateo,None
+1325,Mills High School,Millbrae,san mateo,None
+1326,San Mateo High School,San Mateo,san mateo,None
+1327,Carlmont High School,Belmont,san mateo,None
+1328,Everest Public High School,Redwood City,san mateo,None
+1329,Menlo-Atherton High School,Atherton,san mateo,None
+1330,Sequoia High School,Redwood City,san mateo,None
+1331,Summit Preparatory Charter High School,Redwood City,san mateo,None
+1332,Woodside High School,Woodside,san mateo,None
+1333,Baden High School,South San Francisco,san mateo,None
+1334,El Camino High School,South San Francisco,san mateo,None
+1335,South San Francisco High School,South San Francisco,san mateo,None
+1336,Aurora High School,Redwood City,san mateo,None
+1337,Crystal Springs Uplands School,Hillsborough,san mateo,None
+1338,East Palo Alto Phoenix Academy,East Palo Alto,san mateo,None
+1339,Eastside College Preparatory School,East Palo Alto,san mateo,None
+1340,German-American International School,Menlo Park,san mateo,None
+1341,Junípero Serra High School,San Mateo,san mateo,None
+1342,Menlo School,Atherton,san mateo,None
+1343,Mercy High School,Burlingame,san mateo,None
+1344,Mid-Peninsula High School,Menlo Park,san mateo,None
+1345,Notre Dame High School,Belmont,san mateo,None
+1346,The Nueva School,Hillsborough,san mateo,None
+1347,Pacific Rim International School,San Mateo,san mateo,None
+1348,Pescadero High School,Pescadero,san mateo,None
+1349,Sacred Heart Prep,Atherton,san mateo,None
+1350,Woodside Priory School,Portola Valley,san mateo,None
+1351,The Anacapa School,Santa Barbara,santa barbara,None
+1352,Bishop Garcia Diego High School,Santa Barbara,santa barbara,None
+1353,Cabrillo High School,Lompoc,santa barbara,None
+1354,Carpinteria High School,Carpinteria,santa barbara,None
+1355,Cate School,Carpinteria,santa barbara,None
+1356,Cuyama Valley High School,New Cuyama,santa barbara,None
+1357,Dos Pueblos High School,Goleta,santa barbara,None
+1358,Ernest Righetti High School,Santa Maria,santa barbara,None
+1359,Foothill Alternative High School,Carpinteria,santa barbara,None
+1360,Laguna Blanca School,Santa Barbara,santa barbara,None
+1361,Lion of Judah Christian Academy,Orcutt,santa barbara,None
+1362,Lompoc High School,Lompoc,santa barbara,None
+1363,Los Angeles Catholic Archdiocese,Santa Barbara,santa barbara,None
+1364,Maple High School,Lompoc,santa barbara,None
+1365,Midland School,Los Olivos,santa barbara,None
+1366,Pioneer Valley High School,Santa Maria,santa barbara,None
+1367,Rincon Continuation High School,Carpinteria,santa barbara,None
+1368,St. Joseph High School,Santa Maria,santa barbara,None
+1369,San Marcos High School,Santa Barbara,santa barbara,None
+1370,Santa Barbara High School,Santa Barbara,santa barbara,None
+1371,Santa Barbara Middle School,Santa Barbara,santa barbara,None
+1372,Santa Maria High School,Santa Maria,santa barbara,None
+1373,Santa Ynez Valley Union High School,Santa Ynez,santa barbara,None
+1374,Valley Christian Academy,Santa Maria,santa barbara,None
+1375,Boynton High School,San Jose,santa clara,None
+1376,Branham High School,San Jose,santa clara,None
+1377,Del Mar High School,San Jose,santa clara,None
+1378,Leigh High School,San Jose,santa clara,None
+1379,Prospect High School,Saratoga,santa clara,None
+1380,Stellar Learning Academy,Campbell,santa clara,None
+1381,Westmont High School,Campbell,santa clara,None
+1382,Andrew P. Hill High School,San Jose,santa clara,None
+1383,East Side Cadet Academy,San Jose,santa clara,None
+1384,Evergreen Valley High School,San Jose,santa clara,None
+1385,Independence High School,San Jose,santa clara,None
+1386,James Lick High School,San Jose,santa clara,None
+1387,MACSA Academia Calmecac School,San Jose,santa clara,None
+1388,Mount Pleasant High School,San Jose,santa clara,None
+1389,Oak Grove High School,San Jose,santa clara,None
+1390,Piedmont Hills High School,San Jose,santa clara,None
+1391,San Jose Conservation Corps Charter School,San Jose,santa clara,None
+1392,Santa Teresa High School,San Jose,santa clara,None
+1393,Silver Creek High School,San Jose,santa clara,None
+1394,William C. Overfelt High School,San Jose,santa clara,None
+1395,Yerba Buena High School,San Jose,santa clara,None
+1396,Cupertino High School,Cupertino,santa clara,None
+1397,Fremont High School,Sunnyvale,santa clara,None
+1398,Homestead High School,Cupertino,santa clara,None
+1399,Lynbrook High School,San Jose,santa clara,None
+1400,Monta Vista High School,Cupertino,santa clara,None
+1401,Christopher High School,Gilroy,santa clara,None
+1402,Dr. TJ Owens Gilroy Early College Academy,Gilroy,santa clara,None
+1403,Gilroy High School,Gilroy,santa clara,None
+1404,MACSA Elementary Portal Leadership Academy,San Jose,santa clara,None
+1405,Los Gatos High School,Los Gatos,santa clara,None
+1406,Saratoga High School,Saratoga,santa clara,None
+1407,Milpitas High School,Milpitas,santa clara,None
+1408,Ann Sobrato High School,Morgan Hill,santa clara,None
+1409,Live Oak High School,Morgan Hill,santa clara,None
+1410,Los Altos High School,Los Altos,santa clara,None
+1411,Mountain View High School,Mountain View,santa clara,None
+1412,Silicon Valley Essential High School,Los Altos,santa clara,None
+1413,Gunn High School,Palo Alto,santa clara,None
+1414,Palo Alto High School,Palo Alto,santa clara,None
+1415,Roman Catholic Diocese of San Jose,Santa Clara,santa clara,None
+1416,Archbishop Mitty High School,San Jose,santa clara,None
+1417,Bellarmine College Preparatory,San Jose,santa clara,None
+1418,Notre Dame High School,San Jose,santa clara,None
+1419,Presentation High School,San Jose,santa clara,None
+1420,Saint Francis High School,Mountain View,santa clara,None
+1421,Abraham Lincoln High School,San Jose,santa clara,None
+1422,Downtown College Prep,San Jose,santa clara,None
+1423,Gunderson High School,San Jose,santa clara,None
+1424,Leland High School,San Jose,santa clara,None
+1425,Middle College High,San Jose,santa clara,None
+1426,Pioneer High School,San Jose,santa clara,None
+1427,San Jose High Academy,San Jose,santa clara,None
+1428,Willow Glen High School,San Jose,santa clara,None
+1429,Adrian C. Wilcox High School,Santa Clara,santa clara,None
+1430,Santa Clara High School,Santa Clara,santa clara,None
+1431,Beacon School,San Jose,santa clara,None
+1432,Cambrian Academy,San Jose,santa clara,None
+1433,Castilleja School,Palo Alto,santa clara,None
+1434,Communitas Charter High School,San Jose,santa clara,None
+1435,The Harker School,San Jose,santa clara,None
+1436,Kehillah Jewish High School,Palo Alto,santa clara,None
+1437,The King's Academy,Sunnyvale,santa clara,None
+1438,Liberty Baptist School,San Jose,santa clara,None
+1439,Mountain View Academy,Mountain View,santa clara,None
+1440,Oakwood High School,Morgan Hill,santa clara,None
+1441,Our Shepherd's Academy,San Jose,santa clara,None
+1442,Palo Alto Preparatory School,Palo Alto,santa clara,None
+1443,Pine Hill School,San Jose,santa clara,None
+1444,Pinewood School,Los Altos Hills,santa clara,None
+1445,Thomas More School,San Jose,santa clara,None
+1446,University Preparatory Academy,San Jose,santa clara,None
+1447,Valley Christian High School,San Jose,santa clara,None
+1448,White Road Baptist Academy,San Jose,santa clara,None
+1449,Aptos High School,Aptos,santa cruz,None
+1450,Costanoa Continuation High School,Santa Cruz,santa cruz,None
+1451,Cypress Charter High School,Live Oak,santa cruz,None
+1452,Delta Charter School,Santa Cruz,santa cruz,None
+1453,Georgiana Bruce Kirby Preparatory School,Santa Cruz,santa cruz,None
+1454,Harbor High School,Santa Cruz,santa cruz,None
+1455,MCP Middle and High School,Santa Cruz,santa cruz,None
+1456,Monte Vista Christian School,Watsonville,santa cruz,None
+1457,Monterey Bay Academy,Watsonville,santa cruz,None
+1458,Pacific Collegiate School,Santa Cruz,santa cruz,None
+1459,Pajaro Valley High School,Watsonville,santa cruz,None
+1460,Saint Francis Central Coast Catholic High School,Watsonville,santa cruz,None
+1461,San Lorenzo Valley High School,Felton,santa cruz,None
+1462,Santa Cruz High School,Santa Cruz,santa cruz,None
+1463,Santa Cruz Waldorf High School,Santa Cruz,santa cruz,None
+1464,Scotts Valley High School,Scotts Valley,santa cruz,None
+1465,Soquel High School,Soquel,santa cruz,None
+1466,Watsonville High School,Watsonville,santa cruz,None
+1467,Anderson New Technology High School,Anderson,shasta,None
+1468,Anderson Union High School,Anderson,shasta,None
+1469,Bishop Quinn High School,Palo Cedro,shasta,None
+1470,Burney High School,Burney,shasta,None
+1471,Central Valley High School,Shasta Lake,shasta,None
+1472,Enterprise High School,Redding,shasta,None
+1473,Fall River High School,McArthur,shasta,None
+1474,Foothill High School,Palo Cedro,shasta,None
+1475,Liberty Christian High School,Redding,shasta,None
+1476,Nawa Academy,French Gulch,shasta,None
+1477,Redding Christian High School,Redding,shasta,None
+1478,Shasta High School,Redding,shasta,None
+1479,Stellar Charter School,Redding,shasta,None
+1480,University Preparatory School,Redding,shasta,None
+1481,West Valley High School,Cottonwood,shasta,None
+1482,Downieville School,Downieville,sierra,None
+1483,Loyalton High School,Loyalton,sierra,None
+1484,Pliocene Ridge Junior-Senior High School,North San Juan,sierra,None
+1485,Butte Valley High School,Dorris,siskiyou,None
+1486,Cascade High School,Dorris,siskiyou,None
+1487,Dunsmuir High School,Dunsmuir,siskiyou,None
+1488,Etna High School,Etna,siskiyou,None
+1489,Scott River High School,Etna,siskiyou,None
+1490,Golden Eagle Charter School,Mount Shasta,siskiyou,None
+1491,Happy Camp High School,Happy Camp,siskiyou,None
+1492,Jefferson High School,Mount Shasta,siskiyou,None
+1493,McButt High School,McButt,siskiyou,None
+1494,Mount Shasta High School,Mount Shasta,siskiyou,None
+1495,Weed High School,Weed,siskiyou,None
+1496,Tulelake Continuation High School,Tulelake,siskiyou,None
+1497,Tulelake High School,Tulelake,siskiyou,None
+1498,Discovery High School,Yreka,siskiyou,None
+1499,Yreka High School,Yreka,siskiyou,None
+1500,Benicia High School,Benicia,solano,None
+1501,Buckingham Charter Magnet High School,Vacaville,solano,None
+1502,Dixon High School,Dixon,solano,None
+1503,Angelo Rodriguez High School,Fairfield,solano,None
+1504,Armijo High School,Fairfield,solano,None
+1505,Fairfield High School,Fairfield,solano,None
+1506,Sem Yeto High School,Fairfield,solano,None
+1507,Hogan High School,Vallejo,solano,None
+1508,Jesse M. Bethel High School,Vallejo,solano,Christian
+1509,Mare Island Technology Academy,Vallejo,solano,Christian
+1510,Mary Bird School,Fairfield,solano,Christian
+1511,Rio Vista High School,Rio Vista,solano,Christian
+1512,St. Patrick-St. Vincent High School,Vallejo,solano,Christian
+1513,Vacaville Christian High School,Vacaville,solano,Christian
+1514,Vacaville High School,Vacaville,solano,Christian
+1515,Vallejo High School,Vallejo,solano,Christian
+1516,Vanden High School,Fairfield,solano,Christian
+1517,Will C. Wood High School,Vacaville,solano,Christian
+1518,Analy High School,Sebastopol,sonoma,Christian
+1519,Cardinal Newman High School,Santa Rosa,sonoma,Christian
+1520,Casa Grande High School,Petaluma,sonoma,Christian
+1521,Cloverdale High School,Cloverdale,sonoma,Christian
+1522,El Camino High School,Rohnert Park,sonoma,Christian
+1523,El Molino High School,Forestville,sonoma,Christian
+1524,Elsie Allen High School,Santa Rosa,sonoma,Christian
+1525,Geyserville Educational Park High School,Geyserville,sonoma,Christian
+1526,Healdsburg High School,Healdsburg,sonoma,Christian
+1527,Journey High School,Sebastopol,sonoma,Christian
+1528,Maria Carrillo High School,Santa Rosa,sonoma,Christian
+1529,Montgomery High School,Santa Rosa,sonoma,Christian
+1530,Nonesuch High School,Sebastopol,sonoma,Christian
+1531,Petaluma High School,Petaluma,sonoma,Christian
+1532,Piner High School,Santa Rosa,sonoma,Christian
+1533,Rancho Cotate High School,Rohnert Park,sonoma,Christian
+1534,Rincon Valley Christian School,Santa Rosa,sonoma,Christian
+1535,Rio Lindo Adventist Academy,Healdsburg,sonoma,Christian
+1536,Roseland University Prep,Santa Rosa,sonoma,Christian
+1537,Russian River Charter School,Forestville,sonoma,Christian
+1538,St. Vincent de Paul High School,Petaluma,sonoma,Christian
+1539,Santa Rosa High School,Santa Rosa,sonoma,Christian
+1540,Sonoma Academy,Santa Rosa,sonoma,Christian
+1541,Sonoma Mountain High School,Petaluma,sonoma,Christian
+1542,Sonoma Valley High School,Sonoma,sonoma,Christian
+1543,Summerfield Waldorf High School Santa Rosa,Sonoma,sonoma,Christian
+1544,Technology High School,Rohnert Park,sonoma,Christian
+1545,Ursuline High School,Santa Rosa,sonoma,Christian
+1546,Windsor High School,Windsor,sonoma,Christian
+1547,Windsor Oaks Academy,Windsor,sonoma,Christian
+1548,Big Valley Grace Christian High School,Modesto,stanislaus,Christian
+1549,Brethren Heritage School,Modesto,stanislaus,Christian
+1550,Central Catholic High School,Modesto,stanislaus,Christian
+1551,Central Valley High School,Ceres,stanislaus,Christian
+1552,Ceres High School,Ceres,stanislaus,Christian
+1553,Community Middle College,Modesto,stanislaus,Christian
+1554,Denair High School,Denair,stanislaus,Christian
+1555,Fred C. Beyer High School,Modesto,stanislaus,Christian
+1556,Grace M. Davis High School,Modesto,stanislaus,Christian
+1557,Hughson Union High School,Hughson,stanislaus,Christian
+1558,James C. Enochs High School,Modesto,stanislaus,Christian
+1559,John H. Pitman High School,Turlock,stanislaus,Christian
+1560,Joseph Gregori High School,Modesto,stanislaus,Christian
+1561,Keyes to Learning Charter School,Keyes,stanislaus,Christian
+1562,Modesto Christian High School,Modesto,stanislaus,Christian
+1563,Modesto High School,Modesto,stanislaus,Christian
+1564,Oakdale High School,Oakdale,stanislaus,Christian
+1565,Orestimba High School,Newman,stanislaus,Christian
+1566,Patterson High School,Patterson,stanislaus,Christian
+1567,Peter Johansen High School,Modesto,stanislaus,Christian
+1568,Riverbank High School,Riverbank,stanislaus,Christian
+1569,Thomas Downey High School,Modesto,stanislaus,Christian
+1570,Turlock Christian High School,Turlock,stanislaus,Christian
+1571,Turlock High School,Turlock,stanislaus,Christian
+1572,Valley Business High School,Modesto,stanislaus,Christian
+1573,Waterford High School,Waterford,stanislaus,Christian
+1574,East Nicolaus High School,Nicolaus,sutter,Christian
+1575,Faith Christian Junior-Senior High School,Yuba City,sutter,Christian
+1576,Live Oak High School,Live Oak,sutter,Christian
+1577,River Valley High School,Yuba City,sutter,Christian
+1578,Sutter Union High School,Sutter,sutter,Christian
+1579,Yuba City High School,Yuba City,sutter,Christian
+1580,Corning High School,Corning,tehama,Christian
+1581,Los Molinos High School,Los Molinos,tehama,Christian
+1582,Mercy High School,Red Bluff,tehama,Christian
+1583,Red Bluff High School,Red Bluff,tehama,Christian
+1584,Hayfork High School,Hayfork,trinity,Christian
+1585,Southern Trinity High School,Mad River,trinity,Christian
+1586,Trinity High School,Weaverville,trinity,Christian
+1587,Burton Pathways Charter High School,Porterville,tulare,Christian
+1588,Butterfield Charter High School,Porterville,tulare,Christian
+1589,Central Valley Christian High School,Visalia,tulare,Christian
+1590,Citrus High School,Porterville,tulare,Christian
+1591,Crescent Valley Public Charter,Tulare,tulare,Christian
+1592,Crescent Valley Public Charter,Visalia,tulare,Christian
+1593,Dinuba High School,Dinuba,tulare,Christian
+1594,El Diamante High School,Visalia,tulare,Christian
+1595,Exeter High School,Exeter,tulare,Christian
+1596,Farmersville High School,Farmersville,tulare,Christian
+1597,Golden West High School,Visalia,tulare,Christian
+1598,Granite Hills High School,Porterville,tulare,Christian
+1599,Harmony Magnet Academy High School,Porterville,tulare,Christian
+1600,La Sierra High School,Visalia,tulare,Christian
+1601,Lindsay High School,Lindsay,tulare,Christian
+1602,Mission Oak High School,Tulare,tulare,Christian
+1603,Monache High School,Porterville,tulare,Christian
+1604,Mount Whitney High School,Visalia,tulare,Christian
+1605,Orosi High School,Orosi,tulare,Christian
+1606,Porterville High School,Porterville,tulare,Christian
+1607,Prospect Education Center,Porterville,tulare,Christian
+1608,Redwood High School,Visalia,tulare,Christian
+1609,Sequoia High School,Visalia,tulare,Christian
+1610,Strathmore High School,Porterville,tulare,Christian
+1611,Summit Charter Collegiate High School,Porterville,tulare,Christian
+1612,Tulare Union High School,Tulare,tulare,Christian
+1613,Tulare Western High School,Tulare,tulare,Christian
+1614,University Preparatory High School,Visalia,tulare,Christian
+1615,Vine Street Community School,Porterville,tulare,Christian
+1616,Woodlake High School,Woodlake,tulare,Christian
+1617,Cold Springs High School,Tuolumne,tuolumne,Christian
+1618,Mountain High School,Pinecrest,tuolumne,Christian
+1619,Sonora High School,Sonora,tuolumne,Christian
+1620,Southfork High School,Tuolumne,tuolumne,Christian
+1621,Summerville Union High School,Tuolumne,tuolumne,Christian
+1622,Tioga High School,Groveland,tuolumne,Christian
+1623,Besant Hill School,Ojai,ventura,Christian
+1624,Buena High School,Ventura,ventura,Christian
+1625,Cornerstone Christian School,Camarillo,ventura,Christian
+1626,El Camino High School,Ventura,ventura,Christian
+1627,Fillmore High School,Fillmore,ventura,Christian
+1628,Foothill Technology High School,Ventura,ventura,Christian
+1629,Grace Brethren High School Simi Valley,Ventura,ventura,Christian
+1630,La Reina High School,Thousand Oaks,ventura,Christian
+1631,Los Angeles Catholic Archdiocese,Ventura,ventura,Christian
+1632,Mary B. Perry High School,Camarillo,ventura,Christian
+1633,Moorpark High School,Moorpark,ventura,Christian
+1634,Newbury Park Adventist Academy,Newbury Park,ventura,Christian
+1635,Newbury Park High School,Newbury Park,ventura,Christian
+1636,Nordhoff High School,Ojai,ventura,Christian
+1637,Oak Park High School,Oak Park,ventura,Christian
+1638,Adolfo Camarillo High School,Camarillo,ventura,Christian
+1639,Channel Islands High School,Oxnard,ventura,Christian
+1640,Hueneme High School,Oxnard,ventura,Christian
+1641,Oxnard High School,Oxnard,ventura,Christian
+1642,Pacifica High School,Oxnard,ventura,Christian
+1643,Rio Mesa High School,Oxnard,ventura,Christian
+1644,Royal High School,Simi Valley,ventura,Christian
+1645,St. Bonaventure High School,Ventura,ventura,Christian
+1646,Santa Clara High School,Oxnard,ventura,Christian
+1647,Santa Paula High School,Santa Paula,ventura,Christian
+1648,Santa Susana High School,Simi Valley,ventura,Christian
+1649,Simi Valley High School,Simi Valley,ventura,Christian
+1650,The Thacher School,Ojai,ventura,Christian
+1651,Thousand Oaks High School,Thousand Oaks,ventura,Christian
+1652,Ventura County Christian School,Ventura,ventura,Christian
+1653,Ventura High School,Ventura,ventura,Christian
+1654,Villanova Preparatory School,Ojai,ventura,Christian
+1655,Vista Real Charter High School,Oxnard,ventura,Christian
+1656,Vista Real Charter High School,Santa Paula,ventura,Christian
+1657,Vista Real Charter High School,Simi Valley,ventura,Christian
+1658,Vista Real Charter High School,Ventura,ventura,Christian
+1659,Weil Tennis Academy & College Prep School,Ojai,ventura,Christian
+1660,Westlake High School,Westlake Village,ventura,Christian
+1661,Cache Creek High School,Yolo,yolo,Christian
+1662,Davis Senior High School,Davis,yolo,Christian
+1663,Delta High School,Clarksburg,yolo,Christian
+1664,Esparto High School,Esparto,yolo,Christian
+1665,Leonardo da Vinci High School,Davis,yolo,Christian
+1666,Martin Luther King High,Davis,yolo,Christian
+1667,Pioneer High School,Woodland,yolo,Christian
+1668,River City High School,West Sacramento,yolo,Christian
+1669,Winters High School,Winters,yolo,Christian
+1670,Woodland High School,Woodland,yolo,Christian
+1671,Lindhurst High School,Olivehurst,yuba,Christian
+1672,Marysville Charter Academy for the Arts,Marysville,yuba,Christian
+1673,Marysville High School,Marysville,yuba,Christian
+1674,New Life Christian School,Linda,yuba,Christian
+1675,Wheatland High School,Wheatland,yuba,Christian
