@@ -1,0 +1,78 @@
+\documentclass{resume3}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[tmargin=0.8in,rmargin=0.65in,lmargin=0.65in,bmargin=0.8in]{geometry}%
+%
+\name{Ariel Chen}%
+\address{Phone: 925{-}786{-}3014   Email: achen@calpoly.edu}%
+%
+\begin{document}%
+\normalsize%
+\begin{flushleft}%
+\newcommand{\EducationEntry}[1]{
+                            {\bf\italic California Polytechnic State University\linebreak }
+                            {\em September {#1} - Present}
+                        }%
+\newcommand{\BoldHeading}[1]{
+                            {\bf{#1}}
+                        }%
+\newcommand{\DatedEntry}[2]{
+                            \bf\item\fbox{#1} 
+                            ->
+                            {\bf\em{#2}}
+                        }%
+\newcommand{\FirstDatedEntry}[2]{
+                            \bf\text\fbox{#1} 
+                            ->
+                            {\bf\em{#2}}
+                        }%
+\begin{rSection}{Education:}%
+\EducationEntry{2017}%
+\linebreak%
+Bachelor of Science in Computer Science%
+\linebreak%
+Projected graduation date: June 2021%
+\end{rSection}%
+\begin{rSection}{Projects:}%
+\BoldHeading->{Dynamic Analysis of Buckling Restrained Braces}%
+\linebreak%
+\linebreak%
+The project aims at designing and fabrication of two Buckling Restrained Braces which were analyzed under dynamic loading. As alternative for conventional braces, these BRBs are also beneficial for seismic retro{-}fitting in RCC and steel structures.%
+\linebreak%
+\linebreak%
+\BoldHeading->{Indirect Model Analysis of Structures}%
+\linebreak%
+\linebreak%
+Presented a Seminar on Indirect Model Analysis, explaining the method to compute response of Prototype from the Influence lines obtained from Model. Use of Muller Breslau Principle in Indirect Model Analysis and the Similitude between prototype and  model.%
+\linebreak%
+\linebreak%
+\BoldHeading->{Microtunneling}%
+\linebreak%
+\linebreak%
+Presented a seminar on Micro Tunneling, explaining its advantages over conventional method of drainage laying systems. Analysis considering direct and indirect cost of micro tunneling was also discussed.%
+\end{rSection}%
+\begin{rSection}{Job Experience:}%
+\begin{rSubsection}{SJ Contracts, Pune}{\textit{June 2016}}{Site Engineer}{}%
+\item{On{-}site internship under this leading construction company. Learned and implemented various aspects such as quantity estimation, labour management and safety precautions.}%
+\end{rSubsection}%
+\end{rSection}%
+\begin{rSection}{Extracurriculars:}%
+\FirstDatedEntry{Women in Software and Hardware}{October 2017 {-} Present}%
+\DatedEntry{Society of Women Engineers}{January 2018 {-} Present}%
+\end{rSection}%
+\begin{rSection}{Coursework Experience:}%
+\text{CSC 482 {-} NLP}{CSC 430 {-} Programming Languages}%
+\item{CSC 480 {-} Artificial Intelligence}{CSC 421 {-} Security}%
+\item{CSC 466 {-} KDD}{CSC 481 {-} Human Computer Interaction}%
+\end{rSection}%
+\begin{rSection}{Soft Skills:}%
+Leadership |  Teamwork |  Learns quickly%
+\end{rSection}%
+\begin{rSection}{Technical Skills:}%
+Python |  Javascript%
+\end{rSection}%
+\end{flushleft}%
+\end{document}
