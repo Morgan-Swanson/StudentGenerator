@@ -9,8 +9,6 @@ app = Flask(__name__)
 def get(number):
     return jsonify(Student.get_students(number))
 
-#return jsonify(Student.get_students(number))
-
 @app.route('/')
 def hello_world():
     return render_template('index.html',

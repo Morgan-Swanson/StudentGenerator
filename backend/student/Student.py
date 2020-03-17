@@ -7,7 +7,9 @@ import string
 import sys
 import json
 from scipy import stats
-from student import Textgen
+import Textgen
+import generateSchedule
+from formatstats import StatData
 import os
 import bisect
 
@@ -27,11 +29,17 @@ class Student:
                 'santa barbara', 'santa clara', 'santa cruz', 'shasta', 'sierra',
                 'siskiyou', 'solano', 'sonoma', 'stanislaus', 'sutter', 'tehama',
                 'trinity', 'tulare', 'tuolumne', 'ventura', 'yolo', 'yuba']
+    county_mappings = {"Los Angeles" : "los angeles",
+                        "San Francisco Bay Area" : "san francisco",
+                        "Sacramento Area" : "sacramento",
+                        "San Diego" : "san diego",
+                        "San Joaquin" : "san joaquin"}
 
-
-    def __init__(self, county, race, gender, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs, soft_skills):
-
-        self.school_year = self.get_school_year()
+    def __init__(self, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs, soft_skills, statdata, gender=None, year=None):
+        if year:
+            self.school_year = year
+        else:
+            self.school_year = statdata.getClass()
         self.personality = self.get_personality()
         self.jobs = jobs
         self.work = self.get_work()
@@ -41,9 +49,19 @@ class Student:
         self.schools = schools
         self.activities_data = activities
         self.areacodes = areacodes
-        self.gender = gender
-        self.race = race
-        self.county = county
+        self.clubs = clubs
+        if gender:
+            self.gender = gender
+        else:
+            self.gender = statdata.getGender(self.school_year)
+        self.race = statdata.getEthnicity()
+        self.county = statdata.getGeoArea()
+        if self.county == "Other CA Counties" or self.county == "Other US States":
+            self.county = random.choice(self.counties)
+        elif self.county == "Central Coast":
+            self.county = random.choice(["santa barbara", "san luis obispo", "ventura", "monterey", "san benito", "santa cruz"])
+        else:
+            self.county = self.county_mappings[self.county]
         self.name = self.get_name()
         self.highschool, self.hometown, self.school_religion = self.get_highschool_and_hometown()
         self.phone = self.get_phone()
@@ -52,7 +70,7 @@ class Student:
         self.activities = self.get_activities() 
         self.clubs = self.get_clubs(clubs)
         self.soft_skills = self.get_skills(soft_skills)
-        self.tech_skills = self.get_tech_skills()
+        self.specialization = self.get_specialization()
         self.key = abs(hash(str(self)) % 100000000)
         print(self.key)
 
@@ -110,7 +128,7 @@ class Student:
 
     def get_highschool_and_hometown(self):
         try:
-            sample = self.schools[self.schools['County'] == self.county].sample()
+            sample = self.schools[self.schools['County'] == self.county.lower()].sample()
             return tuple(sample[['School', 'City', 'Religion']].to_numpy()[0])
         except:
             print(self.county)
@@ -183,7 +201,6 @@ class Student:
         df.loc[(df.race != self.race) & (df.race != 'none'), 'probabilities'] = 0
         df.loc[df.religion == self.religion, 'probabilities'] *= 1.5
         df.loc[(df.religion != self.religion) & (df.religion != 'none'), 'probabilities'] = 0
-
         # revised_data = data[data[col[1]].str.match(self.personality)].append(data[data[col[1]].str.match('normie')])
         activities = df[col[0]].tolist()
         p = df['probabilities'].tolist()
@@ -229,7 +246,6 @@ class Student:
                 'clubs': self.clubs,
                 'work' : self.work}
 
-
     def __str__(self):
         return(('Year: ' + self.school_year + '\n' + 
                 'Gender: ' + self.gender + '\n'+
@@ -246,7 +262,6 @@ class Student:
                 'Activities: ' + str(self.activities) + '\n' 
                 'Clubs: ' + str(self.clubs) + '\n' + 
                 'Jobs: ' + str(self.jobs) + '\n'))
-
 
     def get_skills(self, soft_skills):
         col = soft_skills.columns
@@ -265,14 +280,12 @@ class Student:
         samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
         return list(set([soft[s] for s in samples]))
 
-    def get_tech_skills(self):
+    def get_specialization(self):
         data = WeightedTuple({'Back end': 25, 'Front end': 30, 'Graphics/Games': 5, 'Low level': 5, "Security": 10, "Machine Learning": 25})
         return random.choice(data)
 
 
 class WeightedTuple(object):
-
-
     def __init__(self, items):
         self.indexes = []
         self.items = []
@@ -296,7 +309,6 @@ class WeightedTuple(object):
 
     def __len__(self):
         return self.len
-
 
 
 def populate_table():
@@ -334,12 +346,14 @@ def build_students(n=100):
     clubs = pd.read_csv(os.path.join(location, 'data', 'clubs.csv'))
     soft = pd.read_csv(os.path.join(location, 'data', 'soft_skills.csv'))
     jobs = pd.read_csv(os.path.join(location, 'data', 'jobs.csv'))
-    return [Student(*index[s], lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs,soft) for s in students]
+    statdata = StatData()
+    return [Student(lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, jobs, soft, statdata) for s in students]
  
-
 def get_students(n=100):
+    schedulegenerator = generateSchedule.ScheduleGenerator()
     S = build_students(n)
     D = [s.to_dict() for s in S]
+    schedules = [schedulegenerator.getSchedule(s.school_year, s.specialization) for s in S]
     return D
 
 if __name__ == '__main__':

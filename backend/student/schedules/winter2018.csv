@@ -1,0 +1,57 @@
+Course,Description,Type,Sections,GE,Req,ECap,Enrl,WaitA,WaitD,WaitU,Drop,Wthd
+CSC 225,Introduction to Computer Organization,LEC,5,,4057,150,158,8,,,33,1
+CSC 225,Introduction to Computer Organization,LAB,5,,4057,150,158,8,,,33,0
+CSC 307,Introduction to Software Engineering,LEC,1,,2464,30,35,14,,,8,1
+CSC 307,Introduction to Software Engineering,LAB,1,,2464,30,35,14,,,8,0
+CSC 308,Software Engineering I,LEC,2,,3808,60,65,25,,,8,0
+CSC 308,Software Engineering I,LAB,2,,3808,60,65,25,,,8,0
+CSC 309,Software Engineering II,LEC,1,,1080,34,32,0,,,1,0
+CSC 309,Software Engineering II,LAB,1,,1080,34,32,0,,,1,0
+CSC 348,Discrete Structures,LEC,7,,3809,220,228,29,,,42,1
+CSC 349,Design and Analysis of Algorithms,LEC,2,,2076,80,80,28,,,14,0
+CSC 349,Design and Analysis of Algorithms,LAB,3,,2076,80,80,28,,,16,0
+CSC 365,Introduction to Database Systems,LEC,1,,3807,30,37,40,,,7,0
+CSC 365,Introduction to Database Systems,LAB,1,,3807,30,37,40,,,7,0
+CSC 366,"Database Modeling, Design and Implementation",LEC,1,,1085,30,15,0,,,10,0
+CSC 366,"Database Modeling, Design and Implementation",LAB,1,,1085,30,15,0,,,10,0
+CSC 369,Introduction to Distributed Computing,LEC,2,,3894,60,68,29,,,19,0
+CSC 369,Introduction to Distributed Computing,LAB,2,,3894,60,68,29,,,19,0
+CSC 371,Game Design,LEC,1,,4068,30,34,25,,,10,1
+CSC 371,Game Design,LAB,1,,4068,30,34,25,,,10,0
+CSC 378,Interactive Entertainment Engineering,LEC,1,,4068,30,26,18,,,9,3
+CSC 378,Interactive Entertainment Engineering,LAB,1,,4068,30,26,18,,,9,0
+CSC 405,Software Construction,LEC,2,,1149,60,53,0,,,1,0
+CSC 405,Software Construction,LAB,2,,1149,60,53,0,,,1,0
+CSC 430,Programming Languages I,LEC,3,,1089,90,124,93,,,16,3
+CSC 430,Programming Languages I,LAB,3,,1089,90,124,93,,,16,0
+CSC 436,Mobile Application Development,LEC,2,,,50,51,40,,,17,2
+CSC 436,Mobile Application Development,LAB,2,,,50,51,40,,,17,0
+CSC 437,Dynamic Web Development,LEC,2,,2083,68,62,0,,,16,2
+CSC 437,Dynamic Web Development,LAB,2,,2083,68,62,0,,,16,0
+CSC 445,Theory of Computation I,LEC,1,,2814,38,38,68,,,8,1
+CSC 453,Introduction to Operating Systems,LEC,1,,1419,30,33,59,,,8,0
+CSC 453,Introduction to Operating Systems,LAB,1,,1419,30,33,59,,,8,0
+CSC 471,Introduction to Computer Graphics,LEC,3,,3144,100,80,9,,,35,1
+CSC 471,Introduction to Computer Graphics,LAB,3,,3144,100,80,9,,,35,0
+CSC 476,Real-Time 3D Computer Graphics Software,LEC,1,,1100,30,26,7,,,11,0
+CSC 476,Real-Time 3D Computer Graphics Software,LAB,1,,1100,30,26,7,,,11,0
+CSC 480,Artificial Intelligence,LEC,2,,2089,60,62,51,,,22,6
+CSC 480,Artificial Intelligence,LAB,2,,2089,60,62,51,,,22,0
+CSC 481,Knowledge Based Systems,LEC,2,,1101,60,24,0,,,18,0
+CSC 481,Knowledge Based Systems,LAB,2,,1101,60,24,0,,,18,0
+CSC 484,User-Centered Interface Design and Development,LEC,2,,2091,60,66,7,,,12,0
+CSC 484,User-Centered Interface Design and Development,LAB,2,,2091,60,66,7,,,12,0
+CSC 486,Human-Computer Interaction Theory and Design,LEC,1,,3584,35,23,0,,,11,1
+CSC 486,Human-Computer Interaction Theory and Design,LAB,1,,3584,35,23,0,,,11,0
+CPE 101,Fundamentals of Computer Science,LEC,8,,2868,240,279,134,,,65,6
+CPE 101,Fundamentals of Computer Science,LAB,9,,2868,240,279,135,,,68,0
+CPE 202,Data Structures,LEC,1,,4056,30,35,41,,,18,0
+CPE 202,Data Structures,LAB,1,,4056,30,35,41,,,18,0
+CPE 203,Project-Based Object-Oriented Programming and Design,LEC,3,,1691,90,112,46,,,17,0
+CPE 203,Project-Based Object-Oriented Programming and Design,LAB,3,,1691,90,112,46,,,17,0
+CPE 315,Computer Architecture,LEC,2,,3176,70,89,21,,,15,0
+CPE 315,Computer Architecture,LAB,2,,3176,70,89,21,,,15,0
+CPE 321,Introduction to Computer Security,LEC,3,,3144,81,92,45,,,16,1
+CPE 321,Introduction to Computer Security,LAB,3,,3144,81,92,45,,,16,0
+CPE 357,Systems Programming,LEC,8,,3178,240,210,18,,,49,10
+CPE 357,Systems Programming,LAB,8,,3178,240,210,18,,,49,0
