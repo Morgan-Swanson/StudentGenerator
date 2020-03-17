@@ -45,7 +45,7 @@ Clubs_stoner2 = ["Trying to live my best life has ", "Being a woke student has "
                  "Trying to participate in College life "]
 Clubs_stoner3 = ["given me crazy stories. ", "made me a more interesting person. ", "taught me about the real world. ", "shown me true joy. "," opened my third eye to the truth. ",
                  "taught me about my inner myself. "]
-specialty_stoner = ["Life has no rush but Id enjoy learning ", "Not about the rat race life, But I want to learn more ",
+specialty_stoner = ["Life has no rush but I'd enjoy learning ", "Not about the rat race life, But I want to learn more ",
              "I want to focus on my self worth and learn more about my passion in ", "After one crazy camping trip I know I want to learn  "]
 
 #brogrammer
@@ -149,6 +149,8 @@ specialtyalt = [" After so soul searching I feel like I want to express myself w
 
 
 def getbio(student):
+    print(student.tech_skills)
+    print(student.soft_skills)
     # ["normie", "stoner", "brogrammer", "tryhard", "nerd", "alternative"]
     if student.personality == 'stoner':
         s1 = random.choice(name_intro_stoner) + student.name + ". "
@@ -176,7 +178,7 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_stoner2) + random.choice(Clubs_stoner3)
-        s6 = random.choice(specialty_stoner)
+        s6 = random.choice(specialty_stoner) + student.tech_skills + ". "
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
 
@@ -206,9 +208,13 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_normie2) + random.choice(Clubs_normie3)
-        s6 = random.choice(specialty)
+        s6 = random.choice(specialty) + student.tech_skills + ". "
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
+#from student import Textgen
+#from student import Student
+
+#Textgen.getbio(Student.build_students(1)[0])
 
     if student.personality == "brogrammer":
         s1 = random.choice(name_intro_bro) + student.name + ". "
@@ -236,7 +242,7 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_bro2) + random.choice(Clubs_bro3)
-        s6 = random.choice(specialtybro)
+        s6 = random.choice(specialtybro) + student.tech_skills + ". "
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
 
@@ -266,7 +272,7 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_try2) + random.choice(Clubs_try3)
-        s6 = random.choice(specialtytry)
+        s6 = random.choice(specialtytry) + student.tech_skills + ". "
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
 
@@ -298,7 +304,7 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_nerd2) + random.choice(Clubs_nerd3)
-        s6 = random.choice(specialtynerd)
+        s6 = random.choice(specialtynerd) + student.tech_skills
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
     if student.personality == "alternative":
@@ -327,7 +333,7 @@ def getbio(student):
                 else:
                     s4 = s4 + a + ', '
         s5 = random.choice(Clubs_alt2) + random.choice(Clubs_alt3)
-        s6 = random.choice(specialtyalt)
+        s6 = random.choice(specialtyalt) + student.tech_skills + ". "
         finalsentence = s1 + s2 + s3 + s4 + s5 + s6
         return finalsentence
     else:

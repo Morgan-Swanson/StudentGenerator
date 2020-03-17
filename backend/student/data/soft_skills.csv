@@ -1,4 +1,4 @@
-Soft skills,Personality
+Soft_skills,Personality
 
 Confidence,brogrammer
 Delegation,brogrammer
@@ -17,7 +17,6 @@ Self-direction,brogrammer
 Business ethics,brogrammer
 Effective communicator,brogrammer
 Business trend awareness,brogrammer
-
 Emotion management,alternative
 Influence,alternative
 Empathy,alternative
@@ -31,7 +30,6 @@ Presentation,alternative
 Visual communication,alternative
 Reframing,alternative
 Divergent thinking,alternative
-
 Open-mindedness,stoner
 Collaboration,stoner
 Friendliness,stoner
@@ -43,7 +41,6 @@ Versatility,stoner
 Humility,stoner
 Questioning,stoner
 Tolerance of change and uncertainty,stoner
-
 Analysis,"tryhard"
 Lateral thinking,"tryhard"
 Logical reasoning,"tryhard"
@@ -55,14 +52,12 @@ Writing reports and proposals,"tryhard"
 Troubleshooting,"tryhard"
 Staying on task,"tryhard"
 Reliability,"tryhard"
-
 Writing skills,"nerd"
 Resourcefulness,"nerd"
 Cooperation,"nerd"
 Motivation,"nerd"
 Resilience,"nerd"
 Planning,"nerd"
-
 Collaboration,"normie"
 Constructive feedback,"normie"
 Friendliness,"normie"

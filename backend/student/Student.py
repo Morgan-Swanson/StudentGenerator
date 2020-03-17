@@ -9,7 +9,8 @@ import json
 from scipy import stats
 from student import Textgen
 import os
-        
+import bisect
+
 class Student:
     genders = ['male', 'female']
     religions = ['christian','jewish','athiest', 'muslim','none']
@@ -27,7 +28,7 @@ class Student:
                 'trinity', 'tulare', 'tuolumne', 'ventura', 'yolo', 'yuba']
     personalities = ["normie", "stoner", "brogrammer", "tryhard", "nerd", "alternative"]
 
-    def __init__(self, county, race, gender, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs):        
+    def __init__(self, county, race, gender, lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, soft_skills):
         self.school_year = self.get_school_year()
         self.personality = self.get_personality()
         self.last_names = lastnames
@@ -47,6 +48,8 @@ class Student:
         self.religion = self.get_religion()
         self.activities = self.get_activities() 
         self.clubs = self.get_clubs()
+        self.soft_skills = self.get_skills(soft_skills)
+        self.tech_skills = self.get_tech_skills()
 
     def get_school_year(self):
         return random.randint(1,5)
@@ -154,7 +157,8 @@ class Student:
                 'religion': self.religion,
                 'activites': self.activities,
                 'clubs': self.clubs,
-                'year': self.school_year}
+                'year': self.school_year,
+                'soft': self.soft_skills }
 
     def get_clubs(self):
         # only one racial or religious club, make sure religion is the same
@@ -202,7 +206,8 @@ class Student:
                 'Email: ' + self.email + '\n' +
                 'Religion: ' + self.religion + '\n' +
                 'Activities: ' + str(self.activities) + '\n' 
-                'Clubs: ' + str(self.clubs) + '\n'))
+                'Clubs: ' + str(self.clubs) + '\n'
+                'soft skills:' + str(self.soft_skills) + '\n'))
 
     def get_religion(self):        
         if self.school_religion != 'None':
@@ -227,6 +232,58 @@ class Student:
                 return 'athiest'
             else:
                 return 'muslim'
+
+
+    def get_skills(self, soft_skills):
+        col = soft_skills.columns
+        num_activities = random.randint(2, 6)
+        preference = self.personality
+        soft = soft_skills[col[0]].tolist()
+        preferences = soft_skills[col[1]].tolist()
+        counts = []
+        for p in preferences:
+            if preference == p:
+                counts.append(7)
+            else:
+                counts.append(1)
+        s = sum(counts)
+        counts = [c / s for c in counts]
+        samples = stats.rv_discrete(values=(np.arange(len(counts)), counts)).rvs(size=num_activities)
+        return list(set([soft[s] for s in samples]))
+
+    def get_tech_skills(self):
+        data = WeightedTuple({'Back end': 25, 'Front end': 30, 'Graphics/Games': 5, 'Low level': 5, "Security": 10,
+                              "Machine Learning": 25})
+        return random.choice(data)
+
+
+class WeightedTuple(object):
+
+
+    def __init__(self, items):
+        self.indexes = []
+        self.items = []
+        next_index = 0
+        for key in sorted(items.keys()):
+            val = items[key]
+            self.indexes.append(next_index)
+            self.items.append(key)
+            next_index += val
+
+        self.len = next_index
+
+    def __getitem__(self, n):
+        if n < 0:
+            n = self.len + n
+        if n < 0 or n >= self.len:
+            raise IndexError
+
+        idx = bisect.bisect_right(self.indexes, n)
+        return self.items[idx - 1]
+
+    def __len__(self):
+        return self.len
+
 
 
 def populate_table():
@@ -262,8 +319,10 @@ def build_students(n=100):
     activities = pd.read_csv(os.path.join(location, 'data', 'activities.csv'))
     areacodes = pd.read_csv(os.path.join(location, 'data', 'areacodes.csv'))
     clubs = pd.read_csv(os.path.join(location, 'data', 'clubs.csv'))
-    return [Student(*index[s], lastnames, boy_names, girl_names, schools, activities, areacodes, clubs) for s in students]
- 
+    soft = pd.read_csv(os.path.join(location, 'data', 'soft_skills.csv'))
+    return [Student(*index[s], lastnames, boy_names, girl_names, schools, activities, areacodes, clubs, soft) for s in students]
+
+
 def get_students(n=100):
     S = build_students(n)
     D = [s.to_dict() for s in S]
