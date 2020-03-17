@@ -30,16 +30,15 @@ class YearSlider extends Component {
    
   
     render() {
-      let { volume } = this.state
       return (
 	<div className="slide">
 	<h1>Student Year</h1>
 	<div className="inslide">
         <Slider
 	  tooltip = {true}
-          format ={this.display}
+	  format ={this.display}
           step = {25}
-          value={this.options[volume / 25]}
+          value={this.state.options[this.state.volume / 25]}
           orientation="horizontal"
           onChange={this.handleOnChange}/>
         </div>
@@ -74,7 +73,7 @@ class GenderSlider extends Component {
 	  tooltip = {true}
           format ={this.display}
           step = {100}
-          value={this.options[volume / 100]}
+          value={this.state.options[this.state.volume / 100]}
           orientation="horizontal"
           onChange={this.handleOnChange}/>
         </div>
