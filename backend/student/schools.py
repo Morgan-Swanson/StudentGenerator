@@ -59,8 +59,7 @@ def new_schools():
                 else:
                     data.append((l, current_city, current_county))
             else:
-                if l = 
-                current_county = l
+                if l = current_county = l
         df = pd.DataFrame(data, columns=['School', 'City', 'County', 'Religion'])
         df.to_csv('schools_new.csv')
         
