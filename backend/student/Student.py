@@ -15,7 +15,7 @@ import os
 import bisect
 
 class Student:
-    genders = ['male', 'female']
+    genders = ['Male', 'Female']
     religions = ['christian','jewish','athiest', 'muslim', 'none']
     races = ['black', 'white', 'asian', 'hispanic', 'mixed', 'native american', 'other']
     personalities = ["normie", "stoner", "brogrammer", "tryhard", "nerd", "alternative"]
@@ -244,7 +244,7 @@ class Student:
                 'religion': self.religion,
                 'activites': self.activities,
                 'clubs': self.clubs,
-                'work' : self.work}
+                'jobs' : self.jobs}
 
     def __str__(self):
         return(('Year: ' + self.school_year + '\n' + 
