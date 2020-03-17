@@ -5,7 +5,7 @@ from student import Student
 app = Flask(__name__)
 
 
-@app.route('/#/api/<int:number>', methods=['GET'])
+@app.route('/api/<int:number>')
 def get(number):
     return jsonify({'name' : 'GigaNigga'})
 
