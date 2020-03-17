@@ -16,7 +16,7 @@ def generateStudentResume(name, email, number, key, schedule):
     tex = resume.doc.dumps()
 
     outfile = key + "_resume"
-    outfile = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../resumes/" + outfile)
+    outfile = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../static/react/resumes/" + outfile)
     
     resume.doc.generate_tex(outfile)
     resume.doc.generate_pdf(outfile, compiler="/Library/TeX/texbin/pdflatex")
@@ -28,7 +28,7 @@ def generateStudentBio(name, key, biotext):
     tex = template.doc.dumps()
 
     outfile = key + "_bio"
-    outfile = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../resumes/" + outfile)
+    outfile = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../static/react/bios/" + outfile)
 
     template.doc.generate_tex(outfile)
     template.doc.generate_pdf(outfile, compiler="/Library/TeX/texbin/pdflatex")
