@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css'; 
 import * as serviceWorker from './serviceWorker';
-import YearSlider from './Volume';
 import 'react-rangeslider/lib/index.css';
 import { Component } from 'react'
 import Slider from 'react-rangeslider'
@@ -14,11 +13,12 @@ import {
 import Together2 from "./scholar";
 
 
-class GenderSlider extends Component {
+class YearSlider extends Component {
     constructor(props, context) {
       super(props, context)
       this.state = {
-        volume: 0
+	  volume: 0,
+	  options: ["1st", "2nd", "3rd", "4th"]
       }
     }
   
@@ -31,38 +31,57 @@ class GenderSlider extends Component {
   
     render() {
       let { volume } = this.state
-      return (<div className="inslide">
+      return (
+	<div className="slide">
+	<h1>Student Year</h1>
+	<div className="inslide">
         <Slider
-          tooltip = {true}
+	  tooltip = {true}
           format ={this.display}
-          step = {10}
-          value={volume}
+          step = {25}
+          value={this.options[volume / 25]}
           orientation="horizontal"
           onChange={this.handleOnChange}/>
         </div>
+	</div>
+      )
+    }
+}
+
+class GenderSlider extends Component {
+    constructor(props, context) {
+      super(props, context)
+      this.state = {
+	  volume: 0,
+	  options: ["Male", "Female"]
+      }
+    }
+  
+    handleOnChange = (value) => {
+      this.setState({
+        volume: value
+	})
+    }
+   
+  
+    render() {
+      let { volume } = this.state
+      return (
+	<div className="slide">
+	<h1>Student Gender</h1>
+	<div className="inslide">
+        <Slider
+	  tooltip = {true}
+          format ={this.display}
+          step = {100}
+          value={this.options[volume / 100]}
+          orientation="horizontal"
+          onChange={this.handleOnChange}/>
+        </div>
+	</div>
       )
     }
   }
-
-
-  
- 
-const Slide = () => (
-    <div className="slide">
-    <h1>STUDENT YEAR</h1>
-    
-    
-      <YearSlider />
-    </div>
-  );
-
-    
-const Slide2 = () => (
-<div className="slide2">
-<h1>STUDENT PERSONALITY</h1>
-    <GenderSlider />
-</div>
-); 
 
 
 class DivTest extends React.Component{
@@ -163,8 +182,8 @@ class Together extends React.Component{
     render(){
         return <div>
             <DivTest></DivTest>
-            <Slide></Slide>
-            <Slide2></Slide2>
+            <GenderSlider></GenderSlider>
+            <YearSlider></YearSlider>
             <Bottomborder></Bottomborder>
             <ResumePrev2 data={this.state.student.slice(0,4)}></ResumePrev2>
        	    <ResumePrev data={this.state.student.slice(4,8)}></ResumePrev>

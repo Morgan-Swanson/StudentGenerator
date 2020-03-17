@@ -49,6 +49,8 @@ class Student:
         self.religion = self.get_religion()
         self.activities = self.get_activities() 
         self.clubs = self.get_clubs()
+        self.key = abs(hash(str(self)) % 100000000)
+        print(self.key)
 
     def draw_from_distribution(self, values, counts, num=1):
         s = sum(counts)
@@ -56,7 +58,7 @@ class Student:
         return list(np.random.choice(values, num, p=p))
 
     def get_school_year(self):
-        return random.randint(1,5)
+        return str(random.randint(1,5))
 
     def get_work(self):
         cols = self.jobs.columns
@@ -156,22 +158,6 @@ class Student:
             phone = phone + digits[random.randint(0, 8)]
         return phone 
         
-    def to_dict(self):
-        return {'name': self.name,
-                'gender': self.gender,
-                'county': self.county,
-                'race': self.race,
-                'personality': self.personality,
-                'highschool': self.highschool,
-                'hometown': self.hometown,
-                'phone': self.phone,
-                'email': self.email,
-                'religion': self.religion,
-                'activites': self.activities,
-                'clubs': self.clubs,
-                'year': self.school_year,
-                'work' : self.work}
-
     def get_clubs(self):
         # only one racial or religious club, make sure religion is the same
         df = self.clubs.copy()
@@ -181,11 +167,9 @@ class Student:
             num_activities = random.randint(1, 4)
         else:
             num_activities = random.randint(0, 3)
-        
         preference = 'masculine' if self.gender is 'male' else 'feminine'
         probs = np.ones(len(df))
         df['probabilities'] = probs
-
         df.loc[df.academic == True, 'probabilities'] *= 3.5
         df.loc[df.personality == self.personality, 'probabilities'] *= 2
         df.loc[df.personality == 'none', 'probabilities'] *= 1.5
@@ -201,23 +185,6 @@ class Student:
         self.draw_from_distribution(activities, p, num_activities)
         clubs1 = list(set(activities))
         return clubs1
-
-    def __str__(self):
-        return(('Year: ' + self.school_year + '\n' + 
-                'Gender: ' + self.gender + '\n'+
-                'Race: ' + self.race + '\n' +
-                'County: ' + self.county + '\n' + 
-                'Name: ' + self.name + '\n' + 
-                'Personality: ' + self.personality + '\n' +
-                'High School: ' + self.highschool + '\n' +
-                'School Religion: ' + self.school_religion + '\n' +
-                'Hometown: ' + self.hometown + '\n' +
-                'Phone Number: ' + self.phone + '\n' +
-                'Email: ' + self.email + '\n' +
-                'Religion: ' + self.religion + '\n' +
-                'Activities: ' + str(self.activities) + '\n' 
-                'Clubs: ' + str(self.clubs) + '\n' + 
-                'Jobs: ' + str(self.jobs) + '\n'))
 
     def get_religion(self):        
         if self.school_religion != 'None':
@@ -242,6 +209,40 @@ class Student:
                 return 'athiest'
             else:
                 return 'muslim'
+            
+    def to_dict(self):
+        return {'name': self.name,
+                'year' : self.school_year,
+                'gender': self.gender,
+                'county': self.county,
+                'race': self.race,
+                'personality': self.personality,
+                'highschool': self.highschool,
+                'hometown': self.hometown,
+                'phone': self.phone,
+                'email': self.email,
+                'religion': self.religion,
+                'activites': self.activities,
+                'clubs': self.clubs,
+                'work' : self.work}
+
+
+    def __str__(self):
+        return(('Year: ' + self.school_year + '\n' + 
+                'Gender: ' + self.gender + '\n'+
+                'Race: ' + self.race + '\n' +
+                'County: ' + self.county + '\n' + 
+                'Name: ' + self.name + '\n' + 
+                'Personality: ' + self.personality + '\n' +
+                'High School: ' + self.highschool + '\n' +
+                'School Religion: ' + self.school_religion + '\n' +
+                'Hometown: ' + self.hometown + '\n' +
+                'Phone Number: ' + self.phone + '\n' +
+                'Email: ' + self.email + '\n' +
+                'Religion: ' + self.religion + '\n' +
+                'Activities: ' + str(self.activities) + '\n' 
+                'Clubs: ' + str(self.clubs) + '\n' + 
+                'Jobs: ' + str(self.jobs) + '\n'))
 
 
 def populate_table():
